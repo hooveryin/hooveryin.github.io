@@ -14,6 +14,6 @@ $.getJSON("js/conf.json", function(json) {
 		code += item.date+', pp. '+item.pages+'.</li>';
 	}
 	code += '</ul>';
-	$('#conf').html(code);
+	$('#conf').text(code);
 });
 
