@@ -3,7 +3,7 @@ $.getJSON("js/journal.json?nocache="+(new Date()).getTime(), function(json) {
 	journal_json = json;
 	var code = '<ul class="list-group" id="list">';
 	for(cite in json){
-		var item = eval("json."+cite);
+		var item = json[cite];
 		code += '<li class="list-group-item">'+item.author+', "';
 		if(item.url)
 			code += '<a href="'+item.url+'">';
@@ -21,7 +21,7 @@ $.getJSON("js/conf.json?nocache="+(new Date()).getTime(), function(json) {
 	conf_json = json;
 	var code = '<ul class="list-group" id="list">';
 	for(cite in json){
-		var item = eval("json."+cite);
+		var item = json[cite];
 		code += '<li class="list-group-item">'+item.author+', "';
 		if(item.url)
 			code += '<a href="'+item.url+'">';
@@ -39,7 +39,7 @@ $.getJSON("js/preprint.json?nocache="+(new Date()).getTime(), function(json) {
 	preprint_json = json;
 	var code = '<ul class="list-group" id="list">';
 	for(cite in json){
-		var item = eval("json."+cite);
+		var item = json[cite];
 		code += '<li class="list-group-item">'+item.author+', "';
 		if(item.url)
 			code += '<a href="'+item.url+'">';
@@ -57,7 +57,7 @@ $.getJSON("js/thesis.json?nocache="+(new Date()).getTime(), function(json) {
 	thesis_json = json;
 	var code = '<ul class="list-group" id="list">';
 	for(cite in json){
-		var item = eval("json."+cite);
+		var item = json[cite];
 		code += '<li class="list-group-item">'+item.author+', "';
 		if(item.url)
 			code += '<a href="'+item.url+'">';
