@@ -1,0 +1,15 @@
+{
+"yin19_protocol":{
+	"title":"Loss-Resilient Protocols for Communication Networks",
+	"author":"<b>H. F. Yin</b>, S. Yang, and W.-H. Yeung",
+	"fullauthor":"<b>Ho Fai Hoover Yin</b>, Shenghao Yang, Wai-Ho Raymond Yeung",
+	"address":"US",
+	"pubDate":"September 24, 2019",
+	"number":"10,425,192",
+	"filedDate":"September 30, 2015",
+	"appNumber":"14/871,257",
+	"url":"https://patents.google.com/patent/US10425192B2/",
+	"abstract":"BATS protocols may be utilized for high efficiency communication in networks with burst or dependent type losses. Systematic recoding at intermediate network nodes may be utilized to reduce the computational cost during recoding. A block interleaver based BATS protocol may be utilized to handle burst loss, where batches are recoded to a same number of packets. Adaptive recoding may be utilized to improve the throughput, where a batch with a higher rank is recoded to a larger number of packets. Using adaptive recoding, a non-block interleaver based BATS protocol may be utilized."
+}
+}
+

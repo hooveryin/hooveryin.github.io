@@ -70,3 +70,30 @@ $.getJSON("js/thesis.json?nocache="+(new Date()).getTime(), function(json) {
 	$('#thesis').html(code);
 });
 
+var patent_json = {};
+$.getJSON("js/patent.json?nocache="+(new Date()).getTime(), function(json) {
+	patent_json = json;
+	var code = '<ul class="list-group" id="list">';
+	for(cite in json){
+		var item = json[cite];
+		code += '<li class="list-group-item">'+item.author+', "';
+		if(item.url)
+			code += '<a href="'+item.url+'">';
+		code += item.title;
+		if(item.url)
+			code += '</a>';
+		code += '," ';
+		if(item.address === "US")
+			code += 'U.S. Patent ';
+		else
+			code += item.address+' Patent ';
+		if(item.number)
+			code += item.number+', issued'+item.pubDate+'. ';
+		else
+			code += 'App. '+item.appNumber+', filed'+item.filedDate+'. Patent Pending. ';
+		code += '[<a href="#" data-toggle="modal" data-target="#patentModal" data-cite="'+cite+'">details</a>]</li>';
+	}
+	code += '</ul>';
+	$('#patent').html(code);
+});
+
