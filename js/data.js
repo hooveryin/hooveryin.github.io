@@ -10,7 +10,7 @@ $.getJSON("js/journal.json?nocache="+(new Date()).getTime(), function(json) {
 		code += item.title;
 		if(item.url)
 			code += '</a>';
-		code += '," <i>'+item.booktitle+'</i>, vol. '+item.volume+', no. '+item.number+', '+item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#journalModal" data-cite="'+cite+'">details</a>]</li>';
+		code += '," <i>'+item.journal+'</i>, vol. '+item.volume+', no. '+item.number+', '+item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#journalModal" data-cite="'+cite+'">details</a>]</li>';
 	}
 	code += '</ul>';
 	$('#journal').html(code);
