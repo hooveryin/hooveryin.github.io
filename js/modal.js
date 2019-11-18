@@ -27,3 +27,14 @@ $('#confModal').on('show.bs.modal', function(event) {
 	$(this).modal('handleUpdate');
 });
 
+$('#preprintModal').on('show.bs.modal', function(event) {
+	var cite = $(event.relatedTarget).data('cite');
+	var item = eval("preprint_json."+cite);
+	$(this).find('.modal-body #preprintTitle').html('<a href="'+item.url+'">'+item.title+'</a>');
+	$(this).find('.modal-body #preprintAuthor').html(item.fullauthor);
+	$(this).find('.modal-body #preprintName').text(item.journal);
+	$(this).find('.modal-body #preprintDate').text(item.date);
+	$(this).find('.modal-body #preprintAbstract').html(item.abstract);
+	$(this).modal('handleUpdate');
+});
+

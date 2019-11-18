@@ -34,3 +34,21 @@ $.getJSON("js/conf.json?nocache="+(new Date()).getTime(), function(json) {
 	$('#conf').html(code);
 });
 
+var preprint_json = {};
+$.getJSON("js/preprint.json?nocache="+(new Date()).getTime(), function(json) {
+	preprint_json = json;
+	var code = '<ul class="list-group" id="list">';
+	for(cite in json){
+		var item = eval("json."+cite);
+		code += '<li class="list-group-item">'+item.author+', "';
+		if(item.url)
+			code += '<a href="'+item.url+'">';
+		code += item.title;
+		if(item.url)
+			code += '</a>';
+		code += '," <i>'+item.journal+'</i>, '+item.date+'. [<a href="#" data-toggle="modal" data-target="#preprintModal" data-cite="'+cite+'">details</a>]</li>';
+	}
+	code += '</ul>';
+	$('#preprint').html(code);
+});
+
