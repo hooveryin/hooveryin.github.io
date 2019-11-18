@@ -8,6 +8,7 @@
 	"date":"Jul. 2019",
 	"pages":"1522-1526",
 	"url":"https://ieeexplore.ieee.org/document/8849758",
+	"doi":"10.1109/ISIT.2019.8849758",
 	"abstract":"The Kraft inequality gives a necessary and sufficient condition for the existence of a single channel prefix-free code. However, the multichannel Kraft inequality does not imply the existence of a multichannel prefix-free code in general. It is natural to ask whatever there exists an efficient decision procedure for the existence of multichannel prefix-free codes. In this paper, we tackle the two-channel case of the above problem by relating it to a constrained rectangle packing problem. Although a general rectangle packing problem is NP-complete, the extra imposed constraints allow us to propose an algorithm which can solve the problem efficiently."
 },
 
@@ -20,7 +21,60 @@
 	"date":"Jul. 2019",
 	"pages":"1967-1971",
 	"url":"https://ieeexplore.ieee.org/document/8849280",
+	"doi":"10.1109/ISIT.2019.8849280",
 	"abstract":"BATS codes are a class of random linear network coding scheme which have close-to-optimal achievable rates, while adaptive recoding is a packet combining scheme which adds a boost to the throughput by adapting the packet combining at the relay to the random fluctuations in the number of erasures in individual batches. In this paper, we apply BATS code with adaptive recoding for the transmission on wireless relay network. In contrast to the existing adaptive recoding schemes, we propose a model which can make use of the broadcast nature of wireless communication to enhance the achievable rates via overhearing. We also optimize the packet efficiency, i.e., minimizing the average number of channel use for each input packet for a successful decoding."
+},
+
+"yin19_uni":{
+	"title":"A Unified Adaptive Recoding Framework for Batched Network Coding",
+	"author":"<b>H. H. Yin</b>, B. Tang, K. H. Ng, S. Yang, X. Wang, and Q. Zhou",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Bin Tang, Ka Hei Ng, Shenghao Yang, Xishi Wang, Qiaoqiao Zhou",
+	"booktitle":"2019 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Paris, France",
+	"date":"Jul. 2019",
+	"pages":"1962-1966",
+	"url":"https://ieeexplore.ieee.org/document/8849277",
+	"doi":"10.1109/ISIT.2019.8849277",
+	"abstract":"Batched network coding is a variation of random linear network coding which has low computational and storage costs. In order to adapt random fluctuations in the number of erasures in individual batches, it is not optimal to recode and transmit the same number of packets for all batches. Different distributed optimization problems, which are called adaptive recoding, were formulated for this purpose. The key component of these optimization problems is the expected value of the rank distribution of a batch at the next network node, which also known as the expected rank. In this paper, we put forth a unified adaptive recoding framework. We show that the expected rank functions are concave when the packet loss pattern follows a stationary stochastic process regardless of the field size, which covers but not limited to independent packet loss and burst packet loss. Under this concavity property, we show that there always exists a preferred solution which not only can make the number of recoded packets almost deterministic but can also tolerate rank distribution errors due to inaccurate measurements or limited precision of the machine. To obtain such an optimal solution, we propose tuning schemes that can turn any feasible solution into one with the above desired properties."
+},
+
+"yin19_delay":{
+	"title":"On the Minimum Delay of Block Interleaver for Batched Network Codes",
+	"author":"<b>H. H. Yin</b>, K. H. Ng, X. Wang, and Q. Cao",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Xishi Wang, Qi Cao",
+	"booktitle":"2019 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Paris, France",
+	"date":"Jul. 2019",
+	"pages":"1957-1961",
+	"url":"https://ieeexplore.ieee.org/document/8849519",
+	"doi":"10.1109/ISIT.2019.8849519",
+	"abstract":"Batched network coding is a practical realization of random linear network coding, which encodes the packets for transmission into small batches of coded packets. The advantage of network coding can be reduced when a burst loss occurs. Block interleaver is one of the approach to spread the burst across multiple batches. However, an intermediate node has to receive all the packets in a batch which are not dropped by the channel before it can perform recoding on the batch, which means that the node has to deinterleave for recoding and reinterleave again for transmission. This gives us the freedom to select heterogeneous interleaver depth among the intermediate nodes. In general, the larger the interleaver depth, the better the spread of the bursts. On the other hand, we want the delay as short as possible to enable real-time applications. In this paper, we investigate the delay induced by applying a block interleaver on batched network codes. We also show that a homogeneous interleaver depth is the largest interleaver depth we can use to achieve a minimum delay."
+},
+
+"yin16_adaptive":{
+	"title":"Adaptive Recoding for BATS Codes",
+	"author":"<b>H. H. Yin</b>, S. Yang, Q. Zhou, and L. M. Yung",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Shenghao Yang, Qiaoqiao Zhou, Lily M. L. Yung",
+	"booktitle":"2016 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Barcelona, Spain",
+	"date":"Jul. 2016",
+	"pages":"2349-2353",
+	"url":"https://ieeexplore.ieee.org/document/7541719",
+	"doi":"10.1109/ISIT.2016.7541719",
+	"abstract":"BATS codes were proposed for communication through networks with packet loss. A BATS code consists of an outer code and an inner code. The outer code is a matrix generalization of fountain codes, which works with the inner code that comprises random linear network coding at the intermediate network nodes. In this paper, we propose a new inner code scheme for BATS codes, called adaptive recoding, which can be applied distributively at the intermediate network nodes, requiring only local knowledge of the received packets and the outgoing network link erasure probability. We show that adaptive recoding has significant throughput gain for relatively small batch sizes, compared with the baseline recoding scheme used in existing works."
+},
+
+"yang14_pro1":{
+	"title":"BATS: Network Coding in Action",
+	"author":"S. Yang, R. W. Yeung, J. H. Cheung, and <b>H. H. Yin</b>",
+	"fullauthor":"Shenghao Yang, Raymond W. Yeung, Jay H. F. Cheung, <b>Hoover H. F. Yin</b>",
+	"booktitle":"2014 52nd Annual Allerton Conference on Communication, Control, and Computing (Allerton)",
+	"address":"Monticello, IL, USA",
+	"date":"Oct. 2014",
+	"pages":"1204-1211",
+	"url":"https://ieeexplore.ieee.org/document/7028592",
+	"doi":"10.1109/ALLERTON.2014.7028592",
+	"abstract":"BATS code is a low-complexity random linear network coding scheme that can achieve asymptotic bandwidth optimality for many types of networks with packet loss. In this paper, we propose a BATS code based network protocol and evaluate the performance by real-device experiments. Our results demonstrate significant ready-to-implement gain of network coding over forwarding in multi-hop network transmission with packet loss. We also propose an improved protocol to handle the practical issues observed in the experiments."
 }
 }
 
