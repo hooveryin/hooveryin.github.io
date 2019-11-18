@@ -1,4 +1,6 @@
+var conf_json = {};
 $.getJSON("js/conf.json", function(json) {
+	conf_json = json;
 	var code = '<ul class="list-group" id="list">';
 	for(cite in json){
 		var item = eval("json."+cite);
@@ -11,10 +13,9 @@ $.getJSON("js/conf.json", function(json) {
 		code += '," <i>'+item.booktitle+'</i>, ';
 		if(item.address)
 			code += item.address+', ';
-		code += item.date+', pp. '+item.pages+'.</li>';
+		code += item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">detail</a>]</li>';
 	}
 	code += '</ul>';
-	console.log(code);
 	$('#conf').html(code);
 });
 
