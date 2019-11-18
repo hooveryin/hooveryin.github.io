@@ -13,7 +13,7 @@ $.getJSON("js/conf.json", function(json) {
 		code += '," <i>'+item.booktitle+'</i>, ';
 		if(item.address)
 			code += item.address+', ';
-		code += item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">detail</a>]</li>';
+		code += item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">details</a>]</li>';
 	}
 	code += '</ul>';
 	$('#conf').html(code);
