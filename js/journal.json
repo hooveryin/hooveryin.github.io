@@ -9,7 +9,7 @@
 	"date":"Sept. 2017",
 	"pages":"1917-1920",
 	"url":"https://ieeexplore.ieee.org/document/7944646",
-	"doi":"<nobr>10.1109/LCOMM.2017.2713813</nobr>",
+	"DOI":"<nobr>10.1109/LCOMM.2017.2713813</nobr>",
 	"abstract":"BATS codes are a class of low complexity random linear network codes with high throughput. In a previous work, BATS codes were generalized to incorporate batches of different sizes, and a sufficient condition was obtained such that the belief propagation decoding can recover a given fraction of the input packets with high probability. In this paper, by investigating an optimization problem induced by the sufficient condition, we derive a condition such that it is optimal to use a constant batch size. This condition gives us a guideline for designing practical network protocol based on BATS codes. Moreover, we prove that this condition is always satisfied in line networks."
 }
 }
