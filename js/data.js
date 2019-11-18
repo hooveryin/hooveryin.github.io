@@ -52,3 +52,21 @@ $.getJSON("js/preprint.json?nocache="+(new Date()).getTime(), function(json) {
 	$('#preprint').html(code);
 });
 
+var thesis_json = {};
+$.getJSON("js/thesis.json?nocache="+(new Date()).getTime(), function(json) {
+	thesis_json = json;
+	var code = '<ul class="list-group" id="list">';
+	for(cite in json){
+		var item = eval("json."+cite);
+		code += '<li class="list-group-item">'+item.author+', "';
+		if(item.url)
+			code += '<a href="'+item.url+'">';
+		code += item.title;
+		if(item.url)
+			code += '</a>';
+		code += '," '+item.type+', '+item.department+', '+item.school+', '+item.address+', '+item.date+'. [<a href="#" data-toggle="modal" data-target="#thesisModal" data-cite="'+cite+'">details</a>]</li>';
+	}
+	code += '</ul>';
+	$('#thesis').html(code);
+});
+
