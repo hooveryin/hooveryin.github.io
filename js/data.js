@@ -88,7 +88,7 @@ $.getJSON("js/patent.json?nocache="+(new Date()).getTime(), function(json) {
 		else
 			code += item.address+' Patent ';
 		if(item.number)
-			code += item.number+', issued'+item.pubDate+'. ';
+			code += item.number+', issued '+item.pubDate+'. ';
 		else
 			code += 'App. '+item.appNumber+', filed'+item.filedDate+'. Patent Pending. ';
 		code += '[<a href="#" data-toggle="modal" data-target="#patentModal" data-cite="'+cite+'">details</a>]</li>';

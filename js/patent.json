@@ -1,5 +1,5 @@
 {
-"yin19_protocol":{
+"yin19_protocol_us":{
 	"title":"Loss-Resilient Protocols for Communication Networks",
 	"author":"<b>H. F. Yin</b>, S. Yang, and W.-H. Yeung",
 	"fullauthor":"<b>Ho Fai Hoover Yin</b>, Shenghao Yang, Wai-Ho Raymond Yeung",
@@ -10,6 +10,17 @@
 	"appNumber":"14/871,257",
 	"url":"https://patents.google.com/patent/US10425192B2/",
 	"abstract":"BATS protocols may be utilized for high efficiency communication in networks with burst or dependent type losses. Systematic recoding at intermediate network nodes may be utilized to reduce the computational cost during recoding. A block interleaver based BATS protocol may be utilized to handle burst loss, where batches are recoded to a same number of packets. Adaptive recoding may be utilized to improve the throughput, where a batch with a higher rank is recoded to a larger number of packets. Using adaptive recoding, a non-block interleaver based BATS protocol may be utilized."
+},
+
+"yin17_protocol_cn":{
+	"title":"用于通信网络的丢失复原协议",
+	"author":"<b>殷浩辉</b>, 杨伟豪, 杨升浩",
+	"fullauthor":"<b>殷浩辉</b>, 杨伟豪, 杨升浩",
+	"address":"CN",
+	"filedDate":"August 11, 2017",
+	"appNumber":"201,610,857,698",
+	"url":"https://patents.google.com/patent/CN107040334A/",
+	"abstract":"在具有突发或相关型丢失的网络中，BATS协议可以被用于高效通信。在中间网络节点处的系统重新编码可以用于减少在重新编码期间的计算成本。可以利用基于块交织器的BATS协议来处理突发丢失，其中将各批次重新编码为同样数量的分组。自适应重新编码可以被用于提高吞吐量，其中，具有更高秩的批次被重新编码成更大数量的分组。使用自适应重新编码，可以利用基于非块交织器的BATS协议。"
 }
 }
 
