@@ -39,10 +39,69 @@
 		<div class="container">
 			<h2><b>Publications</b></h2>
 			<hr>
+			<h4><b>Journal Papers</b></h4>
+			<div id="journal">
+				<div class="spinner-border text-secondary" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+			</div>
+			<br>
 			<h4><b>Conference Papers</b></h4>
 			<div id="conf">
 				<div class="spinner-border text-secondary" role="status">
 					<span class="sr-only">Loading...</span>
+				</div>
+			</div>
+			<br>
+			<h4><b>Preprints</b></h4>
+			<div id="preprint">
+				<div class="spinner-border text-secondary" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+			</div>
+			<br>
+			<h4><b>Thesis</b></h4>
+			<div id="thesis">
+				<div class="spinner-border text-secondary" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+			</div>
+			<br>
+			<h4><b>Patents</b></h4>
+			<div id="patent">
+				<div class="spinner-border text-secondary" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+			</div>
+			<br>
+			<h4><b>Copyrights</b></h4>
+			<div id="copyright">
+				<div class="spinner-border text-secondary" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+			</div>
+			<br>
+		</div>
+		<div class="modal fade" id="journalModal" tabindex="-1" role="dialog" aria-labelledby="journalModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="journalModalTitle">Journal Paper</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<b>Title:</b> <span id="journalTitle"></span><br>
+						<b>Author(s):</b> <span id="journalAuthor"></span><br>
+						<b>Journal:</b> <span id="journalName"></span><br>
+						<b>Volume:</b> <span id="journalVolume"></span><br>
+						<b>Number:</b> <span id="journalNumber"></span><br>
+						<b>Date:</b> <span id="journalDate"></span><br>
+						<b>Pages:</b> <span id="journalPages"></span><br>
+						<b>DOI:</b> <span id="journalDOI"></span><br>
+						<b>Abstract:</b> <span id="journalAbstract"></span>
+					</div>
 				</div>
 			</div>
 		</div>
