@@ -8,7 +8,7 @@ $('#journalModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #journalNumber').text(item.number);
 	$(this).find('.modal-body #journalDate').text(item.date);
 	$(this).find('.modal-body #journalPages').text(item.pages);
-	$(this).find('.modal-boby #journalDoi').html(item.DOI);
+	$(this).find('.modal-boby #journalDoi').html(item.doi);
 	$(this).find('.modal-body #journalAbstract').html(item.abstract);
 	$(this).modal('handleUpdate');
 });
