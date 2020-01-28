@@ -1,3 +1,22 @@
+var forthcoming_json = {};
+$.getJSON("js/forthcoming.json?nocache="+(new Date()).getTime(), function(json) {
+	if(json.success){
+		forthcoming_json = json;
+		var code = '<h4><b>Forthcoming Papers</b></h4>';
+		code += '<ul class="list-group" id="list">';
+		for(cite in json){
+			var item = json[cite];
+			code += '<li class="list-group-item">'+item.author+', "';
+			code += item.title;
+			code += '," to appear in <i>'+item.target+'</i>. [<a href="#" data-toggle="modal" data-target="#forthcomingModal" data-cite="'+cite+'">details</a>]</li>';
+		}
+		code += '</ul><br>';
+		$('#forthcoming').html(code);
+	}else{
+		$('#forthcoming').html('');
+	}
+});
+
 var journal_json = {};
 $.getJSON("js/journal.json?nocache="+(new Date()).getTime(), function(json) {
 	journal_json = json;

@@ -1,3 +1,13 @@
+$('#forthcomingModal').on('show.bs.modal', function(event) {
+	var cite = $(event.relatedTarget).data('cite');
+	var item = forthcoming_json[cite];
+	var title = item.title;
+	$(this).find('.modal-body #forthcomingTitle').html(title);
+	$(this).find('.modal-body #forthcomingAuthor').html(item.fullauthor);
+	$(this).find('.modal-body #forthcomingName').text(item.target);
+	$(this).modal('handleUpdate');
+});
+
 $('#journalModal').on('show.bs.modal', function(event) {
 	var cite = $(event.relatedTarget).data('cite');
 	var item = journal_json[cite];

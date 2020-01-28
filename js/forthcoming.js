@@ -1,0 +1,9 @@
+{
+"dong20_num":{
+	"title":"Network Utility Maximization for BATS Code Enabled Multihop Wireless Networks",
+	"author":"Y. Dong, S. Jin, S. Yang, and <b>H. H. Yin</b>",
+	"fullauthor":"Yanyan Dong, Sheng Jin, Shenghao Yang, and <b>Hoover H. F. Yin</b>",
+	"target":"2020 IEEE International Conference on Communica- tions (ICC)"
+}
+}
+
