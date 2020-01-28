@@ -1,7 +1,6 @@
 var forthcoming_json = {};
 $.getJSON("js/forthcoming.json?nocache="+(new Date()).getTime(), function(json) {
 	forthcoming_json = json;
-	alert("A");
 	var empty = true;
 	var code = '<h4><b>Forthcoming Papers</b></h4>';
 	code += '<ul class="list-group" id="list">';
