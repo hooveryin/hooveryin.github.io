@@ -1,9 +1,20 @@
 {
+"yin20_buffer":{
+	"title":"On the Memory Requirements of Block Interleaver for Batched Network Codes",
+	"author":"<b>H. H. Yin</b>, K. H. Ng, X. Wang, Q. Cao, and L. K. Ng",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Xishi Wang, Qi Cao, and Lucien K. L. Ng",
+	"target":"2020 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Los Angeles, California, USA",
+	"date":"Jun. 2020"
+},
+
 "dong20_num":{
 	"title":"Network Utility Maximization for BATS Code Enabled Multihop Wireless Networks",
 	"author":"Y. Dong, S. Jin, S. Yang, and <b>H. H. Yin</b>",
 	"fullauthor":"Yanyan Dong, Sheng Jin, Shenghao Yang, and <b>Hoover H. F. Yin</b>",
-	"target":"2020 IEEE International Conference on Communications (ICC): Mobile and Wireless Networks Symposium (IEEE ICC'20 - MWN Symposium)"
+	"target":"2020 IEEE International Conference on Communications (ICC): Mobile and Wireless Networks Symposium (IEEE ICC'20 - MWN Symposium)",
+	"address":"Dublin, Ireland",
+	"date":"Jun. 2020"
 }
 }
 

@@ -5,6 +5,8 @@ $('#forthcomingModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #forthcomingTitle').html(title);
 	$(this).find('.modal-body #forthcomingAuthor').html(item.fullauthor);
 	$(this).find('.modal-body #forthcomingName').text(item.target);
+	$(this).find('.modal-body #forthcomingAddress').text((item.address)?item.address:'-');
+	$(this).find('.modal-body #forthcomingDate').text((item.date)?item.date:'-');
 	$(this).modal('handleUpdate');
 });
 
@@ -21,6 +23,7 @@ $('#journalModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #journalNumber').text(item.number);
 	$(this).find('.modal-body #journalDate').text(item.date);
 	$(this).find('.modal-body #journalPages').text(item.pages);
+	$(this).find('.modal-body #journalDoi').text(item.doi);
 	$(this).find('.modal-body #journalAbstract').html(item.abstract);
 	$(this).modal('handleUpdate');
 });
@@ -37,6 +40,7 @@ $('#confModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #confAddress').text(item.address);
 	$(this).find('.modal-body #confDate').text(item.date);
 	$(this).find('.modal-body #confPages').text(item.pages);
+	$(this).find('.modal-body #confDoi').text(item.doi);
 	$(this).find('.modal-body #confAbstract').html(item.abstract);
 	$(this).modal('handleUpdate');
 });

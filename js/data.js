@@ -9,18 +9,23 @@ $.getJSON("js/forthcoming.json?nocache="+(new Date()).getTime(), function(json) 
 		var item = json[cite];
 		code += '<li class="list-group-item">'+item.author+', "';
 		code += item.title;
-		code += '," to appear in <i>'+item.target+'</i>. [<a href="#" data-toggle="modal" data-target="#forthcomingModal" data-cite="'+cite+'">details</a>]</li>';
+		code += '," to appear in <i>'+item.target+'</i>';
+		if(item.address)
+			code += ', '+item.address;
+		if(item.date)
+			code += ', '+item.date;
+		code += '. [<a href="#" data-toggle="modal" data-target="#forthcomingModal" data-cite="'+cite+'">details</a>]</li>';
 	}
 	code += '</ul><br>';
 	$('#forthcoming').html((empty)?'':code);
 });
 
 var journal_json = {};
-$.getJSON("js/journal.json?nocache="+(new Date()).getTime(), function(json) {
-	journal_json = json;
+$.getJSON("js/journal_nc.json?nocache="+(new Date()).getTime(), function(json) {
 	var code = '<ul class="list-group" id="list">';
 	for(cite in json){
 		var item = json[cite];
+		journal_json[cite] = item;
 		code += '<li class="list-group-item">'+item.author+', "';
 		if(item.url)
 			code += '<a href="'+item.url+'">';
@@ -30,15 +35,15 @@ $.getJSON("js/journal.json?nocache="+(new Date()).getTime(), function(json) {
 		code += '," <i>'+item.journal+'</i>, vol. '+item.volume+', no. '+item.number+', '+item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#journalModal" data-cite="'+cite+'">details</a>]</li>';
 	}
 	code += '</ul>';
-	$('#journal').html(code);
+	$('#journal_nc').html(code);
 });
 
 var conf_json = {};
-$.getJSON("js/conf.json?nocache="+(new Date()).getTime(), function(json) {
-	conf_json = json;
+$.getJSON("js/conf_nc.json?nocache="+(new Date()).getTime(), function(json) {
 	var code = '<ul class="list-group" id="list">';
 	for(cite in json){
 		var item = json[cite];
+		conf_json[cite] = item;
 		code += '<li class="list-group-item">'+item.author+', "';
 		if(item.url)
 			code += '<a href="'+item.url+'">';
@@ -48,7 +53,24 @@ $.getJSON("js/conf.json?nocache="+(new Date()).getTime(), function(json) {
 		code += '," <i>'+item.booktitle+'</i>, '+item.address+', '+item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">details</a>]</li>';
 	}
 	code += '</ul>';
-	$('#conf').html(code);
+	$('#conf_nc').html(code);
+});
+
+$.getJSON("js/conf_it.json?nocache="+(new Date()).getTime(), function(json) {
+	var code = '<ul class="list-group" id="list">';
+	for(cite in json){
+		var item = json[cite];
+		conf_json[cite] = item;
+		code += '<li class="list-group-item">'+item.author+', "';
+		if(item.url)
+			code += '<a href="'+item.url+'">';
+		code += item.title;
+		if(item.url)
+			code += '</a>';
+		code += '," <i>'+item.booktitle+'</i>, '+item.address+', '+item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">details</a>]</li>';
+	}
+	code += '</ul>';
+	$('#conf_it').html(code);
 });
 
 var preprint_json = {};

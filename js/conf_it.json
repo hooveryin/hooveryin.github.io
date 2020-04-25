@@ -1,0 +1,15 @@
+{
+"yin19_packing":{
+	"title":"Decision Procedure for the Existence of Two-Channel Prefix-Free Codes",
+	"author":"<b>H. H. Yin</b>, K. H. Ng, Y. T. Shing, R. W. Lai, and X. Wang",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Yu Ting Shing, Russell W. F. Lai, Xishi Wang",
+	"booktitle":"2019 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Paris, France",
+	"date":"Jul. 2019",
+	"pages":"1522-1526",
+	"url":"https://ieeexplore.ieee.org/document/8849758",
+	"doi":"10.1109/ISIT.2019.8849758",
+	"abstract":"The Kraft inequality gives a necessary and sufficient condition for the existence of a single channel prefix-free code. However, the multichannel Kraft inequality does not imply the existence of a multichannel prefix-free code in general. It is natural to ask whatever there exists an efficient decision procedure for the existence of multichannel prefix-free codes. In this paper, we tackle the two-channel case of the above problem by relating it to a constrained rectangle packing problem. Although a general rectangle packing problem is NP-complete, the extra imposed constraints allow us to propose an algorithm which can solve the problem efficiently."
+}
+}
+
