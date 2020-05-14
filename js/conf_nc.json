@@ -1,7 +1,7 @@
 {
 "yin19_rf":{
 	"title":"Packet Efficiency of BATS Coding on Wireless Relay Network with Overhearing",
-	"author":"<b>H. H. Yin</b>, X. Xu, K. H. Ng, Y. L. Guan, and R. W. Yeung",
+	"author":"<b>H. H. F. Yin</b>, X. Xu, K. H. Ng, Y. L. Guan, and R. W. Yeung",
 	"fullauthor":"<b>Hoover H. F. Yin</b>, Xiaoli Xu, Ka Hei Ng, Yong Liang Guan, Raymond W. Yeung",
 	"booktitle":"2019 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Paris, France",
@@ -14,7 +14,7 @@
 
 "yin19_uni":{
 	"title":"A Unified Adaptive Recoding Framework for Batched Network Coding",
-	"author":"<b>H. H. Yin</b>, B. Tang, K. H. Ng, S. Yang, X. Wang, and Q. Zhou",
+	"author":"<b>H. H. F. Yin</b>, B. Tang, K. H. Ng, S. Yang, X. Wang, and Q. Zhou",
 	"fullauthor":"<b>Hoover H. F. Yin</b>, Bin Tang, Ka Hei Ng, Shenghao Yang, Xishi Wang, Qiaoqiao Zhou",
 	"booktitle":"2019 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Paris, France",
@@ -27,7 +27,7 @@
 
 "yin19_delay":{
 	"title":"On the Minimum Delay of Block Interleaver for Batched Network Codes",
-	"author":"<b>H. H. Yin</b>, K. H. Ng, X. Wang, and Q. Cao",
+	"author":"<b>H. H. F. Yin</b>, K. H. Ng, X. Wang, and Q. Cao",
 	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Xishi Wang, Qi Cao",
 	"booktitle":"2019 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Paris, France",
@@ -40,7 +40,7 @@
 
 "yin16_adaptive":{
 	"title":"Adaptive Recoding for BATS Codes",
-	"author":"<b>H. H. Yin</b>, S. Yang, Q. Zhou, and L. M. Yung",
+	"author":"<b>H. H. F. Yin</b>, S. Yang, Q. Zhou, and L. M. L. Yung",
 	"fullauthor":"<b>Hoover H. F. Yin</b>, Shenghao Yang, Qiaoqiao Zhou, Lily M. L. Yung",
 	"booktitle":"2016 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Barcelona, Spain",
@@ -53,7 +53,7 @@
 
 "yang14_pro1":{
 	"title":"BATS: Network Coding in Action",
-	"author":"S. Yang, R. W. Yeung, J. H. Cheung, and <b>H. H. Yin</b>",
+	"author":"S. Yang, R. W. Yeung, J. H. F. Cheung, and <b>H. H. F. Yin</b>",
 	"fullauthor":"Shenghao Yang, Raymond W. Yeung, Jay H. F. Cheung, <b>Hoover H. F. Yin</b>",
 	"booktitle":"2014 52nd Annual Allerton Conference on Communication, Control, and Computing (Allerton)",
 	"address":"Monticello, IL, USA",
