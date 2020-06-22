@@ -39,8 +39,8 @@ $('#confModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #confName').text(item.booktitle);
 	$(this).find('.modal-body #confAddress').text(item.address);
 	$(this).find('.modal-body #confDate').text(item.date);
-	$(this).find('.modal-body #confPages').text(item.pages);
-	$(this).find('.modal-body #confDoi').text(item.doi);
+	$(this).find('.modal-body #confPages').text((item.pages)?item.pages:'-');
+	$(this).find('.modal-body #confDoi').text((item.doi)?item.doi:'-');
 	$(this).find('.modal-body #confAbstract').html(item.abstract);
 	$(this).modal('handleUpdate');
 });

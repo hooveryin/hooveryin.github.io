@@ -1,4 +1,25 @@
 {
+"yin20_buffer":{
+	"title":"On the Memory Requirements of Block Interleaver for Batched Network Codes",
+	"author":"<b>H. H. F. Yin</b>, K. H. Ng, X. Wang, Q. Cao, and L. K. L. Ng",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Xishi Wang, Qi Cao, and Lucien K. L. Ng",
+	"booktitle":"2020 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Los Angeles, California, USA",
+	"date":"Jun. 2020",
+	"pages":"1658-1663",
+	"abstract":"Batched network coding is a practical branch of random linear network coding which encodes the input file into small batches of coded packets. Although burst erasures within the batches can reduce the advantage of network coding, it can be alleviated by applying a block interleaver which spreads the burst across multiple batches. On the other hand, the intermediate network nodes are required to perform recoding on the batches unlike the traditional forwarding strategy. The recoding of a batch can be started once all the packets in that batch which are not dropped by the channel are received. This means that the intermediate network nodes have to deinterleave the batches for recoding and reinterleave the batches again for transmission, which gives us a choice to use different interleaver depths at different network nodes. In this paper, we study the memory requirements of the schemes for transmitting batches which apply different interleaver depths. We investigate the periodic structure of buffer sizes and the connection between buffer sizes and the total delay induced by the interleaver. More importantly, we show that there exists a scheme which can achieve the lowest memory requirement and minimum total delay simultaneously."
+},
+
+"dong20_num":{
+	"title":"Network Utility Maximization for BATS Code Enabled Multihop Wireless Networks",
+	"author":"Y. Dong, S. Jin, S. Yang, and <b>H. H. F. Yin</b>",
+	"fullauthor":"Yanyan Dong, Sheng Jin, Shenghao Yang, and <b>Hoover H. F. Yin</b>",
+	"booktitle":"2020 IEEE International Conference on Communications (ICC): Mobile and Wireless Networks Symposium (IEEE ICC'20 - MWN Symposium)",
+	"address":"Dublin, Ireland",
+	"date":"Jun. 2020",
+	"abstract":"Network utility maximization (NUM) is studied for multihop wireless networks employing an efficient random linear network coding scheme called BATS codes. Compared with the classical random linear network coding scheme, BATS codes have lower computational and storage costs at the intermediate network nodes, and can achieve close-to-optimal end-to-end throughput and latency for multihop networks with packet loss. We formulate a NUM problem that optimizes the total utility of multiple communication flows under certain link scheduling constraints. Our problem employs a practical throughput measure induced by BATS codes and hence can provide realistic guidelines about network protocol designs for multihop wireless networks. Our problem in general has a non-convex objective function with integer variables, so that the algorithms of solving existing network utility maximization problems cannot be directly applied to our problem. We discuss a modified dual-based algorithm for solving our problem and evaluate its performance numerically."
+},
+
 "yin19_rf":{
 	"title":"Packet Efficiency of BATS Coding on Wireless Relay Network with Overhearing",
 	"author":"<b>H. H. F. Yin</b>, X. Xu, K. H. Ng, Y. L. Guan, and R. W. Yeung",

@@ -50,7 +50,12 @@ $.getJSON("js/conf_nc.json?nocache="+(new Date()).getTime(), function(json) {
 		code += item.title;
 		if(item.url)
 			code += '</a>';
-		code += '," <i>'+item.booktitle+'</i>, '+item.address+', '+item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">details</a>]</li>';
+		code += '," <i>'+item.booktitle+'</i>, '+item.address;
+		if(item.date)
+			code += ', '+item.date;
+		if(item.pages)
+			code += ', pp. '+item.pages;
+		code += '. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">details</a>]</li>';
 	}
 	code += '</ul>';
 	$('#conf_nc').html(code);
@@ -67,7 +72,12 @@ $.getJSON("js/conf_it.json?nocache="+(new Date()).getTime(), function(json) {
 		code += item.title;
 		if(item.url)
 			code += '</a>';
-		code += '," <i>'+item.booktitle+'</i>, '+item.address+', '+item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">details</a>]</li>';
+		code += '," <i>'+item.booktitle+'</i>, '+item.address;
+		if(item.date)
+			code += ', '+item.date;
+		if(item.pages)
+			code += ', pp. '+item.pages;
+		code += '. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">details</a>]</li>';
 	}
 	code += '</ul>';
 	$('#conf_it').html(code);
