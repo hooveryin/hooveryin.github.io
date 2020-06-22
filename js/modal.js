@@ -5,8 +5,8 @@ $('#forthcomingModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #forthcomingTitle').html(title);
 	$(this).find('.modal-body #forthcomingAuthor').html(item.fullauthor);
 	$(this).find('.modal-body #forthcomingName').text(item.target);
-	$(this).find('.modal-body #forthcomingAddress').text((item.address == undefined)?item.address:'-');
-	$(this).find('.modal-body #forthcomingDate').text((item.date == undefined)?item.date:'-');
+	$(this).find('.modal-body #forthcomingAddress').text((item.address != undefined)?item.address:'-');
+	$(this).find('.modal-body #forthcomingDate').text((item.date != undefined)?item.date:'-');
 	$(this).modal('handleUpdate');
 });
 
@@ -39,8 +39,8 @@ $('#confModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #confName').text(item.booktitle);
 	$(this).find('.modal-body #confAddress').text(item.address);
 	$(this).find('.modal-body #confDate').text(item.date);
-	$(this).find('.modal-body #confPages').text((item.pages == undefined)?item.pages:'-');
-	$(this).find('.modal-body #confDoi').text((item.doi == undefined)?item.doi:'-');
+	$(this).find('.modal-body #confPages').text((item.pages != undefined)?item.pages:'-');
+	$(this).find('.modal-body #confDoi').text((item.doi != undefined)?item.doi:'-');
 	$(this).find('.modal-body #confAbstract').html(item.abstract);
 	$(this).modal('handleUpdate');
 });
@@ -86,8 +86,8 @@ $('#patentModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #patentTitle').html(title);
 	$(this).find('.modal-body #patentAuthor').html(item.fullauthor);
 	$(this).find('.modal-body #patentRegion').text(item.address);
-	$(this).find('.modal-body #patentPubDate').text((item.number == undefined)?item.pubDate:'-');
-	$(this).find('.modal-body #patentNumber').text((item.number == undefined)?item.number:'-');
+	$(this).find('.modal-body #patentPubDate').text((item.number != undefined)?item.pubDate:'-');
+	$(this).find('.modal-body #patentNumber').text((item.number != undefined)?item.number:'-');
 	$(this).find('.modal-body #patentFiledDate').text(item.filedDate);
 	$(this).find('.modal-body #patentAppNumber').text(item.appNumber);
 	$(this).find('.modal-body #patentAbstract').html(item.abstract);
