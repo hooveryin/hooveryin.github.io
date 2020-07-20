@@ -22,7 +22,16 @@ $('#journalModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #journalVolume').text(item.volume);
 	$(this).find('.modal-body #journalNumber').text(item.number);
 	$(this).find('.modal-body #journalDate').text(item.date);
-	$(this).find('.modal-body #journalPages').text(item.pages);
+	if(item.pages != undefined){
+		$(this).find('.modal-body #journalPagesTitle').text('Pages:');
+		$(this).find('.modal-body #journalPages').text(item.pages);
+	}else if(item.paper != undefined){
+		$(this).find('.modal-body #journalPagesTitle').text('Article Number:');
+		$(this).find('.modal-body #journalPages').text(item.paper);
+	}else{
+		$(this).find('.modal-body #journalPagesTitle').text('Pages:');
+		$(this).find('.modal-body #journalPages').text('-');
+	}
 	$(this).find('.modal-body #journalDoi').text(item.doi);
 	$(this).find('.modal-body #journalAbstract').html(item.abstract);
 	$(this).modal('handleUpdate');

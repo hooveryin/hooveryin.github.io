@@ -1,4 +1,17 @@
 {
+"yin20_protocol":{
+	"title":"A Protocol Design Paradigm for Batched Sparse Codes",
+	"author":"<b>H. H. F. Yin</b>, R. W. Yeung, and S. Yang",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Raymond W. Yeung, Shenghao Yang",
+	"journal":"Entropy",
+	"volume":"22",
+	"number":"7",
+	"paper":"790",
+	"date":"Jul. 2020",
+	"url":"https://www.mdpi.com/1099-4300/22/7/790",
+	"doi":"10.3390/e22070790",
+	"abstract":"Internet of Things (IoT) connects billions of everyday objects to the Internet. The mobility of devices can be facilitated by means of employing multiple wireless links. However, packet loss is a common phenomenon in wireless communications, where the traditional forwarding strategy undergoes severe performance issues in a multi-hop wireless network. One solution is to apply batched sparse (BATS) codes. A fundamental difference from the traditional strategy is that BATS codes require the intermediate network nodes to perform recoding, which generates recoded packets by network coding operations. Literature showed that advanced recoding schemes and burst packet loss can enhance and diminish the performance of BATS codes respectively. However, the existing protocols for BATS codes cannot handle both of them at the same time. In this paper, we propose a paradigm of protocol design for BATS codes. Our design can be applied in different layers of the network stack and it is compatible to the existing network infrastructures. The modular nature of the protocol can support different recoding techniques and different ways to handle burst packet loss. We also give some examples to demonstrate how to use the protocol."
+},
 "zhou17_var":{
 	"title":"On BATS Codes With Variable Batch Sizes",
 	"author":"Q. Zhou, S. Yang, <b>H. H. F. Yin</b>, and B. Tang",

@@ -32,7 +32,12 @@ $.getJSON("js/journal_nc.json?nocache="+(new Date()).getTime(), function(json) {
 		code += item.title;
 		if(item.url != undefined)
 			code += '</a>';
-		code += '," <i>'+item.journal+'</i>, vol. '+item.volume+', no. '+item.number+', '+item.date+', pp. '+item.pages+'. [<a href="#" data-toggle="modal" data-target="#journalModal" data-cite="'+cite+'">details</a>]</li>';
+		code += '," <i>'+item.journal+'</i>, vol. '+item.volume+', no. '+item.number+', '+item.date;
+		if(item.pages != undefined)
+			code += ', pp. '+item.pages;
+		else if(item.paper != undefined)
+			code += ', Art. no. '+item.paper;
+		code += '. [<a href="#" data-toggle="modal" data-target="#journalModal" data-cite="'+cite+'">details</a>]</li>';
 	}
 	code += '</ul>';
 	$('#journal_nc').html(code);
