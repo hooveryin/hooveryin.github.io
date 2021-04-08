@@ -92,6 +92,8 @@ $('#patentModal').on('show.bs.modal', function(event) {
 	var title = item.title;
 	if(item.url)
 		title = '<a href="'+item.url+'">'+item.title+'</a>';
+	if(item.title2)
+		title = title+'<br><b>Title (English):</b> '+item.title2;
 	$(this).find('.modal-body #patentTitle').html(title);
 	$(this).find('.modal-body #patentAuthor').html(item.fullauthor);
 	$(this).find('.modal-body #patentRegion').text(item.address);
