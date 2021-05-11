@@ -2,7 +2,7 @@
 "yin21_intrablock":{
 	"title":"Intrablock Interleaving for Batched Network Coding with Blockwise Adaptive Recoding",
 	"author":"<b>H. H. F. Yin</b>, K. H. Ng, A. Z. Zhong, R. W. Yeung, and S. Yang",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Allen Z. Zhong, Raymond W. Yeung, and Shenghao Yang",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Allen Z. Zhong, Raymond W. Yeung, Shenghao Yang",
 	"target":"2021 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Melbourne, Victoria, Australia",
 	"date":"Jul. 2021"
@@ -10,7 +10,7 @@
 "yin21_loss":{
 	"title":"Impact of Packet Loss Rate Estimation on Blockwise Adaptive Recoding for Batched Network Coding",
 	"author":"<b>H. H. F. Yin</b> and K. H. Ng",
-	"fullauthor":"<b>Hoover H. F. Yin</b> and Ka Hei Ng",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng",
 	"target":"2021 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Melbourne, Victoria, Australia",
 	"date":"Jul. 2021"
@@ -18,7 +18,7 @@
 "wang21_inferred":{
 	"title":"Small-Sample Inferred Adaptive Recoding for Batched Network Coding",
 	"author":"J. Wang, Z. Jia, <b>H. H. F. Yin</b>, and S. Yang",
-	"fullauthor":"Jie Wang, Zhiyuan Jia, <b>Hoover H. F. Yin</b>, and Shenghao Yang",
+	"fullauthor":"Jie Wang, Zhiyuan Jia, <b>Hoover H. F. Yin</b>, Shenghao Yang",
 	"target":"2021 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Melbourne, Victoria, Australia",
 	"date":"Jul. 2021"
@@ -26,7 +26,7 @@
 "yin21_huffman":{
 	"title":"On Multi-Channel Huffman Codes for Asymmetric-Alphabet Channels",
 	"author":"<b>H. H. F. Yin</b>, X. Wang, K. H. Ng, R. W. F. Lai, L. K. L. Ng, and J. P. K. Ma",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Xishi Wang, Ka Hei Ng, Russell W. F. Lai, Lucien K. L. Ng, and Jack P. K. Ma",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Xishi Wang, Ka Hei Ng, Russell W. F. Lai, Lucien K. L. Ng, Jack P. K. Ma",
 	"target":"2021 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Melbourne, Victoria, Australia",
 	"date":"Jul. 2021"

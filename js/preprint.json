@@ -2,7 +2,7 @@
 "yin21_prefix_arxiv":{
 	"title":"On Multi-Channel Huffman Codes for Asymmetric-Alphabet Channels",
 	"author":"<b>H. H. F. Yin</b>, X. Wang, K. H. Ng, R. W. F. Lai, L. K. L. Ng, and J. P. K. Ma",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Xishi Wang, Ka Hei Ng, Russell W. F. Lai, Lucien K. L. Ng, and Jack P. K. Ma",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Xishi Wang, Ka Hei Ng, Russell W. F. Lai, Lucien K. L. Ng, Jack P. K. Ma",
 	"journal":"arXiv preprint arXiv:2105.03606",
 	"date":"May 2021",
 	"url":"https://arxiv.org/abs/2105.03606",
@@ -11,7 +11,7 @@
 "wang21_inferred_arxiv":{
 	"title":"Small-Sample Inferred Adaptive Recoding for Batched Network Coding",
 	"author":"J. Wang, Z. Jia, <b>H. H. F. Yin</b>, and S. Yang",
-	"fullauthor":"Jie Wang, Zhiyuan Jia, <b>Hoover H. F. Yin</b>, and Shenghao Yang",
+	"fullauthor":"Jie Wang, Zhiyuan Jia, <b>Hoover H. F. Yin</b>, Shenghao Yang",
 	"journal":"arXiv preprint arXiv:2105.01370",
 	"date":"May 2021",
 	"url":"https://arxiv.org/abs/2105.01370",
@@ -20,7 +20,7 @@
 "ronge20_ring_eprint":{
 	"title":"Foundations of Ring Sampling",
 	"author":"V. Ronge, C. Egger, R. W. F. Lai, D. Schröder, and <b>H. H. F. Yin</b>",
-	"fullauthor":"Viktoria Ronge, Christoph Egger, Russell W. F. Lai, Dominique Schröder, and <b>Hoover H. F. Yin</b>",
+	"fullauthor":"Viktoria Ronge, Christoph Egger, Russell W. F. Lai, Dominique Schröder, <b>Hoover H. F. Yin</b>",
 	"journal":"IACR Cryptology ePrint Archive:2020/1550",
 	"date":"Dec. 2020",
 	"url":"https://eprint.iacr.org/2020/1550",
