@@ -1,4 +1,15 @@
 {
+"ronge21_ring":{
+	"title":"Foundations of Ring Sampling",
+	"author":"V. Ronge, C. Egger, R. W. F. Lai, D. Schröder, and <b>H. H. F. Yin</b>",
+	"fullauthor":"Viktoria Ronge, Christoph Egger, Russell W. F. Lai, Dominique Schröder, and <b>Hoover H. F. Yin</b>",
+	"journal":"Proceedings on Privacy Enhancing Technologies (PoPETs)",
+	"volume":"3",
+	"date":"Jul. 2021",
+	"pages":"265-288",
+	"url":"https://petsymposium.org/2021/files/papers/issue3/popets-2021-0047.pdf",
+	"abstract":"A ring signature scheme allows the signer to sign on behalf of an ad hoc set of users, called a ring. The verifier can be convinced that a ring member signs, but cannot point to the exact signer. Ring signatures have become increasingly important today with their deployment in anonymous cryptocurrencies. Conventionally, it is implicitly assumed that all ring members are equally likely to be the signer. This assumption is generally false in reality, leading to various practical and devastating deanonymizing attacks in Monero, one of the largest anonymous cryptocurrencies. These attacks highlight the unsatisfactory situation that how a ring should be chosen is poorly understood.<p>We propose an analytical model of ring samplers towards a deeper understanding of them through systematic studies. Our model helps to describe how anonymous a ring sampler is with respect to a given signer distribution as an information-theoretic measure. We show that this measure is robust, in the sense that it only varies slightly when the signer distribution varies slightly. We then analyze three natural samplers – uniform, mimicking, and partitioning – under our model with respect to a family of signer distributions modeled after empirical Bitcoin data. We hope that our work paves the way towards researching ring samplers from a theoretical point of view."
+},
 "yin20_protocol":{
 	"title":"A Protocol Design Paradigm for Batched Sparse Codes",
 	"author":"<b>H. H. F. Yin</b>, R. W. Yeung, and S. Yang",

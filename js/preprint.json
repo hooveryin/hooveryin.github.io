@@ -1,4 +1,22 @@
 {
+"yin21_prefix_arxiv":{
+	"title":"On Multi-Channel Huffman Codes for Asymmetric-Alphabet Channels",
+	"author":"<b>H. H. F. Yin</b>, X. Wang, K. H. Ng, R. W. F. Lai, L. K. L. Ng, and J. P. K. Ma",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Xishi Wang, Ka Hei Ng, Russell W. F. Lai, Lucien K. L. Ng, and Jack P. K. Ma",
+	"journal":"arXiv preprint arXiv:2105.03606",
+	"date":"May 2021",
+	"url":"https://arxiv.org/abs/2105.03606",
+	"abstract":"Zero-error single-channel source coding has been studied extensively over the past decades. Its natural multi-channel generalization is however not well investigated. While the special case with multiple symmetric-alphabet channels was studied a decade ago, codes in such setting have no advantage over single-channel codes in data compression, making them worthless in most applications. With essentially no development since the last decade, in this paper, we break the stalemate by showing that it is possible to beat single-channel source codes in terms of compression assuming asymmetric-alphabet channels. We present the multi-channel analog of several classical results in single-channel source coding, such as that a multi-channel Huffman code is an optimal tree-decodable code. We also show some evidences that finding an efficient construction of multi-channel Huffman codes may be hard. Nevertheless, we propose a suboptimal code construction whose redundancy is guaranteed to be no larger than that of an optimal single-channel source code."
+},
+"wang21_inferred_arxiv":{
+	"title":"Small-Sample Inferred Adaptive Recoding for Batched Network Coding",
+	"author":"J. Wang, Z. Jia, <b>H. H. F. Yin</b>, and S. Yang",
+	"fullauthor":"Jie Wang, Zhiyuan Jia, <b>Hoover H. F. Yin</b>, and Shenghao Yang",
+	"journal":"arXiv preprint arXiv:2105.01370",
+	"date":"May 2021",
+	"url":"https://arxiv.org/abs/2105.01370",
+	"abstract":"Batched network coding is a low-complexity network coding solution to feedbackless multi-hop wireless packet network transmission with packet loss. The data to be transmitted is encoded into batches where each of which consists of a few coded packets. Unlike the traditional forwarding strategy, the intermediate network nodes have to perform recoding, which generates recoded packets by network coding operations restricted within the same batch. Adaptive recoding is a technique to adapt the fluctuation of packet loss by optimizing the number of recoded packets per batch to enhance the throughput. The input rank distribution, which is a piece of information regarding the batches arriving at the node, is required to apply adaptive recoding. However, this distribution is not known in advance in practice as the incoming link's channel condition may change from time to time. On the other hand, to fully utilize the potential of adaptive recoding, we need to have a good estimation of this distribution. In other words, we need to guess this distribution from a few samples so that we can apply adaptive recoding as soon as possible. In this paper, we propose a distributionally robust optimization for adaptive recoding with a small-sample inferred prediction of the input rank distribution. We develop an algorithm to efficiently solve this optimization with the support of theoretical guarantees that our optimization's performance would constitute as a confidence lower bound of the optimal throughput with high probability."
+},
 "ronge20_ring_eprint":{
 	"title":"Foundations of Ring Sampling",
 	"author":"V. Ronge, C. Egger, R. W. F. Lai, D. Schröder, and <b>H. H. F. Yin</b>",
