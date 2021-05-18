@@ -1,4 +1,40 @@
 {
+"yin21_adaptive_arxiv":{
+	"title":"BAR: Blockwise Adaptive Recoding for Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b>, S. Yang, Q. Zhou, L. M. L. Yung, and K. H. Ng",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Shenghao Yang, Qiaoqiao Zhou, Lily M. L. Yung, K. H. Ng",
+	"journal":"arXiv preprint arXiv:2105:07617",
+	"date":"May 2021",
+	"url":"https://arxiv.org/abs/2105.07617",
+	"abstract":"Multi-hop networks become popular network topologies in various emerging Internet of things applications. Batched network coding (BNC) is a solution to reliable communications in such networks with packet loss. By grouping packets into small batches and restricting recoding to the packets belonging to the same batch, BNC has a much smaller computational and storage requirements at the intermediate nodes compared with a direct application of random linear network coding. In this paper, we propose a practical recoding scheme called blockwise adaptive recoding (BAR) which learns the latest channel knowledge from short observations so that BAR can adapt to the fluctuation of channel conditions. We focus on investigating practical concerns such as the design of efficient BAR algorithms. We also design and investigate feedback schemes for BAR under imperfect feedback systems. Our numerical evaluations show that BAR has significant throughput gain for small batch size compared with the existing baseline recoding scheme. More importantly, this gain is insensitive to inaccurate channel knowledge. This encouraging result suggests that BAR is suitable to be realized in practice as the exact channel model and its parameters could be unknown and subject to change from time to time."
+},
+"yin21_uni_arxiv":{
+	"title":"A Unified Adaptive Recoding Framework for Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b>, B. Tang, K. H. Ng, S. Yang, X. Wang, and Q. Zhou",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Bin Tang, Ka Hei Ng, Shenghao Yang, Xishi Wang, Qiaoqiao Zhou",
+	"journal":"arXiv preprint arXiv:2105:07614",
+	"date":"May 2021",
+	"url":"https://arxiv.org/abs/2105.07614",
+	"abstract":"Batched network coding is a variation of random linear network coding which has low computational and storage costs. In order to adapt random fluctuations in the number of erasures in individual batches, it is not optimal to recode and transmit the same number of packets for all batches. Different distributed optimization models, which are called adaptive recoding schemes, were formulated for this purpose. The key component of these optimization problems is the expected value of the rank distribution of a batch at the next network node, which is also known as the expected rank. In this paper, we put forth a unified adaptive recoding framework. We show that the expected rank functions are concave when the packet loss pattern is a stationary stochastic process regardless of the field size, which covers but not limited to independent packet loss and burst packet loss. Under this concavity assumption, we show that there always exists a solution which not only can minimize the randomness on the number of recoded packets but also can tolerate rank distribution errors due to inaccurate measurements or limited precision of the machine. To obtain such an optimal solution, we propose tuning schemes that can turn any feasible solution into a desired optimal solution."
+},
+"yin21_intrablock_arxiv":{
+	"title":"Intrablock Interleaving for Batched Network Coding with Blockwise Adaptive Recoding",
+	"author":"<b>H. H. F. Yin</b>, K. H. Ng, A. Z. Zhong, R. W. Yeung, S. Yang, and I. Y. Y. Chan",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Allen Z. Zhong, Raymond W. Yeung, Shenghao Yang, Ian Y. Y. Chan",
+	"journal":"arXiv preprint arXiv:2105:07609",
+	"date":"May 2021",
+	"url":"https://arxiv.org/abs/2105.07609",
+	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in feedbackless multi-hop packet networks with packet loss. BNC encodes the source data into batches of packets. As a network coding scheme, the intermediate nodes perform recoding on the received packets instead of just forwarding them. Blockwise adaptive recoding (BAR) is a recoding strategy which can enhance the throughput and adapt real-time changes in the incoming channel condition. In wireless applications, in order to combat burst packet loss, interleavers can be applied for BNC in a hop-by-hop manner. In particular, a batch-stream interleaver that permutes packets across blocks can be applied with BAR to further boost the throughput. However, the previously proposed minimal communication protocol for BNC only supports permutation of packets within a block, called intrablock interleaving, and so it is not compatible with the batch-stream interleaver. In this paper, we design an intrablock interleaver for BAR that is backward compatible with the aforementioned minimal protocol, so that the throughput can be enhanced without upgrading all the existing devices."
+},
+"dong21_num_arxiv":{
+	"title":"Utility Maximization for Multihop Wireless Networks Employing BATS Codes",
+	"author":"Y. Dong, S. Jin, Y. Chen, S. Yang, and <b>H. H. F. Yin</b>",
+	"fullauthor":"Yanyan Dong, Sheng Jin, Yanzuo Chen, Shenghao Yang, <b>Hoover H. F. Yin</b>",
+	"journal":"arXiv preprint arXiv:2105.07605",
+	"date":"May 2021",
+	"url":"https://arxiv.org/abs/2105.07605",
+	"abstract":"BATS codes are a class of efficient random linear network coding variation that has been studied for multihop wireless networks mostly in scenarios of a single communication flow. Towards sophisticated multi-flow network communications, we formulate a network utility maximization (NUM) problem that jointly optimizes the BATS code parameters of all the flows and network scheduling. The NUM problem adopts a batch-wise packet loss model that can be obtained from the network local statistics without any constraints on packet loss patterns. Moreover, the NUM problem allows a different number of recoded packets to be transmitted for different batches in a flow, which is called adaptive recoding. Due to both the non-convex objective and the BATS code-related variables, the algorithms developed for the existing flow optimization problems can not be directed applied to solve our NUM problem. We introduce a two-step algorithm for solving the NUM problem, where the first step solves the problem with nonadaptive recoding schemes, and the second step optimizes adaptive recoding hop-by-hop from upstream to downstream in each flow. We perform various numerical evaluations and simulations to verify the effectiveness and efficiency of the algorithm."
+},
 "yin21_prefix_arxiv":{
 	"title":"On Multi-Channel Huffman Codes for Asymmetric-Alphabet Channels",
 	"author":"<b>H. H. F. Yin</b>, X. Wang, K. H. Ng, R. W. F. Lai, L. K. L. Ng, and J. P. K. Ma",
