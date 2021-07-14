@@ -26,6 +26,7 @@
 	"booktitle":"2021 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Melbourne, Victoria, Australia",
 	"date":"12-20 Jul. 2021",
+	"pages":"1409-1414",
 	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in feedbackless multi-hop packet networks with packet loss. BNC encodes the source data into batches of packets. As a network coding scheme, the intermediate nodes perform recoding on the received packets instead of just forwarding them. Blockwise adaptive recoding (BAR) is a recoding strategy which can enhance the throughput and adapt real-time changes in the incoming channel condition. In wireless applications, in order to combat burst packet loss, interleavers can be applied for BNC in a hop-by-hop manner. In particular, a batch-stream interleaver that permutes packets across blocks can be applied with BAR to further boost the throughput. However, the previously proposed minimal communication protocol for BNC only supports permutation of packets within a block, called intrablock interleaving, and so it is not compatible with the batch-stream interleaver. In this paper, we design an intrablock interleaver for BAR that is backward compatible with the aforementioned minimal protocol, so that the throughput can be enhanced without upgrading all the existing devices."
 },
 "yin20_buffer":{
