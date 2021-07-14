@@ -1,4 +1,14 @@
 {
+"yin21_huffman":{
+	"title":"On Multi-Channel Huffman Codes for Asymmetric-Alphabet Channels",
+	"author":"<b>H. H. F. Yin</b>, X. Wang, K. H. Ng, R. W. F. Lai, L. K. L. Ng, and J. P. K. Ma",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Xishi Wang, Ka Hei Ng, Russell W. F. Lai, Lucien K. L. Ng, Jack P. K. Ma",
+	"booktitle":"2021 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Melbourne, Victoria, Australia",
+	"date":"12-20 Jul. 2021",
+	"pages":"2024-2029",
+	"abstract":"Zero-error single-channel source coding has been studied extensively over the past decades. Its natural multi-channel generalization is however seldom investigated. While the special case with multiple symmetric-alphabet channels was studied a decade ago, codes in such setting have no advantage over single-channel codes in data compression, making them worthless in most applications. With essentially no development since the last decade, in this paper, we break the stalemate by showing that it is possible to beat single-channel source codes in terms of compression assuming asymmetric-alphabet channels. We present the multi-channel analogs of several classical results in single-channel source coding, e.g., a multi-channel Huffman code is an optimal tree-decodable code. We also show evidences that finding an efficient construction of multi-channel Huffman codes may be hard. Nevertheless, we propose a construction whose redundancy is guaranteed to be no larger than that of an optimal single-channel source code."
+},
 "yin19_packing":{
 	"title":"Decision Procedure for the Existence of Two-Channel Prefix-Free Codes",
 	"author":"<b>H. H. F. Yin</b>, K. H. Ng, Y. T. Shing, R. W. F. Lai, and X. Wang",

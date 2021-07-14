@@ -1,4 +1,33 @@
 {
+"wang21_inferred":{
+	"title":"Small-Sample Inferred Adaptive Recoding for Batched Network Coding",
+	"author":"J. Wang, Z. Jia, <b>H. H. F. Yin</b>, and S. Yang",
+	"fullauthor":"Jie Wang, Zhiyuan Jia, <b>Hoover H. F. Yin</b>, Shenghao Yang",
+	"booktitle":"2021 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Melbourne, Victoria, Australia",
+	"date":"12-20 Jul. 2021",
+	"pages":"1427-1432",
+	"abstract":"Batched network coding is a low-complexity network coding solution to feedbackless multi-hop wireless packet network transmission with packet loss. The data to be transmitted is encoded into batches where each of which consists of a few coded packets. Unlike the traditional forwarding strategy, the intermediate network nodes have to perform recoding, which generates recoded packets by network coding operations restricted within the same batch. Adaptive recoding is a technique to adapt the fluctuation of packet loss by optimizing the number of recoded packets per batch to enhance the throughput. The input rank distribution, which is a piece of information regarding the batches arriving at the node, is required to apply adaptive recoding. However, this distribution is not known in advance in practice as the incoming link’s channel condition may change from time to time. On the other hand, to fully utilize the potential of adaptive recoding, we need to have a good estimation of this distribution. In other words, we need to guess this distribution from a few samples so that we can apply adaptive recoding as soon as possible. In this paper, we propose a distributionally robust optimization for adaptive recoding with a small-sample inferred prediction of the input rank distribution. We develop an algorithm to efficiently solve this optimization with the support of theoretical guarantees that our optimization’s performance would constitute as a confidence lower bound of the optimal throughput with high probability."
+},
+"yin21_loss":{
+	"title":"Impact of Packet Loss Rate Estimation on Blockwise Adaptive Recoding for Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b> and K. H. Ng",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng",
+	"booktitle":"2021 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Melbourne, Victoria, Australia",
+	"date":"12-20 Jul. 2021",
+	"pages":"1415-1420",
+	"abstract":"Batched network coding is a solution to reliable communications in multi-hop networks with packet loss. Adaptive recoding is a technique to enhance the throughput of batched network coding. Two pieces of information is needed to apply adaptive recoding: the distribution of the information remained in the received batches and the channel condition of the outgoing link. A simple way to obtain the former information is to make a short observation by grouping a few batches into a block. This way to apply adaptive recoding is called blockwise adaptive recoding (BAR), which can achieve a nice throughput even when the block size is small. Previous literature assumes that the latter information is known in advance and would not be changed over time. However in practice, these assumptions do not hold in general. In this paper, we investigate the impact of inaccurate channel condition on BAR and show by numerical evaluations that the throughput is very close to the one with accurate channel condition. To adapt the varying channel condition, we also propose a feedback scheme for BAR and a method to reduce the computational time for BAR."
+},
+"yin21_intrablock":{
+	"title":"Intrablock Interleaving for Batched Network Coding with Blockwise Adaptive Recoding",
+	"author":"<b>H. H. F. Yin</b>, K. H. Ng, A. Z. Zhong, R. W. Yeung, and S. Yang",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Allen Z. Zhong, Raymond W. Yeung, Shenghao Yang",
+	"booktitle":"2021 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Melbourne, Victoria, Australia",
+	"date":"12-20 Jul. 2021",
+	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in feedbackless multi-hop packet networks with packet loss. BNC encodes the source data into batches of packets. As a network coding scheme, the intermediate nodes perform recoding on the received packets instead of just forwarding them. Blockwise adaptive recoding (BAR) is a recoding strategy which can enhance the throughput and adapt real-time changes in the incoming channel condition. In wireless applications, in order to combat burst packet loss, interleavers can be applied for BNC in a hop-by-hop manner. In particular, a batch-stream interleaver that permutes packets across blocks can be applied with BAR to further boost the throughput. However, the previously proposed minimal communication protocol for BNC only supports permutation of packets within a block, called intrablock interleaving, and so it is not compatible with the batch-stream interleaver. In this paper, we design an intrablock interleaver for BAR that is backward compatible with the aforementioned minimal protocol, so that the throughput can be enhanced without upgrading all the existing devices."
+},
 "yin20_buffer":{
 	"title":"On the Memory Requirements of Block Interleaver for Batched Network Codes",
 	"author":"<b>H. H. F. Yin</b>, K. H. Ng, X. Wang, Q. Cao, and L. K. L. Ng",
@@ -8,6 +37,7 @@
 	"date":"21-26 Jun. 2020",
 	"pages":"1658-1663",
 	"url":"https://ieeexplore.ieee.org/document/9174517",
+	"doi":"10.1109/ISIT44484.2020.9174517",
 	"abstract":"Batched network coding is a practical branch of random linear network coding which encodes the input file into small batches of coded packets. Although burst erasures within the batches can reduce the advantage of network coding, it can be alleviated by applying a block interleaver which spreads the burst across multiple batches. On the other hand, the intermediate network nodes are required to perform recoding on the batches unlike the traditional forwarding strategy. The recoding of a batch can be started once all the packets in that batch which are not dropped by the channel are received. This means that the intermediate network nodes have to deinterleave the batches for recoding and reinterleave the batches again for transmission, which gives us a choice to use different interleaver depths at different network nodes. In this paper, we study the memory requirements of the schemes for transmitting batches which apply different interleaver depths. We investigate the periodic structure of buffer sizes and the connection between buffer sizes and the total delay induced by the interleaver. More importantly, we show that there exists a scheme which can achieve the lowest memory requirement and minimum total delay simultaneously."
 },
 
