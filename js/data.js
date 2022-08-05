@@ -13,7 +13,7 @@ $.getJSON("js/forthcoming.json?nocache="+(new Date()).getTime(), function(json) 
 	for(cite in json){
 		empty = false;
 		var item = json[cite];
-		code += '<li class="list-group-item">'+item.author+', "';
+		code += '<li class="list-group-item border-0">'+item.author+', "';
 		code += item.title;
 		code += '," to appear in <i>'+item.target+'</i>';
 		if(item.address != undefined)
@@ -109,7 +109,7 @@ $.getJSON("js/preprint.json?nocache="+(new Date()).getTime(), function(json) {
 	for(cite in json){
 		var item = json[cite];
 		item.field_count = (item.field != undefined) ? item.field.split(";").length : 0;
-		code += '<li id="'+cite+'" class="list-group-item">'+item.author+', "';
+		code += '<li id="'+cite+'" class="list-group-item border-0">'+item.author+', "';
 		if(item.url != undefined)
 			code += '<a href="'+item.url+'">';
 		code += item.title;
@@ -140,7 +140,7 @@ $.getJSON("js/thesis.json?nocache="+(new Date()).getTime(), function(json) {
 	var code = '<ul class="list-group" id="list">';
 	for(cite in json){
 		var item = json[cite];
-		code += '<li class="list-group-item">'+item.author+', "';
+		code += '<li class="list-group-item border-0">'+item.author+', "';
 		if(item.url != undefined)
 			code += '<a href="'+item.url+'">';
 		code += item.title;
@@ -158,7 +158,7 @@ $.getJSON("js/patent.json?nocache="+(new Date()).getTime(), function(json) {
 	var code = '<ul class="list-group" id="list">';
 	for(cite in json){
 		var item = json[cite];
-		code += '<li class="list-group-item">'+item.author+', "';
+		code += '<li class="list-group-item border-0">'+item.author+', "';
 		if(item.url != undefined)
 			code += '<a href="'+item.url+'">';
 		code += item.title;
