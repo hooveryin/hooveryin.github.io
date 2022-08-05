@@ -1,0 +1,16 @@
+{
+"yin19_thesis":{
+	"title":"Recoding Optimizations in Batched Sparse Codes",
+	"author":"<b>H. F. H. Yin</b>",
+	"fullauthor":"<b>Ho Fai Hoover Yin</b>",
+	"type":"Ph.D. dissertation",
+	"department":"Department of Information Engineering",
+	"school":"The Chinese University of Hong Kong",
+	"address":"Hong Kong",
+	"date":"Jul. 2019",
+	"url":"https://search.proquest.com/openview/ce109bdc20f6033fc54fa15c45300ab3/",
+	"abstract":"Batched sparse code (BATS code) is a class of batched network codes which has close-tooptimal achievable rates and low computational and storage costs. A BATS code consists of an outer and an inner codes. The outer code is a matrix generalization of fountain code, so it inherits the rateless property. The inner code applies linear network coding to the packets belonging to the same batch. This procedure is also known as recoding.<br>The design of the inner code has impact on the expected rank of the batch transfer matrices that model the end-to-end network operations on the batches, which gives an upper bound on the achievable rate the outer code can achieve. Although it is asymptotically optimal to generate and transmit the same number of recoded packets for all batches when the batch size tends to infinity, significant recoding gain can be achieved by using different numbers of recoded packets for different batches based on the number of received packets and packet loss information. In other words, optimizing the recoding operations is necessary to obtain a higher throughput.<br>This thesis presents various recoding optimizations in BATS codes. The choice of the interleaver depth which can minimize the delay is investigated. On the other hand, a distributed optimization framework is formulated to optimize the number of recoded packets for different batches. Based on this framework, further optimizations regarding packet efficiency on wireless relay networks are also covered.",
+	"abstractChi":"分批稀疏編碼是一種能近乎達到最優可達信息率以及低運算低儲存成本的分批網路編碼。分批稀疏編碼由外碼和內碼組成。外碼是噴泉碼的一種矩陣推廣，因此繼承了其無位元速率的特性。內碼則是對同一批次的封包進行線性網絡編碼。該操作亦稱為重新編碼。<br>批次傳遞矩陣可以對端至端網路操作進行建模，而內碼的設計會影響批次傳遞矩陣的期望秩。該期望秩是外碼的可達信息率的上限。當批次的基數趨向無限大時，每個批次都生成及傳輸相同數量的重新編碼封包是漸進最優的方法。然而當每個批次的基數有限時，根據每個批次所收到的封包數量及丟包資訊來決定每個批次應該生成及傳輸多少個重新編碼封包能得到更大的重新編碼優勢。亦即是說，如要推高傳輸量，就必須對重新編碼的操作進行優化。<br>本論文針對分批稀疏編碼提出了幾種優化重新編碼的方法，當中包括：研究如何優化交錯器的深度從而達到最少延遲；對優化重新編碼提出了一個分散式優化框架；以及基於這個框架優化無線中繼網路的封包效率。"
+}
+}
+
