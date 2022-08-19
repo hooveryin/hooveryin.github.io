@@ -1,5 +1,5 @@
 {
-"yin22_alien":{
+"yin22_alien_preprints":{
 	"title":"Two-State Alien Tiles: A Coding-Theoretical Perspective",
 	"author":"<b>H. H. F. Yin</b>, K. H. Ng, S. K. Ma, H. W. H. Wong, and H. W. L. Mak",
 	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Shi Kin Ma, Harry W. H. Wong, Hugo Wai Leung Mak",
@@ -9,7 +9,7 @@
 	"abstract":"The switching game Lights Out and its variants were studied extensively as recreational mathematics problems. The game board of the ordinary Lights Out is a rectangular grid of lights, where each light is either on or off. By clicking a light, the clicked light and its adjacent rectilinear neighbors are toggled. Given an arbitrary initial configuration of lights, the final mission is to “solve” this game by switching off all the lights. Most studies on Lights Out and its variants focused on the solvability of given games or the number of solvable games, but when the game is viewed in a coding-theoretical perspective, more interesting questions with special meanings in coding theory will naturally pop up, such as finding the minimal number of lit lights among all solvable games except the solved game, or finding the minimal number of lit lights that the player can achieve from a given unsolvable game, etc. However, these problems are usually hard to be solved in general in terms of algorithmic complexity. This study considers a natural extension of the Lights Out game, which enlarges the toggle pattern in a way that all the lights in the same row and those in the same column of the clicked light are toggled. This variant of Lights Out is a two-state version of a switching game called Alien Tiles. In this paper, we investigate the properties of the two-state Alien Tiles, and discuss several coding-theoretical problems about this game. Then, we apply this game as an error correction code and investigate its optimality. We also give a brief overview on algorithmic complexity and coding theory for readers who are not familiar with these topics. The purpose of this paper is to propose ways of playing switching games in a think-outside-the-box manner, which benefit the recreational mathematics community.",
 	"field":"misc"
 },
-"yin22_prefix":{
+"yin22_prefix_arxiv":{
 	"title":"Multichannel Optimal Tree-Decodable Codes are Not Always Optimal Prefix Codes",
 	"author":"<b>H. H. F. Yin</b>, H. W. H. Wong, M. Tahernia, and R. W. F. Lai",
 	"fullauthor":"<b>Hoover H. F. Yin</b>, Harry W. H. Wong, Mehrdad Tahernia, and Russell W. F. Lai",

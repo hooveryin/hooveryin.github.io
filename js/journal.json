@@ -1,4 +1,18 @@
 {
+"yin22_alien":{
+	"title":"Two-State Alien Tiles: A Coding-Theoretical Perspective",
+	"author":"<b>H. H. F. Yin</b>, K. H. Ng, S. K. Ma, H. W. H. Wong, H. W. L. Mak",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ka Hei Ng, Shi Kin Ma, Harry W. H. Wong, Hugo Wai Leung Mak",
+	"journal":"Mathematics",
+	"volumn":"10",
+	"number":"16",
+	"paper":"2994",
+	"date":"Aug. 2022",
+	"url":"https://www.mdpi.com/2227-7390/10/16/2994",
+	"doi":"10.3390/math10162994",
+	"abstract":"Most studies on the switching game Lights Out and its variants focus on the solvability of given games or the number of solvable games, but when the game is viewed in a coding-theoretical perspective, more interesting questions with special symbolizations in coding theory will naturally pop up, such as finding the minimal number of lit lights among all solvable games apart from the solved game, or finding the minimal number of lit lights that the player can achieve from a given unsolvable game, etc. However, these problems are usually hard to solve in general from the perspective of algorithmic complexity. This study considers a Lights Out variant called two-state Alien Tiles, which toggles all the lights in the same row and those in the same column of the clicked light. We investigate its properties, discuss several coding-theoretical problems about this game, and explore this game as an error-correcting code and investigate its optimality. The purpose of this paper is to propose ways of playing switching games in a think-outside-the-box manner, which benefits the recreational mathematics community.",
+	"field":"misc"
+},
 "egger22_ring":{
 	"title":"On Defeating Graph Analysis of Anonymous Transactions",
 	"author":"C. Egger, R. W. F. Lai, V. Ronge, I. K. Y. Woo, and <b>H. H. F. Yin</b>",
