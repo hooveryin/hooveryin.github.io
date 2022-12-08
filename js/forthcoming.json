@@ -1,3 +1,33 @@
 {
+"yang22_ojvt":{
+	"title":"On Scalable Network Communication for Infrastructure-Vehicle Collaborative Autonomous Driving",
+	"author":"S. Yang, <b>H. H. F. Yin</b>, R. W. Yeung, X. Xiong, Y. Huang, L. Ma, M. Li, and C. Tang",
+	"fullauthor":"Shenghao Yang, <b>Hoover H. F. Yin</b>, Raymond W. Yeung, Xi Xiong, Yanlong Huang, Lingfei Ma, Mo Li, and Chaoyang Tang",
+	"target":"IEEE Open Journal of Vehicular Technology (OJVT)"
+},
+"yin22_parallel":{
+	"title":"On the Applications and Parallelization of Multichannel Source Coding",
+	"author":"<b>H. H. F. Yin</b>, I. K. Y. Woo, and R. W. F. Lai",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ivy K. Y. Woo, and Russell W. F. Lai",
+	"target":"2022 IEEE Region 10 Conference (TENCON)"
+},
+"yin22_recoder":{
+	"title":"On the Design of Timeout-Based Recoders for Batched Network Codes in the MU-MIMO Regime",
+	"author":"<b>H. H. F. Yin</b> and M. Tahernia",
+	"fullauthor":"<b>Hoover H. F. Yin</b> and Mehrdad Tahernia",
+	"target":"2022 IEEE Region 10 Conference (TENCON)"
+},
+"yin22_wifi":{
+	"title":"Back to Basics: Non-Mesh Multi-Hop Wi-Fi Backhaul on Smart Lamppost Network",
+	"author":"<b>H. H. F. Yin</b>, K. H. Lee, O. M. H. Chau, R. K. Chan, and C. K. Y. Tse",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Kin Hong Lee, Oscar M. H. Chau, Raymond K. Chan, and Connie K. Y. Tse",
+	"target":"2022 IEEE Region 10 Conference (TENCON)"
+},
+"yin22_multiphase":{
+	"title":"Multi-Phase Recoding for Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b> and M. Tahernia",
+	"fullauthor":"<b>Hoover H. F. Yin</b> and Mehrdad Tahernia",
+	"target":"2022 IEEE Information Theory Workshop (ITW)"
+}
 }
 
