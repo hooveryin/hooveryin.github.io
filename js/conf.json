@@ -1,12 +1,27 @@
 {
+"yin22_multiphase":{
+	"title":"Multi-Phase Recoding for Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b> and M. Tahernia",
+	"fullauthor":"<b>Hoover H. F. Yin</b> and Mehrdad Tahernia",
+	"booktitle":"2022 IEEE Information Theory Workshop (ITW)",
+	"address":"Mumbai, India",
+	"date":"1-9 Nov. 2022",
+	"url":"https://ieeexplore.ieee.org/document/9965849",
+	"doi":"10.1109/ITW54588.2022.9965849",
+	"pages":"25-30",
+	"abstract":"Batched network coding is a practical realization of random linear network coding that resolves the issue of high computational and storage costs at the intermediate nodes by restricting recoding to the packets belonging to the same batch. Although there are various recoding approaches in the literature, they consider a one-shot approach which decides the number of recoded packets to be generated and transmits them without considering the reception status of these packets at the next node. In this paper, we divide the recoding process into multiple phases. In each phase, recoding depends on the amount of innovative information left at the current node after the transmission of the previous phases, where this knowledge can be obtained via feedback mechanism. This way, we can reduce the uncertainty during recoding and utilize the network more efficiently. We formulate the optimization problems for multi-phase adaptive recoding and show by simulation that two-phase recoding can already enhance the throughput significantly.",
+	"field":"nc"
+},
 "yin22_prefix":{
 	"title":"Multichannel Optimal Tree-Decodable Codes are Not Always Optimal Prefix Codes",
 	"author":"<b>H. H. F. Yin</b>, H. W. H. Wong, M. Tahernia, and R. W. F. Lai",
 	"fullauthor":"<b>Hoover H. F. Yin</b>, Harry W. H. Wong, Mehrdad Tahernia, and Russell W. F. Lai",
 	"booktitle":"2022 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Espoo, Finland",
+	"url":"https://ieeexplore.ieee.org/document/9834710",
+	"doi":"10.1109/ISIT50566.2022.9834710",
 	"date":"26 Jun.-1 Jul. 2022",
-	"pages":"43-48",
+	"pages":"1-6",
 	"abstract":"The theory of multichannel prefix codes aims to generalize the classical theory of prefix codes. Although single- and two-channel prefix codes always have decoding trees, the same cannot be said when there are more than two channels. One question is of theoretical interest: Do there exist optimal tree-decodable codes that are not optimal prefix codes? Existing literature, which focused on generalizing single-channel results, covered little about non-tree-decodable prefix codes since they have no single-channel counterparts. In this work, we study the fundamental reason behind the non-tree-decodability of prefix codes. By investigating the simplest non-tree-decodable structure, we obtain a general sufficient condition on the channel alphabets for the existence of optimal tree-decodable codes that are not optimal prefix codes.",
 	"field":"it"
 },
@@ -16,8 +31,10 @@
 	"fullauthor":"<b>Hoover H. F. Yin</b>, Harry W. H. Wong, Mehrdad Tahernia, and Jiaxin Qing",
 	"booktitle":"2022 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Espoo, Finland",
+	"url":"https://ieeexplore.ieee.org/document/9834338",
+	"doi":"10.1109/ISIT50566.2022.9834338",
 	"date":"26 Jun.-1 Jul. 2022",
-	"pages":"1638-1643",
+	"pages":"1584-1589",
 	"abstract":"Batched network coding (BNC) is a low-complexity variant of random linear network coding (RLNC) that encodes the file to be sent into batches, each consisting of a few coded packets. Although many works are focusing on the overhead reduction of RLNC, the overhead reduction for BNC is rarely studied. Different types of overheads in BNC interact and can potentially increase the overall overhead significantly. In this paper, we formulate a minimization problem for BNC on the number of symbols we need to send at the source node by tuning the number of packets divided from the file, which has the same meaning as tuning the packet size. It is hard to optimize the discrete zigzag-like objective efficiently. However, in practical scenarios, the encoder has to optimize the problem in real-time for different file size and redundancy requirements. We propose an efficient heuristic for this purpose and show its accuracy by numerical evaluations.",
 	"field":"nc"
 },
@@ -27,8 +44,10 @@
 	"fullauthor":"Jiaxin Qing, <b>Hoover H. F. Yin</b>, and Raymond W. Yeung",
 	"booktitle":"2022 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Espoo, Finland",
+	"url":"https://ieeexplore.ieee.org/document/9834581",
+	"doi":"10.1109/ISIT50566.2022.9834581",
 	"date":"26 Jun.-1 Jul. 2022",
-	"pages":"13-18",
+	"pages":"37-42",
 	"abstract":"BATched Sparse codes (BATS codes) are a class of random linear network code designed for wireless multi-hop networks with packet loss. The encoder of a BATS code generates batches where each batch contains a number of coded packets. As the outer code is a matrix generalization of the fountain code, the ordinary batch construction scheme relies on a degree distribution with a random packet sampling scheme. In practical applications, we want a batch construction scheme which achieves a high decoding rate at the destination. A natural question to ask is: Is there any batch construction scheme which achieves a higher decoding rate than the ordinary one? We give an affirmative answer to this question by formulating the batch construction scheme as a multi-armed bandit problem and solving it with a deep reinforcement learning method with the degree distribution as a guiding prior. The BATS code generated by our proposed method achieves a higher decoding rate with improved coding efficiency compared with the ordinary batch construction scheme.",
 	"field":"nc"
 },
