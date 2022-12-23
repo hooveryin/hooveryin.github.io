@@ -1,4 +1,40 @@
 {
+"yin22_parallel":{
+	"title":"On the Applications and Parallelization of Multichannel Source Coding",
+	"author":"<b>H. H. F. Yin</b>, I. K. Y. Woo, and R. W. F. Lai",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ivy K. Y. Woo, and Russell W. F. Lai",
+	"booktitle":"2022 IEEE Region 10 Conference (TENCON)",
+	"address":"Hong Kong",
+	"date":"1-4 Nov. 2022",
+	"url":"https://ieeexplore.ieee.org/document/9977596",
+	"doi":"10.1109/TENCON55691.2022.9977596",
+	"abstract":"Each codeword in Multichannel Source Coding (MSC) naturally uses multiple channels simultaneously. Previous works only focused on the theoretical aspects of MSC. In this paper, we discuss the applications and parallelization of MSC.",
+	"field":"it"
+},
+"yin22_recoder":{
+	"title":"On the Design of Timeout-Based Recoders for Batched Network Codes in the MU-MIMO Regime",
+	"author":"<b>H. H. F. Yin</b> and M. Tahernia",
+	"fullauthor":"<b>Hoover H. F. Yin</b> and Mehrdad Tahernia",
+	"booktitle":"2022 IEEE Region 10 Conference (TENCON)",
+	"address":"Hong Kong",
+	"date":"1-4 Nov. 2022",
+	"url":"https://ieeexplore.ieee.org/document/9977828",
+	"doi":"10.1109/TENCON55691.2022.9977828",
+	"abstract":"Batched network coding is a branch of network coding for multi-hop communications via lossy channels. The design of the batch management unit in timeout-based recoders in the MU-MIMO regime is presented.",
+	"field":"nc"
+},
+"yin22_wifi":{
+	"title":"Back to Basics: Non-Mesh Multi-Hop Wi-Fi Backhaul on Smart Lamppost Network",
+	"author":"<b>H. H. F. Yin</b>, K. H. Lee, O. M. H. Chau, R. K. Chan, and C. K. Y. Tse",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Kin Hong Lee, Oscar M. H. Chau, Raymond K. Chan, and Connie K. Y. Tse",
+	"booktitle":"2022 IEEE Region 10 Conference (TENCON)",
+	"address":"Hong Kong",
+	"date":"1-4 Nov. 2022",
+	"url":"https://ieeexplore.ieee.org/document/9977906",
+	"doi":"10.1109/TENCON55691.2022.9977906",
+	"abstract":"Smart lamppost network is naturally formed by long segments of line networks where mesh is an overkill. We study the rapid deployment of cost-efficient non-mesh Wi-Fi backhaul with failover/failback mechanism.",
+	"field":"misc"
+},
 "yin22_multiphase":{
 	"title":"Multi-Phase Recoding for Batched Network Coding",
 	"author":"<b>H. H. F. Yin</b> and M. Tahernia",
