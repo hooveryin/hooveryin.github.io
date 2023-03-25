@@ -1,4 +1,30 @@
 {
+"mak23_vae":{
+	"title":"Application of Variational AutoEncoder (VAE) Model and Image Processing Approaches in Game Design",
+	"author":"H. W. L. Mak, R. Han, and <b>H. H. F. Yin</b>",
+	"fullauthor":"Hugo Wai Leung Mak, Runze Han, and <b>Hoover H. F. Yin</b>",
+	"journal":"Sensors",
+	"volume":"23",
+	"numbers":"7",
+	"paper":"3457",
+	"date":"Mar. 2023",
+	"url":"https://www.mdpi.com/1424-8220/23/7/3457",
+	"doi":"10.3390/s23073457",
+	"abstract":"In recent decades, the Variational AutoEncoder (VAE) model has shown good potential and capability in image generation and dimensionality reduction. The combination of VAE and various machine learning frameworks has also worked effectively in different daily life applications, however its possible use and effectiveness in modern game design has seldom been explored nor assessed. The use of its feature extractor for data clustering has also been minimally discussed in the literature neither. This study first attempts to explore different mathematical properties of the VAE model, in particular, the theoretical framework of the encoding and decoding processes, the possible achievable lower bound and loss functions of different applications; then applies the established VAE model to generate new game levels based on two well-known game settings; and to validate the effectiveness of its data clustering mechanism with the aid of the Modified National Institute of Standards and Technology (MNIST) database. Respective statistical metrics and assessments are also utilized to evaluate the performance of the proposed VAE model in aforementioned case studies. Based on the statistical and graphical results, several potential deficiencies, for example, difficulties in handling high-dimensional and vast datasets, as well as insufficient clarity of outputs are discussed; then measures of future enhancement, such as tokenization and the combination of VAE and GAN models, are also outlined. Hopefully, this can ultimately maximize the strengths and advantages of VAE for future game design tasks and relevant industrial missions.",
+	"field":"misc"
+},
+"yang22_ojvt":{
+	"title":"On Scalable Network Communication for Infrastructure-Vehicle Collaborative Autonomous Driving",
+	"author":"S. Yang, <b>H. H. F. Yin</b>, R. W. Yeung, X. Xiong, Y. Huang, L. Ma, M. Li, and C. Tang",
+	"fullauthor":"Shenghao Yang, <b>Hoover H. F. Yin</b>, Raymond W. Yeung, Xi Xiong, Yanlong Huang, Lingfei Ma, Mo Li, and Chaoyang Tang",
+	"journal":"IEEE Open Journal of Vehicular Technology (OJVT)",
+	"volume":"4",
+	"date":"2023",
+	"url":"https://ieeexplore.ieee.org/abstract/document/9969877",
+	"doi":"10.1109/OJVT.2022.3226606",
+	"abstract":"Network communication is crucial for Infrastructure-Vehicle Cooperative Autonomous Driving (IVCAD), which can help to improve both driving safety and efficiency. Existing IVCAD systems either use RoadSide Units (RSUs) deployed sparsely in critical locations to extend the on-board sensing, or use RSUs deployed densely in a limited area to provide both sensing and decision-making for vehicles. For both scenarios, the numbers of RSUs and vehicles are small, and the network communication solutions are based on the existing wireline and cellular network infrastructures and their extensions. However, it remains unknown whether these existing network communication solutions are scalable when the IVCAD system is deployed city-widely with hundreds of thousands of RSUs and millions of vehicles. In this paper, we analyze the network communication requirements for different types of IVCAD systems, and show that when the numbers of RSUs and vehicles in the system are large, using the existing solutions to support IVCAD can incur very high extra network communication facility cost. We further discuss how to use wireless mesh networks formed by RSUs themselves to solve the network communication problem without any deployment of extra network communication facilities. To enable the RSU network, we provide a network communication framework based on network coding and highlight some research directions.",
+	"field":"misc"
+},
 "yin22_alien":{
 	"title":"Two-State Alien Tiles: A Coding-Theoretical Perspective",
 	"author":"<b>H. H. F. Yin</b>, K. H. Ng, S. K. Ma, H. W. H. Wong, and H. W. L. Mak",
