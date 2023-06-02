@@ -2,7 +2,7 @@
 "mak23_vae_preprints":{
 	"title":"Application of Variational AutoEncoder (VAE) Model and Image Processing Approaches in Game Design",
 	"author":"H. W. L. Mak, R. Han, and <b>H. H. F. Yin</b>",
-	"fullauthor":"Hugo Wai Leung Mak, Runze Han, and <b>Hoover H. F. Yin</b>",
+	"fullauthor":"Hugo Wai Leung Mak, Runze Han, <b>Hoover H. F. Yin</b>",
 	"journal":"Preprints:202303.0023",
 	"date":"Mar. 2023",
 	"url":"https://www.preprints.org/manuscript/202303.0023",
@@ -12,7 +12,7 @@
 "yin23_sd_preprints":{
 	"title":"Discrete Analogue of Fishburn's Fractional-Order Stochastic Dominance",
 	"author":"<b>H. H. F. Yin</b>, X. Wang, H. W. L. Mak, C. S. Au Yong, and I. Y. Y. Chan",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Xishi Wang, Hugo Wai Leung Mak, Chun Sang Au Yong, and Ian Y. Y. Chan",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Xishi Wang, Hugo Wai Leung Mak, Chun Sang Au Yong, Ian Y. Y. Chan",
 	"journal":"Preprints:202302.0522",
 	"date":"Feb. 2023",
 	"url":"https://www.preprints.org/manuscript/202302.0522",
@@ -32,7 +32,7 @@
 "yin22_prefix_arxiv":{
 	"title":"Multichannel Optimal Tree-Decodable Codes are Not Always Optimal Prefix Codes",
 	"author":"<b>H. H. F. Yin</b>, H. W. H. Wong, M. Tahernia, and R. W. F. Lai",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Harry W. H. Wong, Mehrdad Tahernia, and Russell W. F. Lai",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Harry W. H. Wong, Mehrdad Tahernia, Russell W. F. Lai",
 	"journal":"arXiv preprint arXiv:2205.05122",
 	"date":"May 2022",
 	"url":"https://arxiv.org/abs/2205.05122",

@@ -2,7 +2,7 @@
 "mak23_vae":{
 	"title":"Application of Variational AutoEncoder (VAE) Model and Image Processing Approaches in Game Design",
 	"author":"H. W. L. Mak, R. Han, and <b>H. H. F. Yin</b>",
-	"fullauthor":"Hugo Wai Leung Mak, Runze Han, and <b>Hoover H. F. Yin</b>",
+	"fullauthor":"Hugo Wai Leung Mak, Runze Han, <b>Hoover H. F. Yin</b>",
 	"journal":"Sensors",
 	"volume":"23",
 	"numbers":"7",
@@ -16,7 +16,7 @@
 "yang22_ojvt":{
 	"title":"On Scalable Network Communication for Infrastructure-Vehicle Collaborative Autonomous Driving",
 	"author":"S. Yang, <b>H. H. F. Yin</b>, R. W. Yeung, X. Xiong, Y. Huang, L. Ma, M. Li, and C. Tang",
-	"fullauthor":"Shenghao Yang, <b>Hoover H. F. Yin</b>, Raymond W. Yeung, Xi Xiong, Yanlong Huang, Lingfei Ma, Mo Li, and Chaoyang Tang",
+	"fullauthor":"Shenghao Yang, <b>Hoover H. F. Yin</b>, Raymond W. Yeung, Xi Xiong, Yanlong Huang, Lingfei Ma, Mo Li, Chaoyang Tang",
 	"journal":"IEEE Open Journal of Vehicular Technology (OJVT)",
 	"volume":"4",
 	"pages":"310-324",

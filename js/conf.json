@@ -1,19 +1,30 @@
 {
+"yin23_mcd":{
+	"title":"Multichannel Dual Codes: The Choice of Channels Carries Information",
+	"author":"<b>H. H. F. Yin</b> and X. Wang",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Xishi Wang",
+	"booktitle":"2023 IEEE Information Theory Workshop (ITW)",
+	"address":"Saint-Malo, France",
+	"date":"23-28 Apr. 2023",
+	"abstract":"When there are multiple channels between a pair of source and destination, the way to use the channels carries some extra information. In this paper, we study a coding scheme that encodes the message into the choices of channels. Unlike the traditional sense that the message bits are ordered in a temporal manner, the ordering information is lost after the transformation. To resolve this issue, the data to be sent via the channels is the ordering of the message blocks. We study the properties on the number of channel-uses and the limitation of the code. We also investigate the optimal message length that maximize the efficiency of channel-uses.",
+	"field":"it"
+},
 "wong23_ecdsa":{
 	"title":"Real Threshold ECDSA",
 	"author":"H. W. H. Wong, J. P. K. Ma, <b>H. H. F. Yin</b>, and S. S. M. Chow",
-	"fullauthor":"Harry W. H. Wong, Jack P. K. Ma, <b>Hoover H. F. Yin</b>, and Sherman S. M. Chow",
+	"fullauthor":"Harry W. H. Wong, Jack P. K. Ma, <b>Hoover H. F. Yin</b>, Sherman S. M. Chow",
 	"booktitle":"Network and Distributed System Security (NDSS) Symposium 2023",
 	"address":"San Diego, CA, USA",
 	"date":"27 Feb.-3 Mar. 2023",
 	"url":"https://www.ndss-symposium.org/ndss-paper/real-threshold-ecdsa/",
+	"doi":"10.14722/ndss.2023.24817",
 	"abstract":"Threshold ECDSA recently regained popularity due to decentralized applications such as DNSSEC and cryptocurrency asset custody. Latest (communication-optimizing) schemes often assume all n or at least n' &ge; t participating users remain honest throughout the pre-signing phase, essentially degenerating to n'-out-of-n' multiparty signing instead of t-out-of-n threshold signing. When anyone misbehaves, all signers must restart from scratch, rendering prior computation and communication in vain. This hampers the adoption of threshold ECDSA in time-critical situations and confines its use to a small signing committee.<p>To mitigate such denial-of-service vulnerabilities prevalent in state-of-the-art, we propose a robust threshold ECDSA scheme that achieves the t-out-of-n threshold flexibility &quot;for real&quot; throughout the whole pre-signing and signing phases without assuming an honest majority. Our scheme is desirable when computational resources are scarce and in a decentralized setting where faults are easier to be induced. Our design features 4-round pre-signing, O(n) cheating identification, and self-healing machinery over distributive shares. Prior arts mandate abort after an O(n^2)-cost identification, albeit with 3-round pre-signing (Canetti et al., CCS '20), or O(n) using 6 rounds (Castagnos et al., TCS '23). Empirically, our scheme saves up to ~30% of the communication cost, depending on at which stage the fault occurred.",
 	"field":"misc"
 },
 "yin22_parallel":{
 	"title":"On the Applications and Parallelization of Multichannel Source Coding",
 	"author":"<b>H. H. F. Yin</b>, I. K. Y. Woo, and R. W. F. Lai",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Ivy K. Y. Woo, and Russell W. F. Lai",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Ivy K. Y. Woo, Russell W. F. Lai",
 	"booktitle":"2022 IEEE Region 10 Conference (TENCON)",
 	"address":"Hong Kong",
 	"date":"1-4 Nov. 2022",
@@ -25,7 +36,7 @@
 "yin22_recoder":{
 	"title":"On the Design of Timeout-Based Recoders for Batched Network Codes in the MU-MIMO Regime",
 	"author":"<b>H. H. F. Yin</b> and M. Tahernia",
-	"fullauthor":"<b>Hoover H. F. Yin</b> and Mehrdad Tahernia",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Mehrdad Tahernia",
 	"booktitle":"2022 IEEE Region 10 Conference (TENCON)",
 	"address":"Hong Kong",
 	"date":"1-4 Nov. 2022",
@@ -37,7 +48,7 @@
 "yin22_wifi":{
 	"title":"Back to Basics: Non-Mesh Multi-Hop Wi-Fi Backhaul on Smart Lamppost Network",
 	"author":"<b>H. H. F. Yin</b>, K. H. Lee, O. M. H. Chau, R. K. Chan, and C. K. Y. Tse",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Kin Hong Lee, Oscar M. H. Chau, Raymond K. Chan, and Connie K. Y. Tse",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Kin Hong Lee, Oscar M. H. Chau, Raymond K. Chan, Connie K. Y. Tse",
 	"booktitle":"2022 IEEE Region 10 Conference (TENCON)",
 	"address":"Hong Kong",
 	"date":"1-4 Nov. 2022",
@@ -49,7 +60,7 @@
 "yin22_multiphase":{
 	"title":"Multi-Phase Recoding for Batched Network Coding",
 	"author":"<b>H. H. F. Yin</b> and M. Tahernia",
-	"fullauthor":"<b>Hoover H. F. Yin</b> and Mehrdad Tahernia",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Mehrdad Tahernia",
 	"booktitle":"2022 IEEE Information Theory Workshop (ITW)",
 	"address":"Mumbai, India",
 	"date":"1-9 Nov. 2022",
@@ -62,7 +73,7 @@
 "yin22_prefix":{
 	"title":"Multichannel Optimal Tree-Decodable Codes are Not Always Optimal Prefix Codes",
 	"author":"<b>H. H. F. Yin</b>, H. W. H. Wong, M. Tahernia, and R. W. F. Lai",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Harry W. H. Wong, Mehrdad Tahernia, and Russell W. F. Lai",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Harry W. H. Wong, Mehrdad Tahernia, Russell W. F. Lai",
 	"booktitle":"2022 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Espoo, Finland",
 	"url":"https://ieeexplore.ieee.org/document/9834710",
@@ -75,7 +86,7 @@
 "yin22_pkt":{
 	"title":"Packet Size Optimization for Batched Network Coding",
 	"author":"<b>H. H. F. Yin</b>, H. W. H. Wong, M. Tahernia, and J. Qing",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Harry W. H. Wong, Mehrdad Tahernia, and Jiaxin Qing",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Harry W. H. Wong, Mehrdad Tahernia, Jiaxin Qing",
 	"booktitle":"2022 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Espoo, Finland",
 	"url":"https://ieeexplore.ieee.org/document/9834338",
@@ -88,7 +99,7 @@
 "qing22_ml":{
 	"title":"Enhancing the Decoding Rates of BATS Codes by Learning With Guided Information",
 	"author":"J. Qing, <b>H. H. F. Yin</b>, and R. W. Yeung",
-	"fullauthor":"Jiaxin Qing, <b>Hoover H. F. Yin</b>, and Raymond W. Yeung",
+	"fullauthor":"Jiaxin Qing, <b>Hoover H. F. Yin</b>, Raymond W. Yeung",
 	"booktitle":"2022 IEEE International Symposium on Information Theory (ISIT)",
 	"address":"Espoo, Finland",
 	"url":"https://ieeexplore.ieee.org/document/9834581",
