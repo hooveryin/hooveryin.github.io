@@ -1,4 +1,18 @@
 {
+"yin23_sd":{
+	"title":"Discrete Analogue of Fishburn's Fractional-Order Stochastic Dominance",
+	"author":"<b>H. H. F. Yin</b>, X. Wang, H. W. L. Mak, C. S. Au Yong, and I. Y. Y. Chan",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Xishi Wang, Hugo Wai Leung Mak, Chun Sang Au Yong, Ian Y. Y. Chan",
+	"journal":"Axioms",
+	"volume":"12",
+	"numbers":"6",
+	"paper":"564",
+	"date":"Jun. 2023",
+	"url":"https://www.mdpi.com/2075-1680/12/6/564",
+	"doi":"10.3390/axioms12060564",
+	"abstract":"A stochastic dominance (SD) relation can be defined by two different perspectives: One from the view of distributions, and the other one from the view of expected utilities. In the early days, Fishburn investigated SD from the view of distributions, and we refer this perspective as Fishburn’s SD. One of his many results was the development of fractional-order SD for continuous distributions. However, discrete fractional-order SD cannot be directly generalized, because some properties of fractional calculus may not possess a discrete counterpart. In this paper, we develop a discrete analogue of fractional-order SD for discrete utilities from the view of distributions. We generalize the order of SD by Lizama’s fractional delta operator, show the preservation of SD hierarchy, and formulate the utility classes that are congruent with our SD relations. This work brings a message that some results of discrete SD cannot be directly generalized from continuous SD. We characterize the difference between discrete and continuous fractional-order SD, as well as the way to handle it for further applications in mathematics and computer science.",
+	"field":"misc"
+},
 "mak23_vae":{
 	"title":"Application of Variational AutoEncoder (VAE) Model and Image Processing Approaches in Game Design",
 	"author":"H. W. L. Mak, R. Han, and <b>H. H. F. Yin</b>",
