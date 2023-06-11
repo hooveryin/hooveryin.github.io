@@ -7,7 +7,7 @@
 	"date":"Mar. 2023",
 	"url":"https://www.preprints.org/manuscript/202303.0023",
 	"abstract":"In recent decades, the Variational AutoEncoder (VAE) model has shown good potential and capabilities in image generation and dimensionality reduction. The combination of VAE and various machine learning frameworks has also worked effectively in different daily life applications, however its possibility and effectiveness in modern game design has seldom been explored nor assessed. The use of its feature extractor for data clustering was minimally discussed in literature neither. This paper first attempts to explore different mathematical properties of the VAE model, in particular, the theoretical framework of the encoding and decoding processes, the possible achievable lower bound and loss functions of different applications; then applies the established VAE model into generating new game levels within two well-known game settings; as well as validating the effectiveness of its data clustering mechanism with the aid of the Modified National Institute of Standards and Technology (MNIST) database. Respective statistical metrics and assessments were also utilized for evaluating the performance of the proposed VAE model in aforementioned case studies. Based on the statistical and spatial results, several potential drawbacks and future enhancement of the established model were outlined, with the aim of maximizing the strengths and advantages of VAE for future game design tasks and relevant industrial missions.",
-	"field":"misc"
+	"field":"math"
 },
 "yin23_sd_preprints":{
 	"title":"Discrete Analogue of Fishburn's Fractional-Order Stochastic Dominance",
@@ -17,7 +17,7 @@
 	"date":"Feb. 2023",
 	"url":"https://www.preprints.org/manuscript/202302.0522",
 	"abstract":"A stochastic dominance (SD) relation can be defined by two different perspectives: One from the view of distributions, and the other one from the view of expected utilities. In early days, Fishburn investigated SD from the view of distributions and we refer this perspective as Fishburn’s SD. One of his many results was the development of fractional-order SD for continuous distributions. However, discrete fractional-order SD may not be generalized directly since some properties of fractional calculus do not have a discrete counterpart. In this paper, we develop a discrete analogue of fractional-order SD from the view of distributions. We generalize the order of SD by Lizama’s fractional delta operator, show the preservation of SD hierarchy, and formulate the utility classes that are congruent with our SD relations. This work brings a message that some results of discrete SD cannot be generalized directly from continuous SD. We characterize the difference between discrete and continuous fractional-order SD, as well as the way to handle them.",
-	"field":"misc"
+	"field":"math"
 },
 "yin22_alien_preprints":{
 	"title":"Two-State Alien Tiles: A Coding-Theoretical Perspective",
@@ -27,7 +27,7 @@
 	"date":"Jun. 2022",
 	"url":"https://www.preprints.org/manuscript/202206.0331",
 	"abstract":"The switching game Lights Out and its variants were studied extensively as recreational mathematics problems. The game board of the ordinary Lights Out is a rectangular grid of lights, where each light is either on or off. By clicking a light, the clicked light and its adjacent rectilinear neighbors are toggled. Given an arbitrary initial configuration of lights, the final mission is to “solve” this game by switching off all the lights. Most studies on Lights Out and its variants focused on the solvability of given games or the number of solvable games, but when the game is viewed in a coding-theoretical perspective, more interesting questions with special meanings in coding theory will naturally pop up, such as finding the minimal number of lit lights among all solvable games except the solved game, or finding the minimal number of lit lights that the player can achieve from a given unsolvable game, etc. However, these problems are usually hard to be solved in general in terms of algorithmic complexity. This study considers a natural extension of the Lights Out game, which enlarges the toggle pattern in a way that all the lights in the same row and those in the same column of the clicked light are toggled. This variant of Lights Out is a two-state version of a switching game called Alien Tiles. In this paper, we investigate the properties of the two-state Alien Tiles, and discuss several coding-theoretical problems about this game. Then, we apply this game as an error correction code and investigate its optimality. We also give a brief overview on algorithmic complexity and coding theory for readers who are not familiar with these topics. The purpose of this paper is to propose ways of playing switching games in a think-outside-the-box manner, which benefit the recreational mathematics community.",
-	"field":"misc"
+	"field":"math"
 },
 "yin22_prefix_arxiv":{
 	"title":"Multichannel Optimal Tree-Decodable Codes are Not Always Optimal Prefix Codes",
@@ -47,7 +47,7 @@
 	"date":"Feb. 2022",
 	"url":"https://eprint.iacr.org/2022/132",
 	"abstract":"In a ring-signature-based anonymous cryptocurrency, signers of a transaction are hidden among a set of potential signers, called a ring, whose size is much smaller than the number of all users. The ring-membership relations specified by the sets of transactions thus induce bipartite transaction graphs, whose distribution is in turn induced by the ring sampler underlying the cryptocurrency.<p>Since efficient graph analysis could be performed on transaction graphs to potentially deanonymise signers, it is crucial to understand the resistance of (the transaction graphs induced by) a ring sampler against graph analysis. Of particular interest is the class of partitioning ring samplers. Although previous works showed that they provide almost optimal local anonymity, their resistance against global, e.g. graph-based, attacks were unclear.<p>In this work, we analyse transaction graphs induced by partitioning ring samplers. Specifically, we show (partly analytically and partly empirically) that, somewhat surprisingly, by setting the ring size to be at least logarithmic in the number of users, a graph-analysing adversary is no better than the one that performs random guessing in deanonymisation up to constant factor of 2.",
-	"field":"misc"
+	"field":"crypto"
 },
 "yin21_adaptive_arxiv":{
 	"title":"BAR: Blockwise Adaptive Recoding for Batched Network Coding",
@@ -117,7 +117,7 @@
 	"date":"Dec. 2020",
 	"url":"https://eprint.iacr.org/2020/1550",
 	"abstract":"A ring signature scheme allows the signer to sign on behalf of an ad hoc set of users, called a ring. The verifier can be convinced that a ring member signs, but cannot point to the exact signer. Ring signatures have become increasingly important today with their deployment in anonymous cryptocurrencies. Conventionally, it is implicitly assumed that all ring members are equally likely to be the signer. This assumption is generally false in reality, leading to various practical and devastating deanonymizing attacks in Monero, one of the largest anonymous cryptocurrencies. These attacks highlight the unsatisfactory situation that how a ring should be chosen is poorly understood.<p>We propose an analytical model of ring samplers towards a deeper understanding of them through systematic studies. Our model helps to describe how anonymous a ring sampler is with respect to a given signer distribution as an information-theoretic measure. We show that this measure is robust, in the sense that it only varies slightly when the signer distribution varies slightly. We then analyze three natural samplers – uniform, mimicking, and partitioning – under our model with respect to a family of signer distributions modeled after empirical Bitcoin data. We hope that our work paves the way towards researching ring samplers from a theoretical point of view.",
-	"field":"misc"
+	"field":"crypro"
 },
 "yin19_packing_arxiv":{
 	"title":"Decision Procedure for the Existence of Two-Channel Prefix-Free Codes",

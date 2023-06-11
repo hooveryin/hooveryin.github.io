@@ -11,7 +11,7 @@
 	"url":"https://www.mdpi.com/2075-1680/12/6/564",
 	"doi":"10.3390/axioms12060564",
 	"abstract":"A stochastic dominance (SD) relation can be defined by two different perspectives: One from the view of distributions, and the other one from the view of expected utilities. In the early days, Fishburn investigated SD from the view of distributions, and we refer this perspective as Fishburn’s SD. One of his many results was the development of fractional-order SD for continuous distributions. However, discrete fractional-order SD cannot be directly generalized, because some properties of fractional calculus may not possess a discrete counterpart. In this paper, we develop a discrete analogue of fractional-order SD for discrete utilities from the view of distributions. We generalize the order of SD by Lizama’s fractional delta operator, show the preservation of SD hierarchy, and formulate the utility classes that are congruent with our SD relations. This work brings a message that some results of discrete SD cannot be directly generalized from continuous SD. We characterize the difference between discrete and continuous fractional-order SD, as well as the way to handle it for further applications in mathematics and computer science.",
-	"field":"misc"
+	"field":"math"
 },
 "mak23_vae":{
 	"title":"Application of Variational AutoEncoder (VAE) Model and Image Processing Approaches in Game Design",
@@ -25,7 +25,7 @@
 	"url":"https://www.mdpi.com/1424-8220/23/7/3457",
 	"doi":"10.3390/s23073457",
 	"abstract":"In recent decades, the Variational AutoEncoder (VAE) model has shown good potential and capability in image generation and dimensionality reduction. The combination of VAE and various machine learning frameworks has also worked effectively in different daily life applications, however its possible use and effectiveness in modern game design has seldom been explored nor assessed. The use of its feature extractor for data clustering has also been minimally discussed in the literature neither. This study first attempts to explore different mathematical properties of the VAE model, in particular, the theoretical framework of the encoding and decoding processes, the possible achievable lower bound and loss functions of different applications; then applies the established VAE model to generate new game levels based on two well-known game settings; and to validate the effectiveness of its data clustering mechanism with the aid of the Modified National Institute of Standards and Technology (MNIST) database. Respective statistical metrics and assessments are also utilized to evaluate the performance of the proposed VAE model in aforementioned case studies. Based on the statistical and graphical results, several potential deficiencies, for example, difficulties in handling high-dimensional and vast datasets, as well as insufficient clarity of outputs are discussed; then measures of future enhancement, such as tokenization and the combination of VAE and GAN models, are also outlined. Hopefully, this can ultimately maximize the strengths and advantages of VAE for future game design tasks and relevant industrial missions.",
-	"field":"misc"
+	"field":"math"
 },
 "yang22_ojvt":{
 	"title":"On Scalable Network Communication for Infrastructure-Vehicle Collaborative Autonomous Driving",
@@ -38,7 +38,7 @@
 	"url":"https://ieeexplore.ieee.org/abstract/document/9969877",
 	"doi":"10.1109/OJVT.2022.3226606",
 	"abstract":"Network communication is crucial for Infrastructure-Vehicle Cooperative Autonomous Driving (IVCAD), which can help to improve both driving safety and efficiency. Existing IVCAD systems either use RoadSide Units (RSUs) deployed sparsely in critical locations to extend the on-board sensing, or use RSUs deployed densely in a limited area to provide both sensing and decision-making for vehicles. For both scenarios, the numbers of RSUs and vehicles are small, and the network communication solutions are based on the existing wireline and cellular network infrastructures and their extensions. However, it remains unknown whether these existing network communication solutions are scalable when the IVCAD system is deployed city-widely with hundreds of thousands of RSUs and millions of vehicles. In this paper, we analyze the network communication requirements for different types of IVCAD systems, and show that when the numbers of RSUs and vehicles in the system are large, using the existing solutions to support IVCAD can incur very high extra network communication facility cost. We further discuss how to use wireless mesh networks formed by RSUs themselves to solve the network communication problem without any deployment of extra network communication facilities. To enable the RSU network, we provide a network communication framework based on network coding and highlight some research directions.",
-	"field":"misc"
+	"field":"comm"
 },
 "yin22_alien":{
 	"title":"Two-State Alien Tiles: A Coding-Theoretical Perspective",
@@ -52,7 +52,7 @@
 	"url":"https://www.mdpi.com/2227-7390/10/16/2994",
 	"doi":"10.3390/math10162994",
 	"abstract":"Most studies on the switching game Lights Out and its variants focus on the solvability of given games or the number of solvable games, but when the game is viewed in a coding-theoretical perspective, more interesting questions with special symbolizations in coding theory will naturally pop up, such as finding the minimal number of lit lights among all solvable games apart from the solved game, or finding the minimal number of lit lights that the player can achieve from a given unsolvable game, etc. However, these problems are usually hard to solve in general from the perspective of algorithmic complexity. This study considers a Lights Out variant called two-state Alien Tiles, which toggles all the lights in the same row and those in the same column of the clicked light. We investigate its properties, discuss several coding-theoretical problems about this game, and explore this game as an error-correcting code and investigate its optimality. The purpose of this paper is to propose ways of playing switching games in a think-outside-the-box manner, which benefits the recreational mathematics community.",
-	"field":"misc"
+	"field":"math"
 },
 "egger22_ring":{
 	"title":"On Defeating Graph Analysis of Anonymous Transactions",
@@ -65,7 +65,7 @@
 	"url":"https://petsymposium.org/popets/2022/popets-2022-0085.php",
 	"doi":"10.56553/popets-2022-0085",
 	"abstract":"In a ring-signature-based anonymous cryptocurrency, signers of a transaction are hidden among a set of potential signers, called a ring, whose size is much smaller than the number of all users. The ringmembership relations specified by the sets of transactions thus induce bipartite transaction graphs, whose distribution is in turn induced by the ring sampler underlying the cryptocurrency. Since efficient graph analysis could be performed on transaction graphs to potentially deanonymise signers, it is crucial to understand the resistance of (the transaction graphs induced by) a ring sampler against graph analysis. Of particular interest is the class of partitioning ring samplers. Although previous works showed that they provide almost optimal local anonymity, their resistance against global, e.g. graph-based, attacks were unclear. In this work, we analyse transaction graphs induced by partitioning ring samplers. Specifically, we show (partly analytically and partly empirically) that, somewhat surprisingly, by setting the ring size to be at least logarithmic in the number of users, a graph-analysing adversary is no better than the one that performs random guessing in deanonymisation up to constant factor of 2.",
-	"field":"misc"
+	"field":"crypto"
 },
 "yin21_uni_j":{
 	"title":"A Unified Adaptive Recoding Framework for Batched Network Coding",
@@ -120,7 +120,7 @@
 	"url":"https://petsymposium.org/popets/2021/popets-2021-0047.php",
 	"doi":"10.2478/popets-2021-0047",
 	"abstract":"A ring signature scheme allows the signer to sign on behalf of an ad hoc set of users, called a ring. The verifier can be convinced that a ring member signs, but cannot point to the exact signer. Ring signatures have become increasingly important today with their deployment in anonymous cryptocurrencies. Conventionally, it is implicitly assumed that all ring members are equally likely to be the signer. This assumption is generally false in reality, leading to various practical and devastating deanonymizing attacks in Monero, one of the largest anonymous cryptocurrencies. These attacks highlight the unsatisfactory situation that how a ring should be chosen is poorly understood.<p>We propose an analytical model of ring samplers towards a deeper understanding of them through systematic studies. Our model helps to describe how anonymous a ring sampler is with respect to a given signer distribution as an information-theoretic measure. We show that this measure is robust, in the sense that it only varies slightly when the signer distribution varies slightly. We then analyze three natural samplers – uniform, mimicking, and partitioning – under our model with respect to a family of signer distributions modeled after empirical Bitcoin data. We hope that our work paves the way towards researching ring samplers from a theoretical point of view.",
-	"field":"misc"
+	"field":"crypto"
 },
 "yin20_protocol":{
 	"title":"A Protocol Design Paradigm for Batched Sparse Codes",
