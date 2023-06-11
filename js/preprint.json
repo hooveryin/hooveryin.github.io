@@ -117,7 +117,7 @@
 	"date":"Dec. 2020",
 	"url":"https://eprint.iacr.org/2020/1550",
 	"abstract":"A ring signature scheme allows the signer to sign on behalf of an ad hoc set of users, called a ring. The verifier can be convinced that a ring member signs, but cannot point to the exact signer. Ring signatures have become increasingly important today with their deployment in anonymous cryptocurrencies. Conventionally, it is implicitly assumed that all ring members are equally likely to be the signer. This assumption is generally false in reality, leading to various practical and devastating deanonymizing attacks in Monero, one of the largest anonymous cryptocurrencies. These attacks highlight the unsatisfactory situation that how a ring should be chosen is poorly understood.<p>We propose an analytical model of ring samplers towards a deeper understanding of them through systematic studies. Our model helps to describe how anonymous a ring sampler is with respect to a given signer distribution as an information-theoretic measure. We show that this measure is robust, in the sense that it only varies slightly when the signer distribution varies slightly. We then analyze three natural samplers – uniform, mimicking, and partitioning – under our model with respect to a family of signer distributions modeled after empirical Bitcoin data. We hope that our work paves the way towards researching ring samplers from a theoretical point of view.",
-	"field":"crypro"
+	"field":"crypto"
 },
 "yin19_packing_arxiv":{
 	"title":"Decision Procedure for the Existence of Two-Channel Prefix-Free Codes",
