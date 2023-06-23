@@ -32,6 +32,7 @@ $('#journalModal').on('show.bs.modal', function(event) {
 		$(this).find('.modal-body #journalPagesTitle').text('Pages:');
 		$(this).find('.modal-body #journalPages').text('-');
 	}
+	$(this).find('.modal-body #journalIssue').text((item.issue != undefined)?item.issue:'-');
 	$(this).find('.modal-body #journalDoi').text((item.doi != undefined)?item.doi:'-');
 	$(this).find('.modal-body #journalAbstract').html(item.abstract);
 	$(this).modal('handleUpdate');

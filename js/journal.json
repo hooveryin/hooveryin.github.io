@@ -10,6 +10,7 @@
 	"date":"Jun. 2023",
 	"url":"https://www.mdpi.com/2075-1680/12/6/564",
 	"doi":"10.3390/axioms12060564",
+	"issue":"Advances in Mathematics and Its Applications",
 	"abstract":"A stochastic dominance (SD) relation can be defined by two different perspectives: One from the view of distributions, and the other one from the view of expected utilities. In the early days, Fishburn investigated SD from the view of distributions, and we refer this perspective as Fishburn’s SD. One of his many results was the development of fractional-order SD for continuous distributions. However, discrete fractional-order SD cannot be directly generalized, because some properties of fractional calculus may not possess a discrete counterpart. In this paper, we develop a discrete analogue of fractional-order SD for discrete utilities from the view of distributions. We generalize the order of SD by Lizama’s fractional delta operator, show the preservation of SD hierarchy, and formulate the utility classes that are congruent with our SD relations. This work brings a message that some results of discrete SD cannot be directly generalized from continuous SD. We characterize the difference between discrete and continuous fractional-order SD, as well as the way to handle it for further applications in mathematics and computer science.",
 	"field":"math"
 },
@@ -24,6 +25,7 @@
 	"date":"Mar. 2023",
 	"url":"https://www.mdpi.com/1424-8220/23/7/3457",
 	"doi":"10.3390/s23073457",
+	"issue":"Image Processing, Computing, and Learning for Immersive User Interface",
 	"abstract":"In recent decades, the Variational AutoEncoder (VAE) model has shown good potential and capability in image generation and dimensionality reduction. The combination of VAE and various machine learning frameworks has also worked effectively in different daily life applications, however its possible use and effectiveness in modern game design has seldom been explored nor assessed. The use of its feature extractor for data clustering has also been minimally discussed in the literature neither. This study first attempts to explore different mathematical properties of the VAE model, in particular, the theoretical framework of the encoding and decoding processes, the possible achievable lower bound and loss functions of different applications; then applies the established VAE model to generate new game levels based on two well-known game settings; and to validate the effectiveness of its data clustering mechanism with the aid of the Modified National Institute of Standards and Technology (MNIST) database. Respective statistical metrics and assessments are also utilized to evaluate the performance of the proposed VAE model in aforementioned case studies. Based on the statistical and graphical results, several potential deficiencies, for example, difficulties in handling high-dimensional and vast datasets, as well as insufficient clarity of outputs are discussed; then measures of future enhancement, such as tokenization and the combination of VAE and GAN models, are also outlined. Hopefully, this can ultimately maximize the strengths and advantages of VAE for future game design tasks and relevant industrial missions.",
 	"field":"math"
 },
@@ -51,6 +53,7 @@
 	"date":"Aug. 2022",
 	"url":"https://www.mdpi.com/2227-7390/10/16/2994",
 	"doi":"10.3390/math10162994",
+	"issue":"Codes, Designs, Cryptography and Optimization II",
 	"abstract":"Most studies on the switching game Lights Out and its variants focus on the solvability of given games or the number of solvable games, but when the game is viewed in a coding-theoretical perspective, more interesting questions with special symbolizations in coding theory will naturally pop up, such as finding the minimal number of lit lights among all solvable games apart from the solved game, or finding the minimal number of lit lights that the player can achieve from a given unsolvable game, etc. However, these problems are usually hard to solve in general from the perspective of algorithmic complexity. This study considers a Lights Out variant called two-state Alien Tiles, which toggles all the lights in the same row and those in the same column of the clicked light. We investigate its properties, discuss several coding-theoretical problems about this game, and explore this game as an error-correcting code and investigate its optimality. The purpose of this paper is to propose ways of playing switching games in a think-outside-the-box manner, which benefits the recreational mathematics community.",
 	"field":"math"
 },
@@ -78,6 +81,7 @@
 	"pages":"1150-1164",
 	"url":"https://ieeexplore.ieee.org/document/9627730",
 	"doi":"10.1109/JSAIT.2021.3126634",
+	"issue":"Beyond Errors and Erasures: Coding for Data Management and Delivery in Networks",
 	"abstract":"Batched network coding is a variation of random linear network coding which has low computational and storage costs. In order to adapt to random fluctuations in the number of erasures in individual batches, it is not optimal to recode and transmit the same number of packets for all batches. Different distributed optimization models, which are called adaptive recoding schemes, were formulated for this purpose. The key component of these optimization problems is the expected value of the rank distribution of a batch at the next network node, which is also known as the expected rank. In this paper, we put forth a unified adaptive recoding framework with an arbitrary recoding field size. We show that the expected rank functions are concave when the packet loss pattern is a stationary stochastic process, which covers but not limited to independent packet loss and Gilbert-Elliott packet loss model. Under this concavity assumption, we show that there always exists a solution which not only can minimize the randomness on the number of recoded packets but also can tolerate rank distribution errors due to inaccurate measurements or limited precision of the machine. We provide an algorithm to obtain such an optimal solution, and propose tuning schemes that can turn any feasible solution into a desired optimal solution.",
 	"field":"nc"
 },
@@ -92,6 +96,7 @@
 	"pages":"1135-1149",
 	"url":"https://ieeexplore.ieee.org/document/9627735",
 	"doi":"10.1109/JSAIT.2021.3126647",
+	"issue":"Beyond Errors and Erasures: Coding for Data Management and Delivery in Networks",
 	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in multi-hop packet networks with packet loss. BNC encodes the source data into batches of packets. As a network coding scheme, the intermediate nodes perform recoding on the received packets belonging to the same batch instead of just forwarding them. A recoding scheme that may generate more recoded packets for batches of a higher rank is also called adaptive recoding. Meanwhile, in order to combat burst packet loss, the transmission of a block of batches can be interleaved. Stream interleaving studied in literature achieves the maximum separation among any two consecutive packets of a batch, but permutes packets across blocks and hence cannot bound the buffer size and the latency. To resolve the issue of stream interleaver, we design an intrablock interleaver for adaptive recoding that can preserve the advantages of using a block interleaver when the number of recoded packets is the same for all batches. We use potential energy in classical mechanics to measure the performance of an interleaver, and propose an algorithm to optimize the interleaver with this performance measure. Our problem formulation and algorithm for intrablock interleaving are also of independent interest.",
 	"field":"nc"
 },
@@ -106,6 +111,7 @@
 	"pages":"1120-1134",
 	"url":"https://ieeexplore.ieee.org/document/9627725",
 	"doi":"10.1109/JSAIT.2021.3126426",
+	"issue":"Beyond Errors and Erasures: Coding for Data Management and Delivery in Networks",
 	"abstract":"BATS (BATched Sparse) codes are a class of efficient random linear network coding variation that has been studied for multihop wireless networks mostly in scenarios of a single communication flow. Towards sophisticated multi-flow network communications, we formulate a network utility maximization (NUM) problem that jointly optimizes the BATS code parameters of all the flows and network scheduling. The NUM problem adopts a batch-wise packet loss model that can be obtained from the network local statistics without any constraints on packet loss patterns. Moreover, the NUM problem allows a different number of recoded packets to be transmitted for different batches in a flow, which is called adaptive recoding. Due to both the probably nonconcave objective and the BATS code-related variables, the algorithms developed for the existing flow optimization problems cannot be applied directly to solve our NUM problem. We introduce a two-step algorithm to solve our NUM problem, where the first step solves the problem with nonadaptive recoding schemes, and the second step optimizes adaptive recoding hop-by-hop from upstream to downstream in each flow. We perform various numerical evaluations and simulations to verify the effectiveness and efficiency of the algorithm.",
 	"field":"nc"
 },
@@ -133,6 +139,7 @@
 	"date":"Jul. 2020",
 	"url":"https://www.mdpi.com/1099-4300/22/7/790",
 	"doi":"10.3390/e22070790",
+	"issue":"Information Theory and Network Coding",
 	"abstract":"Internet of Things (IoT) connects billions of everyday objects to the Internet. The mobility of devices can be facilitated by means of employing multiple wireless links. However, packet loss is a common phenomenon in wireless communications, where the traditional forwarding strategy undergoes severe performance issues in a multi-hop wireless network. One solution is to apply batched sparse (BATS) codes. A fundamental difference from the traditional strategy is that BATS codes require the intermediate network nodes to perform recoding, which generates recoded packets by network coding operations. Literature showed that advanced recoding schemes and burst packet loss can enhance and diminish the performance of BATS codes respectively. However, the existing protocols for BATS codes cannot handle both of them at the same time. In this paper, we propose a paradigm of protocol design for BATS codes. Our design can be applied in different layers of the network stack and it is compatible to the existing network infrastructures. The modular nature of the protocol can support different recoding techniques and different ways to handle burst packet loss. We also give some examples to demonstrate how to use the protocol.",
 	"field":"nc"
 },
