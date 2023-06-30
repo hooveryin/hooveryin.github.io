@@ -4,6 +4,14 @@
 	"author":"<b>H. H. F. Yin</b>, S. Yang, Q. Zhou, L. M. L. Yung, and K. H. Ng",
 	"fullauthor":"<b>Hoover H. F. Yin</b>, Shenghao Yang, Qiaoqiao Zhou, Lily M. L. Yung, Ka Hei Ng",
 	"target":"Entropy"
+},
+"wong23_eddsa":{
+	"title":"How (Not) to Build Threshold EdDSA",
+	"author":"H. W. H. Wong, J. P. K. Ma, <b>H. H. F. Yin</b>, and S. S. M. Chow",
+	"fullauthor":"Harry W. H. Wong, Jack P. K. Ma, <b>Hoover H. F. Yin</b>, Sherman S. M. Chow",
+	"target":"26th International Symposium on Research in Attacks, Intrusions, and Defenses (RAID 2023)",
+	"address":"Hong Kong",
+	"date":"16-18 Oct. 2023"
 }
 }
 
