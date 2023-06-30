@@ -1,3 +1,9 @@
 {
+"yin23_bar":{
+	"title":"BAR: Blockwise Adaptive Recoding for Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b>, S. Yang, Q. Zhou, L. M. L. Yung, and K. H. Ng",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Shenghao Yang, Qiaoqiao Zhou, Lily M. L. Yung, Ka Hei Ng",
+	"target":"Entropy"
+}
 }
 

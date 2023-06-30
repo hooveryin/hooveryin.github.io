@@ -41,17 +41,6 @@
 	"appNumber":"17/725,524",
 	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in multi-hop networks with packet loss that divides data to be transmitted into multiple packets and pads the data when necessary. However, an inappropriate choice of packet size leads to a significant overhead. Embodiments of the present disclosure provide systems, methods, and apparatuses that overcome the shortcomings of traditional BNC solutions by dynamically deciding a packet size through optimization of the overhead. As a result, embodiments of the present disclosure boost throughput of systems leveraging BNC transmission techniques by providing file-specific and dynamically determined optimizations. The disclosed techniques for performing dynamic optimization of transmissions also reduce computational complexity, enabling use case deployments in which nodes having reduced computational resources and power requirements are utilized while maintaining improved performance of the network (e.g., in terms of throughput, etc.)."
 },
-"yin20_protocol_macau":{
-	"title":"用於設備輔助通信的方法、裝置和計算機可讀介質",
-	"title2":"Method, Apparatus, and Computer-Readable Medium for Device-Assisted Communication",
-	"author":"<b>殷浩輝</b>, 楊偉豪, 楊升浩",
-	"fullauthor":"<b>殷浩輝</b>, 楊偉豪, 楊升浩",
-	"address":"Macau",
-	"filedDate":"2020.09.28",
-	"appNumber":"J/004408",
-	"url":"https://bo.io.gov.mo/bo/ii/2020/47/economia01_cn.asp",
-	"abstract":"本發明涉及用於設備輔助通信的方法、裝置和計算機可讀介質。在具有突發或相關型丟失的網絡中，BATS協議可以被用於高效通信。在中間網絡節點處的系統重新編碼可以用於減少在重新編碼期間的計算成本。可以利用基於塊交織器的BATS協議來處理突發丟失，其中將各批次重新編碼為同樣數量的分組。自適應重新編碼可以被用於提高吞吐量，其中，具有更高秩的批次被重新編碼成更大數量的分組。使用自適應重新編碼，可以利用基於非塊交織器的BATS協議。"
-},
 "yin20_protocol_cn":{
 	"title":"用于设备辅助通信的方法、装置和计算机可读介质",
 	"title2":"Method, Apparatus, and Computer-Readable Medium for Device-Assisted Communication",

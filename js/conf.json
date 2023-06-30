@@ -6,6 +6,9 @@
 	"booktitle":"2023 IEEE Information Theory Workshop (ITW)",
 	"address":"Saint-Malo, France",
 	"date":"23-28 Apr. 2023",
+	"url":"https://ieeexplore.ieee.org/document/10161634",
+	"doi":"10.1109/ITW55543.2023.10161634",
+	"pages":"317-322",
 	"abstract":"When there are multiple channels between a pair of source and destination, the way to use the channels carries some extra information. In this paper, we study a coding scheme that encodes the message into the choices of channels. Unlike the traditional sense that the message bits are ordered in a temporal manner, the ordering information is lost after the transformation. To resolve this issue, the data to be sent via the channels is the ordering of the message blocks. We study the properties on the number of channel-uses and the limitation of the code. We also investigate the optimal message length that maximize the efficiency of channel-uses.",
 	"field":"it"
 },
