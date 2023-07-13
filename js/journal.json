@@ -1,4 +1,19 @@
 {
+"yin23_bar":{
+	"title":"BAR: Blockwise Adaptive Recoding for Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b>, S. Yang, Q. Zhou, L. M. L. Yung, and K. H. Ng",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Shenghao Yang, Qiaoqiao Zhou, Lily M. L. Yung, Ka Hei Ng",
+	"journal":"Entropy",
+	"volume":"25",
+	"number":"7",
+	"paper":"1054",
+	"date":"Jul. 2023",
+	"url":"https://www.mdpi.com/1099-4300/25/7/1054",
+	"doi":"10.3390/e25071054",
+	"issue":"Information Theory and Network Coding II",
+	"abstract":"Multi-hop networks have become popular network topologies in various emerging Internet of Things (IoT) applications. Batched network coding (BNC) is a solution to reliable communications in such networks with packet loss. By grouping packets into small batches and restricting recoding to the packets belonging to the same batch; BNC has much smaller computational and storage requirements at intermediate nodes compared with direct application of random linear network coding. In this paper, we discuss a practical recoding scheme called blockwise adaptive recoding (BAR) which learns the latest channel knowledge from short observations so that BAR can adapt to fluctuations in channel conditions. Due to the low computational power of remote IoT devices, we focus on investigating practical concerns such as how to implement efficient BAR algorithms. We also design and investigate feedback schemes for BAR under imperfect feedback systems. Our numerical evaluations show that BAR has significant throughput gain for small batch sizes compared with existing baseline recoding schemes. More importantly, this gain is insensitive to inaccurate channel knowledge. This encouraging result suggests that BAR is suitable to be used in practice as the exact channel model and its parameters could be unknown and subject to changes from time to time.",
+	"field":"nc"
+},
 "yin23_sd":{
 	"title":"Discrete Analogue of Fishburn's Fractional-Order Stochastic Dominance",
 	"author":"<b>H. H. F. Yin</b>, X. Wang, H. W. L. Mak, C. S. Au Yong, and I. Y. Y. Chan",
