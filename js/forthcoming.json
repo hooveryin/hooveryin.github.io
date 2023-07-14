@@ -1,4 +1,11 @@
 {
+"yin23_lp":{
+	"title":"The Role of Straight Line Coefficients in 2D Linear Programming",
+	"author":"<b>H. H. F. Yin</b>",
+	"fullauthor":"<b>Hoover H. F. Yin</b>",
+	"target":"Parabola",
+	"date":"Dec. 2023"
+},
 "wong23_eddsa":{
 	"title":"How (Not) to Build Threshold EdDSA",
 	"author":"H. W. H. Wong, J. P. K. Ma, <b>H. H. F. Yin</b>, and S. S. M. Chow",
