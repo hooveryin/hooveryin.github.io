@@ -17,7 +17,9 @@ $.getJSON("js/forthcoming.json?nocache="+(new Date()).getTime(), function(json) 
 		var item = json[cite];
 		code += '<li class="list-group-item border-0">'+item.author+', "';
 		code += item.title;
-		code += '," to appear in <i>'+item.target+'</i>';
+		if(item.title.slice(-1) != '!' && item.title.slice(-1) != '?')
+			code += ',';
+		code += '" to appear in <i>'+item.target+'</i>';
 		if(item.address != undefined)
 			code += ', '+item.address;
 		if(item.date != undefined)
@@ -41,7 +43,9 @@ $.getJSON("js/journal.json?nocache="+(new Date()).getTime(), function(json) {
 		code += item.title;
 		if(item.url != undefined)
 			code += '</a>';
-		code += '," <i>'+item.journal+'</i>, vol. '+item.volume;
+		if(item.title.slice(-1) != '!' && item.title.slice(-1) != '?')
+			code += ',';
+		code += '" <i>'+item.journal+'</i>, vol. '+item.volume;
 		if(item.number != undefined)
 			code += ', no. '+item.number;
 		if(item.date != undefined)
@@ -82,7 +86,9 @@ $.getJSON("js/conf.json?nocache="+(new Date()).getTime(), function(json) {
 		code += item.title;
 		if(item.url != undefined)
 			code += '</a>';
-		code += '," <i>'+item.booktitle+'</i>, '+item.address+', '+item.date;
+		if(item.title.slice(-1) != '!' && item.title.slice(-1) != '?')
+			code += ',';
+		code += '" <i>'+item.booktitle+'</i>, '+item.address+', '+item.date;
 		if(item.pages != undefined)
 			code += ', pp. '+item.pages;
 		code += '. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">details</a>]';
@@ -117,7 +123,9 @@ $.getJSON("js/preprint.json?nocache="+(new Date()).getTime(), function(json) {
 		code += item.title;
 		if(item.url != undefined)
 			code += '</a>';
-		code += '," <i>'+item.journal+'</i>, '+item.date+'. [<a href="#" data-toggle="modal" data-target="#preprintModal" data-cite="'+cite+'">details</a>]';
+		if(item.title.slice(-1) != '!' && item.title.slice(-1) != '?')
+			code += ',';
+		code += '" <i>'+item.journal+'</i>, '+item.date+'. [<a href="#" data-toggle="modal" data-target="#preprintModal" data-cite="'+cite+'">details</a>]';
 		if(item.field_count > 0){
 			var field = item.field.split(";");
 			var flag = true;
@@ -148,7 +156,9 @@ $.getJSON("js/thesis.json?nocache="+(new Date()).getTime(), function(json) {
 		code += item.title;
 		if(item.url != undefined)
 			code += '</a>';
-		code += '," '+item.type+', '+item.department+', '+item.school+', '+item.address+', '+item.date+'. [<a href="#" data-toggle="modal" data-target="#thesisModal" data-cite="'+cite+'">details</a>]</li>';
+		if(item.title.slice(-1) != '!' && item.title.slice(-1) != '?')
+			code += ',';
+		code += '" '+item.type+', '+item.department+', '+item.school+', '+item.address+', '+item.date+'. [<a href="#" data-toggle="modal" data-target="#thesisModal" data-cite="'+cite+'">details</a>]</li>';
 	}
 	code += '</ul>';
 	$('#thesis').html(code);
@@ -166,7 +176,9 @@ $.getJSON("js/patent.json?nocache="+(new Date()).getTime(), function(json) {
 		code += item.title;
 		if(item.url != undefined)
 			code += '</a>';
-		code += '," ';
+		if(item.title.slice(-1) != '!' && item.title.slice(-1) != '?')
+			code += ',';
+		code += '" ';
 		if(item.address === "US")
 			code += 'U.S. Patent ';
 		else
