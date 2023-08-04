@@ -1,16 +1,4 @@
 {
-"yin22_intrablock_cn":{
-	"title":"用于通信网络的兼容分组分离",
-	"title2":"Compatible Packet Separation for Communication Networks",
-	"author":"<b>殷浩辉</b>, 伍家曦, 锺卓炜, 杨伟豪, 杨升浩",
-	"fullauthor":"<b>殷浩辉</b>, 伍家曦, 锺卓炜, 杨伟豪, 杨升浩",
-	"address":"CN",
-	"pubDate":"2022.10.14",
-	"number":"115189802",
-	"filedDate":"2021.04.01",
-	"appNumber":"202110354424.8",
-	"abstract":"本文描述了用于通信网络的兼容分组分离的系统、方法和其它技术。接收包括要在网络上传输的多个分组的块。该块包括一组批量数据，并且多个分组分布在一组批量数据之间。计算一组批量数据中的每个批量数据的伪交织器深度，以产生一组伪交织器深度。使用一组伪交织器深度来执行分块自适应重编码，以产生一组批量数据中的每个批量数据的多个重编码分组。使用一组批量数据中的每个批量数据的多个重编码分组来产生传输序列。"
-},
 "yin22_intrablock_us":{
 	"title":"Compatible Packet Separation for Communication Networks",
 	"author":"<b>H. F. H. Yin</b>, K. H. Ng, Z. Zhong, R. W. H. Yeung, and S. Yang",
@@ -41,6 +29,16 @@
 	"appNumber":"17/725,524",
 	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in multi-hop networks with packet loss that divides data to be transmitted into multiple packets and pads the data when necessary. However, an inappropriate choice of packet size leads to a significant overhead. Embodiments of the present disclosure provide systems, methods, and apparatuses that overcome the shortcomings of traditional BNC solutions by dynamically deciding a packet size through optimization of the overhead. As a result, embodiments of the present disclosure boost throughput of systems leveraging BNC transmission techniques by providing file-specific and dynamically determined optimizations. The disclosed techniques for performing dynamic optimization of transmissions also reduce computational complexity, enabling use case deployments in which nodes having reduced computational resources and power requirements are utilized while maintaining improved performance of the network (e.g., in terms of throughput, etc.)."
 },
+"yin22_intrablock_cn":{
+	"title":"用于通信网络的兼容分组分离",
+	"title2":"Compatible Packet Separation for Communication Networks",
+	"author":"<b>殷浩辉</b>, 伍家曦, 锺卓炜, 杨伟豪, 杨升浩",
+	"fullauthor":"<b>殷浩辉</b>, 伍家曦, 锺卓炜, 杨伟豪, 杨升浩",
+	"address":"CN",
+	"filedDate":"2021.04.01",
+	"appNumber":"202110354424.8",
+	"abstract":"本文描述了用于通信网络的兼容分组分离的系统、方法和其它技术。接收包括要在网络上传输的多个分组的块。该块包括一组批量数据，并且多个分组分布在一组批量数据之间。计算一组批量数据中的每个批量数据的伪交织器深度，以产生一组伪交织器深度。使用一组伪交织器深度来执行分块自适应重编码，以产生一组批量数据中的每个批量数据的多个重编码分组。使用一组批量数据中的每个批量数据的多个重编码分组来产生传输序列。"
+},
 "yin20_protocol_cn":{
 	"title":"用于设备辅助通信的方法、装置和计算机可读介质",
 	"title2":"Method, Apparatus, and Computer-Readable Medium for Device-Assisted Communication",
@@ -49,7 +47,7 @@
 	"address":"CN",
 	"pubDate":"2020.07.28",
 	"number":"107040334",
-	"filedDate":"2017.08.11",
+	"filedDate":"2016.09.27",
 	"appNumber":"201610857698.8",
 	"url":"https://patents.google.com/patent/CN107040334B/",
 	"abstract":"本发明涉及用于设备辅助通信的方法、装置和计算机可读介质。在具有突发或相关型丢失的网络中，BATS协议可以被用于高效通信。在中间网络节点处的系统重新编码可以用于减少在重新编码期间的计算成本。可以利用基于块交织器的BATS协议来处理突发丢失，其中将各批次重新编码为同样数量的分组。自适应重新编码可以被用于提高吞吐量，其中，具有更高秩的批次被重新编码成更大数量的分组。使用自适应重新编码，可以利用基于非块交织器的BATS协议。"
