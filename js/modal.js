@@ -35,6 +35,10 @@ $('#journalModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #journalIssue').text((item.issue != undefined)?item.issue:'-');
 	$(this).find('.modal-body #journalDoi').text((item.doi != undefined)?item.doi:'-');
 	$(this).find('.modal-body #journalAbstract').html(item.abstract);
+	MathJax.startup.promise.then(() => {
+		MathJax.typesetClear([$(this).find('.modal-body #journalAbstract')[0]]);
+		MathJax.typeset([$(this).find('.modal-body #journalAbstract')[0]]);
+	});
 	$(this).modal('handleUpdate');
 });
 
@@ -52,6 +56,10 @@ $('#confModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #confPages').text((item.pages != undefined)?item.pages:'-');
 	$(this).find('.modal-body #confDoi').text((item.doi != undefined)?item.doi:'-');
 	$(this).find('.modal-body #confAbstract').html(item.abstract);
+	MathJax.startup.promise.then(() => {
+		MathJax.typesetClear([$(this).find('.modal-body #confAbstract')[0]]);
+		MathJax.typeset([$(this).find('.modal-body #confAbstract')[0]]);
+	});
 	$(this).modal('handleUpdate');
 });
 
@@ -66,6 +74,10 @@ $('#preprintModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #preprintName').text(item.journal);
 	$(this).find('.modal-body #preprintDate').text(item.date);
 	$(this).find('.modal-body #preprintAbstract').html(item.abstract);
+	MathJax.startup.promise.then(() => {
+		MathJax.typesetClear([$(this).find('.modal-body #preprintAbstract')[0]]);
+		MathJax.typeset([$(this).find('.modal-body #preprintAbstract')[0]]);
+	});
 	$(this).modal('handleUpdate');
 });
 
@@ -84,6 +96,12 @@ $('#thesisModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #thesisDate').text(item.date);
 	$(this).find('.modal-body #thesisAbstract').html(item.abstract);
 	$(this).find('.modal-body #thesisAbstractChi').html(item.abstractChi);
+	MathJax.startup.promise.then(() => {
+		MathJax.typesetClear([$(this).find('.modal-body #thesisAbstract')[0]]);
+		MathJax.typeset([$(this).find('.modal-body #thesisAbstract')[0]]);
+		MathJax.typesetClear([$(this).find('.modal-body #thesisAbstractChi')[0]]);
+		MathJax.typeset([$(this).find('.modal-body #thesisAbstractChi')[0]]);
+	});
 	$(this).modal('handleUpdate');
 });
 
@@ -103,6 +121,10 @@ $('#patentModal').on('show.bs.modal', function(event) {
 	$(this).find('.modal-body #patentFiledDate').text(item.filedDate);
 	$(this).find('.modal-body #patentAppNumber').text(item.appNumber);
 	$(this).find('.modal-body #patentAbstract').html(item.abstract);
+	MathJax.startup.promise.then(() => {
+		MathJax.typesetClear([$(this).find('.modal-body #patentAbstract')[0]]);
+		MathJax.typeset([$(this).find('.modal-body #patentAbstract')[0]]);
+	});
 	$(this).modal('handleUpdate');
 });
 
