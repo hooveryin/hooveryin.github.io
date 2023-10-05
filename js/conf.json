@@ -1,4 +1,17 @@
 {
+"wong23_eddsa":{
+	"title":"How (Not) to Build Threshold EdDSA",
+	"author":"H. W. H. Wong, J. P. K. Ma, <b>H. H. F. Yin</b>, and S. S. M. Chow",
+	"fullauthor":"Harry W. H. Wong, Jack P. K. Ma, <b>Hoover H. F. Yin</b>, Sherman S. M. Chow",
+	"booktitle":"26th International Symposium on Research in Attacks, Intrusions, and Defenses (RAID 2023)",
+	"address":"Hong Kong",
+	"date":"16-18 Oct. 2023",
+	"url":"https://dl.acm.org/doi/10.1145/3607199.3607230",
+	"doi":"10.1145/3607199.3607230",
+	"pages":"123-134",
+	"abstract":"Edwards-curve digital signature algorithm (EdDSA) is a highly efficient scheme with a short key size. It is derived from the threshold-friendly Schnorr signatures and is covered by the NIST standardization efforts of threshold cryptographic primitives. Nevertheless, extending its deterministic nonce generation to the threshold setting requires heavyweight cryptographic techniques, even when the hash function is replaced with one optimized for secure multi-party computation. Indeed, an efficient extension to the threshold setting is considered a major challenge by NIST and academia.<p>In RAID 2022, a threshold EdDSA scheme is proposed with the nonce generation using only modular addition instead of a hash. This paper unveils the security flaw of this efficient design. We also propose a generic hybrid approach with a showcase of extending a state-of-the-art threshold Schnorr signature scheme. It enjoys a similar level of immunity to side-channel or fault injection attacks as the more heavyweight threshold extension of deterministic nonce generation, but is much more efficient due to its simplicity.",
+	"field":"crypto"
+},
 "yin23_mcd":{
 	"title":"Multichannel Dual Codes: The Choice of Channels Carries Information",
 	"author":"<b>H. H. F. Yin</b> and X. Wang",
