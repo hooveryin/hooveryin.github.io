@@ -1,4 +1,16 @@
 {
+"yin23_lp":{
+	"title":"The Role of Straight Line Coefficients in Linear Programming",
+	"author":"<b>H. H. F. Yin</b>",
+	"fullauthor":"<b>Hoover H. F. Yin</b>",
+	"journal":"Parabola",
+	"volume":"59",
+	"number":"3",
+	"date":"Dec. 2023",
+	"url":"https://www.parabola.unsw.edu.au/2020-2029/volume-59-2023/issue-3/article/role-straight-line-coefficients-linear-programming",
+	"abstract":"Given a common 2-dimensional optimisation problem, it is natural to ask: Is there any simple way to instantaneously identify the correct half-plane without substitution? The answer is affirmative: The coefficients of the straight line tell us everything!",
+	"field":"math"
+},
 "yin23_bar":{
 	"title":"BAR: Blockwise Adaptive Recoding for Batched Network Coding",
 	"author":"<b>H. H. F. Yin</b>, S. Yang, Q. Zhou, L. M. L. Yung, and K. H. Ng",
