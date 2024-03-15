@@ -1,4 +1,24 @@
 {
+"yin23_pktsize_ep":{
+	"title":"Systems and Methods for Optimizing Network Transmissions of Batched Network Coded Packets",
+	"author":"<b>H. F. H. Yin</b>",
+	"fullauthor":"<b>Ho Fai Hoover Yin</b>",
+	"address":"EP",
+	"filedDate":"April 20, 2023",
+	"appNumber":"23169069",
+	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in multi-hop networks with packet loss that divides data to be transmitted into multiple packets and pads the data when necessary. However, an inappropriate choice of packet size leads to a significant overhead. Embodiments of the present disclosure provide systems, methods, and apparatuses that overcome the shortcomings of traditional BNC solutions by dynamically deciding a packet size through optimization of the overhead. As a result, embodiments of the present disclosure boost throughput of systems leveraging BNC transmission techniques by providing filespecific and dynamically determined optimizations. The disclosed techniques for performing dynamic optimization of transmissions also reduce computational complexity, enabling use case deployments in which nodes having reduced computational resources and power requirements are utilized while maintaining improved performance of the network (e.g., in terms of throughput, etc.)."
+},
+"yin23_pktsize_cn":{
+	"title":"优化网络传输的系统和方法",
+	"title2":"Systems and Methods for Optimizing Network Transmissions",
+	"author":"<b>殷浩辉</b>",
+	"fullauthor":"<b>殷浩辉</b>",
+	"address":"CN",
+	"filedDate":"2023.04.19",
+	"appNumber":"202310421556.7",
+	"url":"https://patents.google.com/patent/CN116916381A",
+	"abstract":"本申请公开了优化网络传输的系统和方法。成批网络编码(BNC)是一种低复杂度的解决方案，用于在具有数据包丢失的多跳网络中进行网络传输，它将要传输的数据划分为多个数据包，并在必要时对数据进行填充。但是，数据包大小选择不当会引起大量开销。本公开的实施例提供了系统、方法和装置，其通过优化开销来动态决定数据包大小以克服传统BNC解决方案的缺点。因此，本公开的实施例通过提供特定于文件和动态确定优化来提高利用BNC传输技术的系统的吞吐量。所公开的用于执行传输动态优化的技术还降低了计算复杂度，使用例部署成为可能，其中利用了具有减少计算资源和功率要求的节点，同时保持网络性能得到改善(例如，在吞吐量等方面)。"
+},
 "yin22_intrablock_us":{
 	"title":"Compatible Packet Separation for Communication Networks",
 	"author":"<b>H. F. H. Yin</b>, K. H. Ng, Z. Zhong, R. W. H. Yeung, and S. Yang",
@@ -11,8 +31,8 @@
 	"url":"https://patents.google.com/patent/US11452003B1/",
 	"abstract":"Described herein are systems, methods, and other techniques for compatible packet separation for communication networks. A block comprising a plurality of packets to be transmitted over a network is received. The block includes a set of batches, and the plurality of packets are distributed between the set of batches. A pseudo interleaver depth is calculated for each of the set of batches to produce a set of pseudo interleaver depths. Blockwise adaptive recoding is performed using the set of pseudo interleaver depths to produce a number of recoded packets for each of the set of batches. A transmission sequence is generated using the number of recoded packets for each of the set of batches."
 },
-"yin22_multi":{
-	"title":"Systems And Methods for Multi-Phase Recoding for Batched Network Coding",
+"yin22_multi_us":{
+	"title":"Systems and Methods for Multi-Phase Recoding for Batched Network Coding",
 	"author":"<b>H. F. H. Yin</b> and M. Tahernia",
 	"fullauthor":"<b>Ho Fai Hoover Yin</b>, Mehrdad Tahernia",
 	"address":"US",
@@ -20,7 +40,7 @@
 	"appNumber":"17/941,921",
 	"abstract":"Systems, methods, apparatuses, and techniques for multi-phase recoding with respect to batched network coding (BNC) are described.  In operation of a multi-phase recoding technique a first node in a multi-hop wireless network data communication path between a source node and a destination node provides recoding and transmission of packets of a BNC batch to a second node in the communication path via multiple phases.  Multi-phase recoding makes use of the reception status of the recoded packets that have been received by the second node in earlier phases of multi-phase recoding operation with respect to transmission of a particular batch.  Multi-phase recoding feedback from the second node to the first node may be provided so that the first node can determine how many recoded packets are to be sent in the next phase of multi-phase recoding operation."
 },
-"yin22_pktsize":{
+"yin22_pktsize_us":{
 	"title":"Systems and Methods for Optimizing Network Transmissions",
 	"author":"<b>H. F. H. Yin</b>",
 	"fullauthor":"<b>Ho Fai Hoover Yin</b>",
