@@ -6,6 +6,7 @@
 	"address":"EP",
 	"filedDate":"April 20, 2023",
 	"appNumber":"23169069",
+	"url":"https://patents.google.com/patent/EP4266609A1/",
 	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in multi-hop networks with packet loss that divides data to be transmitted into multiple packets and pads the data when necessary. However, an inappropriate choice of packet size leads to a significant overhead. Embodiments of the present disclosure provide systems, methods, and apparatuses that overcome the shortcomings of traditional BNC solutions by dynamically deciding a packet size through optimization of the overhead. As a result, embodiments of the present disclosure boost throughput of systems leveraging BNC transmission techniques by providing filespecific and dynamically determined optimizations. The disclosed techniques for performing dynamic optimization of transmissions also reduce computational complexity, enabling use case deployments in which nodes having reduced computational resources and power requirements are utilized while maintaining improved performance of the network (e.g., in terms of throughput, etc.)."
 },
 "yin23_pktsize_cn":{
@@ -16,7 +17,7 @@
 	"address":"CN",
 	"filedDate":"2023.04.19",
 	"appNumber":"202310421556.7",
-	"url":"https://patents.google.com/patent/CN116916381A",
+	"url":"https://patents.google.com/patent/CN116916381A/",
 	"abstract":"本申请公开了优化网络传输的系统和方法。成批网络编码(BNC)是一种低复杂度的解决方案，用于在具有数据包丢失的多跳网络中进行网络传输，它将要传输的数据划分为多个数据包，并在必要时对数据进行填充。但是，数据包大小选择不当会引起大量开销。本公开的实施例提供了系统、方法和装置，其通过优化开销来动态决定数据包大小以克服传统BNC解决方案的缺点。因此，本公开的实施例通过提供特定于文件和动态确定优化来提高利用BNC传输技术的系统的吞吐量。所公开的用于执行传输动态优化的技术还降低了计算复杂度，使用例部署成为可能，其中利用了具有减少计算资源和功率要求的节点，同时保持网络性能得到改善(例如，在吞吐量等方面)。"
 },
 "yin22_intrablock_us":{
@@ -47,6 +48,7 @@
 	"address":"US",
 	"filedDate":"April 20, 2022",
 	"appNumber":"17/725,524",
+	"url":"https://patents.google.com/patent/US20230345301A1/",
 	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in multi-hop networks with packet loss that divides data to be transmitted into multiple packets and pads the data when necessary. However, an inappropriate choice of packet size leads to a significant overhead. Embodiments of the present disclosure provide systems, methods, and apparatuses that overcome the shortcomings of traditional BNC solutions by dynamically deciding a packet size through optimization of the overhead. As a result, embodiments of the present disclosure boost throughput of systems leveraging BNC transmission techniques by providing file-specific and dynamically determined optimizations. The disclosed techniques for performing dynamic optimization of transmissions also reduce computational complexity, enabling use case deployments in which nodes having reduced computational resources and power requirements are utilized while maintaining improved performance of the network (e.g., in terms of throughput, etc.)."
 },
 "yin22_intrablock_cn":{
