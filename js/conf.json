@@ -6,6 +6,9 @@
 	"booktitle":"2023 IEEE Virtual Conference on Communications (VCC)",
 	"address":"Virtual",
 	"date":"28-30 Nov. 2023",
+	"url":"https://ieeexplore.ieee.org/document/10474808/",
+	"doi":"10.1109/VCC60689.2023.10474808",
+	"pages":"218-223",
 	"abstract":"In some applications, communication would be terminated shortly due to reasons like security, secrecy, or energy saving. The time interval between two messages can be very long so that the idling interval is longer than sufficient to distinguish the messages. On the other hand, when there are multiple channels available, the channel-use allocation on the channels carries some information. In this paper, we exploit the use of the information carried by the channel-use allocation, specifically, the number of bits sent via each channel, so that we can transmit some extra bits implicitly at no extra cost. We propose a concrete scheme to make use of this advantage.",
 	"field":"it"
 },
