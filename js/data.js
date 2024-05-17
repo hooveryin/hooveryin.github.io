@@ -6,6 +6,12 @@ var field_types = [
 	{"type":"crypto", "color":"secondary", "name":"cryptography"}
 ];
 
+function html_encode(input) {
+	const textArea = document.createElement("textarea");
+	textArea.innerText = input;
+	return textArea.innerHTML.split("<br>").join("\n");
+}
+
 var forthcoming_json = {};
 $.getJSON("js/forthcoming.json?nocache="+(new Date()).getTime(), function(json) {
 	forthcoming_json = json;
@@ -142,6 +148,22 @@ $.getJSON("js/preprint.json?nocache="+(new Date()).getTime(), function(json) {
 	}
 	code += '</ul>';
 	$('#preprint').html(code);
+});
+
+var dataset_json = {};
+$.getJSON("js/dataset.json?nocache="+(new Date()).getTime(), function(json) {
+	dataset_json = json;
+	var code = '<ul class="list-group" id="list">';
+	for(cite in json){
+		var item = json[cite];
+		code += '<li class="list-group-item border-0">'+item.author+', '+item.date+', "';
+		code += '<a href="'+item.url+'">'+item.title+'</a>';
+		if(item.title.slice(-1) != '!' && item.title.slice(-1) != '?')
+			code += ',';
+		code += '" <i>'+item.source+'</i>, <a href="'+item.url+'">'+html_encode(item.url)+'</a> [<a href="#" data-toggle="modal" data-target="#datasetModal" data-cite="'+cite+'">details</a>]</li>';
+	}
+	code += '</ul>';
+	$('#dataset').html(code);
 });
 
 var thesis_json = {};

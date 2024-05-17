@@ -81,6 +81,25 @@ $('#preprintModal').on('show.bs.modal', function(event) {
 	$(this).modal('handleUpdate');
 });
 
+$('#datasetModal').on('show.bs.modal', function(event) {
+	var cite = $(event.relatedTarget).data('cite');
+	var item = dataset_json[cite];
+	var title = item.title;
+	if(item.url)
+		title = '<a href="'+item.url+'">'+item.title+'</a>';
+	$(this).find('.modal-body #datasetTitle').html(title);
+	$(this).find('.modal-body #datasetAuthor').html(item.fullauthor);
+	$(this).find('.modal-body #datasetSource').text(item.source);
+	$(this).find('.modal-body #datasetDate').text(item.date);
+	$(this).find('.modal-body #datasetDoi').text((item.doi != undefined)?item.doi:'-');
+	$(this).find('.modal-body #datasetAbstract').html(item.abstract);
+	MathJax.startup.promise.then(() => {
+		MathJax.typesetClear([$(this).find('.modal-body #datasetAbstract')[0]]);
+		MathJax.typeset([$(this).find('.modal-body #datasetAbstract')[0]]);
+	});
+	$(this).modal('handleUpdate');
+});
+
 $('#thesisModal').on('show.bs.modal', function(event) {
 	var cite = $(event.relatedTarget).data('cite');
 	var item = thesis_json[cite];

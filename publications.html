@@ -88,6 +88,13 @@
 				</div>
 			</div>
 			<br>
+			<h4><b>Dataset</b></h4>
+			<div id="dataset">
+				<div class="spinner-border text-secondary" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+			</div>
+			<br>
 			<h4><b>Thesis</b></h4>
 			<div id="thesis">
 				<div class="spinner-border text-secondary" role="status">
@@ -183,6 +190,26 @@
 						<b>Archive:</b> <span id="preprintName"></span><br>
 						<b>Date:</b> <span id="preprintDate"></span><br>
 						<b>Abstract:</b> <span id="preprintAbstract"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="datasetModal" tabindex="-1" role="dialog" aria-labelledby="datasetModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="datasetModalTitle">Dataset</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<b>Title:</b> <span id="datasetTitle"></span><br>
+						<b>Author(s):</b> <span id="datasetAuthor"></span><br>
+						<b>Source:</b> <span id="datasetSource"></span><br>
+						<b>Date:</b> <span id="datasetDate"></span><br>
+						<b>DOI:</b> <span id="datasetDoi"></span><br>
+						<b>Abstract:</b> <span id="datasetAbstract"></span>
 					</div>
 				</div>
 			</div>

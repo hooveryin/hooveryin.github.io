@@ -1,0 +1,13 @@
+{
+"woo24_a6400":{
+	"title":"Photos of a White Wall in Varying Illumination Settings using Song A6400",
+	"author":"I. K. Y. Woo, S. Yiu, <b>H. H. F. Yin</b>, and R. W. F. Lai",
+	"fullauthor":"Ivy K. Y. Woo, Sheung Yiu, <b>Hoover H. F. Yin</b>, Russell W. F. Lai",
+	"source":"Zenodo",
+	"date":"May 2024",
+	"doi":"10.5281/zenodo.11106589",
+	"url":"https://doi.org/10.5281/zenodo.11106589",
+	"abstract":"This dataset contains photos of a plain white wall, taken with the Sony A6400 camera with the Sony SEL18135 lens, under varying exposure levels, for the purpose of parameter estimation for natural steganography. The zoom level is set 135mm (maximum) and the lens is out-of-focus. The ISO and shutter speed are manually varied to generate different exposure levels. All other settings of the camera are default. The scene is illuminated by four Four Lupa Superpanel Dualcolour LED panels placed 1.5m away from the wall, with power set to 50% and colour temperature 5600K. A detailed documentation of the creation and analysis of this dataset is published in an article titled Dataset, Noise Analysis, and Automated Parameter Estimation for Natural Steganography by Woo, Yiu, Yin, and Lai in IH&amp;MMSec'24."
+}
+}
+
