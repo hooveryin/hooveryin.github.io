@@ -4,6 +4,7 @@ var field_types = [
 	{"type":"comm", "color":"info", "name":"networking and communication"},
 	{"type":"math", "color":"warning", "name":"mathematics"},
 	{"type":"crypto", "color":"secondary", "name":"cryptography"}
+	{"type":"misc", "color":"light", "name":"misc"}
 ];
 
 function html_encode(input) {
