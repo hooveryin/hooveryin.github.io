@@ -3,7 +3,7 @@ var field_types = [
 	{"type":"it", "color":"success", "name":"information theory"},
 	{"type":"comm", "color":"info", "name":"networking and communication"},
 	{"type":"math", "color":"warning", "name":"mathematics"},
-	{"type":"crypto", "color":"secondary", "name":"cryptography"}
+	{"type":"crypto", "color":"secondary", "name":"cryptography"},
 	{"type":"misc", "color":"light", "name":"misc"}
 ];
 
