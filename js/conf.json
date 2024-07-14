@@ -1,4 +1,14 @@
 {
+"yin24_dro":{
+	"title":"Distributionally Robust Degree Optimization for BATS Codes",
+	"author":"<b>H. H. F. Yin</b>, J. Wang, and S. S. M. Chow",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Jie Wang, Sherman S. M. Chow",
+	"booktitle":"2024 IEEE International Symposium on Information Theory (ISIT)",
+	"address":"Athens, Greece",
+	"date":"7-12 Jul. 2024",
+	"abstract":"Batched sparse (BATS) code is a network coding solution for multi-hop wireless networks with packet loss. Achieving a close-to-optimal rate relies on an optimal degree distribution. Technical challenges arise from the sensitivity of this distribution to the often empirically obtained rank distribution at the destination node. Specifically, if the empirical distribution overestimates the channel, BATS codes experience a significant rate degradation, leading to unstable rates across different runs and hence unpredictable transmission costs. Confronting this unresolved obstacle, we introduce a formulation for distributionally robust optimization in degree optimization. Deploying the resulting degree distribution resolves the instability of empirical rank distributions, ensuring a close-to-optimal rate, and unleashing the potential of applying BATS codes in real-world scenarios.",
+	"field":"nc"
+},
 "woo24_dataset":{
 	"title":"Dataset, Noise Analysis, and Automated Parameter Estimation for Natural Steganography",
 	"author":"I. K. Y. Woo, S. Yiu, <b>H. H. F. Yin</b>, and R. W. F. Lai",
