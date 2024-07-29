@@ -1,4 +1,24 @@
 {
+"yin23_multi_ep":{
+	"title":"Systems and Methods for Multi-Phase Recoding for Batched Network Coding",
+	"author":"<b>H. F. H. Yin</b> and M. Tahernia",
+	"fullauthor":"<b>Ho Fai Hoover Yin</b>, Mehrdad Tahernia",
+	"address":"EP",
+	"filedDate":"August 24, 2023",
+	"appNumber":"23193083",
+	"url":"https://patents.google.com/patent/EP4336757A1/",
+	"abstract":"Systems, methods, apparatuses, and techniques for multi-phase recoding with respect to batched network coding (BNC) are described. In operation of a multi-phase recoding technique a first node in a multi-hop wireless network data communication path between a source node and a destination node provides recoding and transmission of packets of a BNC batch to a second node in the communication path via multiple phases. Multi-phase recoding makes use of the reception status of the recoded packets that have been received by the second node in earlier phases of multi-phase recoding operation with respect to transmission of a particular batch. Multi-phase recoding feedback from the second node to the first node may be provided so that the first node can determine how many recoded packets are to be sent in the next phase of multi-phase recoding operation."
+},
+"yin23_multi_cn":{
+	"title":"用于分批网络编码的多阶段重新编码的系统和方法",
+	"author":"<b>殷浩辉</b>, 迈赫达德·塔赫尼亚",
+	"fullauthor":"<b>殷浩辉</b>, 迈赫达德·塔赫尼亚",
+	"address":"CN",
+	"filedDate":"2023.09.08",
+	"appNumber":"202311157694",
+	"url":"https://patents.google.com/patent/CN117692653A/",
+	"abstract":"描述了与分批网络编码(BNC)有关的多阶段重新编码的系统、方法、装置和技术。在多阶段重新编码技术的操作中，多跳无线网络数据通信路径中在源节点和目的节点之间的第一节点经由多个阶段向通信路径中的第二节点提供BNC批次的数据包的重新编码和传输。多阶段重新编码了利用第二节点在关于特定批次的传输的多阶段重新编码操作的早期阶段接收到的重新编码数据包的接收状态。可以提供从第二节点到第一节点的多阶段重新编码反馈，使得第一节点能够确定在多阶段重新编码操作的下一阶段要发送多少个重新编码数据包。"
+},
 "yin23_pktsize_ep":{
 	"title":"Systems and Methods for Optimizing Network Transmissions of Batched Network Coded Packets",
 	"author":"<b>H. F. H. Yin</b>",
