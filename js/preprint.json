@@ -1,4 +1,14 @@
 {
+"yin24_mp_preprints":{
+	"title":"Multi-Phase Adaptive Recoding: An Analogue of Partial Retransmission in Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b>, M. Tahernia, and H. W. L. Mak",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Mehrdad Tahernia, and Hugo Wai Leung Mak",
+	"journal":"Preprints:202410.0095",
+	"date":"Oct. 2024",
+	"url":"https://www.preprints.org/manuscript/202410.0095",
+	"abstract":"Batched network coding (BNC) is a practical realization of random linear network coding (RLNC) designed for reliable network transmission in multi-hop networks with packet loss. By grouping coded packets into batches and restricting the use of RLNC within the same batch, BNC resolves the issue of RLNC that has high computational and storage costs at the intermediate nodes. A simple and common way to apply BNC is to fire and forget the recoded packets at the intermediate nodes, as BNC can act as an erasure code for data recovery. Due to the finiteness of batch size, recoding strategy is a critical design that affects the throughput, the storage requirements and the computational cost of BNC. The gain of the recoding strategy can be enhanced with the aid of a feedback mechanism, however the utilization and development of this mechanism is not yet standardized. In this paper, we investigate a multi-phase recoding mechanism for BNC. In each phase, recoding depends on the amount of innovative information remained at the current node after the transmission of the previous phases was completed. Relevant information can be obtained via hop-by-hop feedback, then a more precise recoding scheme that allocates networking resources can be established. Unlike hop-by-hop retransmission schemes, the reception status of individual packets does not need to be known, and packets to be sent in the next phase may not be the lost packets in the previous phase. Further, due to the loss-tolerance feature of BNC, it is unnecessary to pass all innovative information to the next node. This study illustrates that multi-phase recoding can significantly boost the throughput and reduce the decoding time as compared with the traditional single-phase recoding approach. This opens new window in developing better strategies for designing BNC, rather than sending more batches in a blind manner.",
+	"field":"nc"
+},
 "yin24_udp_arxiv":{
 	"title":"Packet Aggregation May Harm Batched Network Coding",
 	"author":"<b>H. H. F. Yin</b>",
