@@ -1,5 +1,25 @@
 {
-"yin24_dro":{
+"yin24_udp_arxiv":{
+	"title":"Packet Aggregation May Harm Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b>",
+	"fullauthor":"<b>Hoover H. F. Yin</b>",
+	"journal":"arXiv preprint arXiv:2409.20501",
+	"date":"Sept. 2024",
+	"url":"https://arxiv.org/abs/2409.20501",
+	"abstract":"Batched network coding (BNC) is a solution to multi-hop transmission on networks with packet loss. To be compatible with the existing infrastructure, BNC is usually implemented over UDP. A single error bit will probably result in discarding the packet. UDP-Lite is a variant of UDP that supports partial checksums. As long as the data covered by the checksum is correct, damaged payload will be delivered. With UDP-Lite, we can cope with other techniques such as payload aggregation of BNC packets to reduce the protocol overhead, and forward error correction to combat against bit errors. Unlike traditional transmissions, BNC has a loss resilience feature and there are dependencies between BNC packets. In this paper, we conduct a preliminary investigation on BNC over UDP-Lite. We show that aggregating as much as we can is not always the best strategy, and a hop-by-hop distributed efficiency optimization approach may lead to a worse throughput compared with the scheme without aggregation in a long network. These unnatural results caution that a casual integration of techniques with BNC can be harmful, and give us hints on future research directions.",
+	"field":"nc"
+},
+"yin24_rf_arxiv":{
+	"title":"Time Efficiency of BATS Coding on Wireless Relay Network With Overhearing",
+	"author":"<b>H. H. F. Yin</b>",
+	"fullauthor":"<b>Hoover H. F. Yin</b>",
+	"journal":"arXiv preprint arXiv:2409.20463",
+	"date":"Sept. 2024",
+	"url":"https://arxiv.org/abs/2409.20463",
+	"abstract":"Wireless relay network is a solution to extend the reach of a wireless connection by installing a relay node between the source node and the sink node. Due to the broadcast nature of wireless transmission, the sink node has a chance to receive part of the data sent by the source node. In this paper, we apply a network coding scheme called BATS codes on a wireless relay network where the relay node has a stable power supply, so that we can aim for the best decoding time instead of minimizing the number of transmissions for saving energy. We optimize the time efficiency that maximize the average decoding rate per unit time by some heuristics, and bring out a message that it is not optimal to set an average number of recoded packets per batch at the relay node equals the number of packets per batch sent by the source node.",
+	"field":"nc"
+},
+"yin24_dro_arxiv":{
 	"title":"Distributionally Robust Degree Optimization for BATS Codes",
 	"author":"<b>H. H. F. Yin</b>, J. Wang, and S. S. M. Chow",
 	"fullauthor":"<b>Hoover H. F. Yin</b>, Jie Wang, Sherman S. M. Chow",

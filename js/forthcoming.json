@@ -1,4 +1,20 @@
 {
+"yin24_udp":{
+	"title":"Packet Aggregation May Harm Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b>",
+	"fullauthor":"<b>Hoover H. F. Yin</b>",
+	"target":"2024 IEEE Region 10 Conference (TENCON)",
+	"address":"Singapore",
+	"date":"1-4 Dec. 2024"
+},
+"yin24_rf":{
+	"title":"Time Efficiency of BATS Coding on Wireless Relay Network With Overhearing",
+	"author":"<b>H. H. F. Yin</b>",
+	"fullauthor":"<b>Hoover H. F. Yin</b>",
+	"target":"2024 IEEE Region 10 Conference (TENCON)",
+	"address":"Singapore",
+	"date":"1-4 Dec. 2024"
+},
 "yin24_sparse":{
 	"title":"Sparse Degree Optimization for BATS Codes",
 	"author":"<b>H. H. F. Yin</b> and J. Wang",
