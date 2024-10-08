@@ -1,4 +1,14 @@
 {
+"yin24_sparse_arxiv":{
+	"title":"Sparse Degree Optimization for BATS Codes",
+	"author":"<b>H. H. F. Yin</b> and J. Wang",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Jie Wang",
+	"journal":"arXiv preprint arXiv:2410.05055",
+	"date":"Oct. 2024",
+	"url":"https://arxiv.org/abs/2410.05055",
+	"abstract":"Batched sparse (BATS) code is a class of batched network code that can achieve a close-to-optimal rate when an optimal degree distribution is provided. We observed that most probability masses in this optimal distribution are very small, i.e., the distribution “looks” sparse. In this paper, we investigate the sparsity optimization of degree distribution for BATS codes that produces sparse degree distributions. There are many advantages to use a sparse degree distribution, say, it is robust to precision errors when sampling the degree distribution during encoding and decoding in practice. We discuss a few heuristics and also a way to obtain an exact sparsity solution. These approaches give a trade-off between computational time and achievable rate, thus give us the flexibility to adopt BATS codes in various scenarios, e.g., device with limited computational power, stable channel condition, etc.",
+	"field":"nc"
+},
 "yin24_mp_preprints":{
 	"title":"Multi-Phase Adaptive Recoding: An Analogue of Partial Retransmission in Batched Network Coding",
 	"author":"<b>H. H. F. Yin</b>, M. Tahernia, and H. W. L. Mak",
