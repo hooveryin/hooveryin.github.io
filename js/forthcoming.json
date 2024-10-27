@@ -1,4 +1,11 @@
 {
+"yin24_mp":{
+	"title":"Multi-Phase Adaptive Recoding: An Analogue of Partial Retransmission in Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b>, M. Tahernia, and H. W. L. Mak",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Mehrdad Tahernia, and Hugo Wai Leung Mak",
+	"target":"Network",
+	"field":"nc"
+},
 "yin24_udp":{
 	"title":"Packet Aggregation May Harm Batched Network Coding",
 	"author":"<b>H. H. F. Yin</b>",
