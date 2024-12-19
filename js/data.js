@@ -1,10 +1,11 @@
 var field_types = [
 	{"type":"nc", "color":"primary", "name":"network coding"},
 	{"type":"it", "color":"success", "name":"information theory"},
-	{"type":"comm", "color":"info", "name":"networking and communication"},
-	{"type":"math", "color":"warning", "name":"mathematics"},
-	{"type":"crypto", "color":"secondary", "name":"cryptography"},
-	{"type":"misc", "color":"light", "name":"misc"}
+	//{"type":"comm", "color":"info", "name":"networking and communication"},
+	//{"type":"math", "color":"warning", "name":"mathematics"},
+	//{"type":"crypto", "color":"secondary", "name":"cryptography"},
+	//{"type":"misc", "color":"light", "name":"misc"}
+	{"type":"misc", "color":"secondary", "name":"misc"}
 ];
 
 function html_encode(input) {

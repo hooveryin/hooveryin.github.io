@@ -1,4 +1,34 @@
 {
+"yin24_udp":{
+	"title":"Packet Aggregation May Harm Batched Network Coding",
+	"author":"<b>H. H. F. Yin</b>",
+	"fullauthor":"<b>Hoover H. F. Yin</b>",
+	"booktitle":"2024 IEEE Region 10 Conference (TENCON)",
+	"address":"Singapore",
+	"date":"1-4 Dec. 2024",
+	"abstract":"Batched network coding (BNC) is a solution to multi-hop transmission on networks with packet loss. To be compatible with the existing infrastructure, BNC is usually implemented over UDP. A single error bit will probably result in discarding the packet. UDP-Lite is a variant of UDP that supports partial checksums. As long as the data covered by the checksum is correct, damaged payload will be delivered. With UDP-Lite, we can cope with other techniques such as payload aggregation of BNC packets to reduce the protocol overhead, and forward error correction to combat against bit errors. Unlike traditional transmissions, BNC has a loss resilience feature and there are dependencies between BNC packets. In this paper, we conduct a preliminary investigation on BNC over UDP-Lite. We show that aggregating as much as we can is not always the best strategy, and a hop-by-hop distributed efficiency optimization approach may lead to a worse throughput compared with the scheme without aggregation in a long network. These unnatural results caution that a casual integration of techniques with BNC can be harmful, and give us hints on future research directions.",
+	"field":"nc"
+},
+"yin24_rf":{
+	"title":"Time Efficiency of BATS Coding on Wireless Relay Network With Overhearing",
+	"author":"<b>H. H. F. Yin</b>",
+	"fullauthor":"<b>Hoover H. F. Yin</b>",
+	"booktitle":"2024 IEEE Region 10 Conference (TENCON)",
+	"address":"Singapore",
+	"date":"1-4 Dec. 2024",
+	"abstract":"Wireless relay network is a solution to extend the reach of a wireless connection by installing a relay node between the source node and the sink node. Due to the broadcast nature of wireless transmission, the sink node has a chance to receive part of the data sent by the source node. In this paper, we apply a network coding scheme called BATS codes on a wireless relay network where the relay node has a stable power supply, so that we can aim for the best decoding time instead of minimizing the number of transmissions for saving energy. We optimize the time efficiency that maximize the average decoding rate per unit time by some heuristics, and bring out a message that it is not optimal to set an average number of recoded packets per batch at the relay node equals the number of packets per batch sent by the source node.",
+	"field":"nc"
+},
+"yin24_sparse":{
+	"title":"Sparse Degree Optimization for BATS Codes",
+	"author":"<b>H. H. F. Yin</b> and J. Wang",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Jie Wang",
+	"booktitle":"2024 IEEE Information Theory Workshop (ITW)",
+	"address":"Shenzhen, China",
+	"date":"24-28 Nov. 2024",
+	"abstract":"Batched sparse (BATS) code is a class of batched network code that can achieve a close-to-optimal rate when an optimal degree distribution is provided. We observed that most probability masses in this optimal distribution are very small, i.e., the distribution “looks” sparse. In this paper, we investigate the sparsity optimization of degree distribution for BATS codes that produces sparse degree distributions. There are many advantages to use a sparse degree distribution, say, it is robust to precision errors when sampling the degree distribution during encoding and decoding in practice. We discuss a few heuristics and also a way to obtain an exact sparsity solution. These approaches give a trade-off between computational time and achievable rate, thus give us the flexibility to adopt BATS codes in various scenarios, e.g., device with limited computational power, stable channel condition, etc.",
+	"field":"nc"
+},
 "yin24_dro":{
 	"title":"Distributionally Robust Degree Optimization for BATS Codes",
 	"author":"<b>H. H. F. Yin</b>, J. Wang, and S. S. M. Chow",
@@ -49,7 +79,7 @@
 	"doi":"10.1145/3607199.3607230",
 	"pages":"123-134",
 	"abstract":"Edwards-curve digital signature algorithm (EdDSA) is a highly efficient scheme with a short key size. It is derived from the threshold-friendly Schnorr signatures and is covered by the NIST standardization efforts of threshold cryptographic primitives. Nevertheless, extending its deterministic nonce generation to the threshold setting requires heavyweight cryptographic techniques, even when the hash function is replaced with one optimized for secure multi-party computation. Indeed, an efficient extension to the threshold setting is considered a major challenge by NIST and academia.<p>In RAID 2022, a threshold EdDSA scheme is proposed with the nonce generation using only modular addition instead of a hash. This paper unveils the security flaw of this efficient design. We also propose a generic hybrid approach with a showcase of extending a state-of-the-art threshold Schnorr signature scheme. It enjoys a similar level of immunity to side-channel or fault injection attacks as the more heavyweight threshold extension of deterministic nonce generation, but is much more efficient due to its simplicity.",
-	"field":"crypto"
+	"field":"misc"
 },
 "yin23_mcd":{
 	"title":"Multichannel Dual Codes: The Choice of Channels Carries Information",
@@ -74,7 +104,7 @@
 	"url":"https://www.ndss-symposium.org/ndss-paper/real-threshold-ecdsa/",
 	"doi":"10.14722/ndss.2023.24817",
 	"abstract":"Threshold ECDSA recently regained popularity due to decentralized applications such as DNSSEC and cryptocurrency asset custody. Latest (communication-optimizing) schemes often assume all \\(n\\) or at least \\(n' \\ge t\\) participating users remain honest throughout the pre-signing phase, essentially degenerating to \\(n'\\)-out-of-\\(n'\\) multiparty signing instead of \\(t\\)-out-of-\\(n\\) threshold signing. When anyone misbehaves, all signers must restart from scratch, rendering prior computation and communication in vain. This hampers the adoption of threshold ECDSA in time-critical situations and confines its use to a small signing committee.<p>To mitigate such denial-of-service vulnerabilities prevalent in state-of-the-art, we propose a robust threshold ECDSA scheme that achieves the \\(t\\)-out-of-\\(n\\) threshold flexibility &quot;for real&quot; throughout the whole pre-signing and signing phases without assuming an honest majority. Our scheme is desirable when computational resources are scarce and in a decentralized setting where faults are easier to be induced. Our design features \\(4\\)-round pre-signing, \\(\\mathcal{O}(n)\\) cheating identification, and self-healing machinery over distributive shares. Prior arts mandate abort after an \\(\\mathcal{O}(n^2)\\)-cost identification, albeit with \\(3\\)-round pre-signing (Canetti et al., CCS '20), or \\(\\mathcal{O}(n)\\) using \\(6\\) rounds (Castagnos et al., TCS '23). Empirically, our scheme saves up to \\(\\sim30\\%\\) of the communication cost, depending on at which stage the fault occurred.",
-	"field":"crypto"
+	"field":"misc"
 },
 "yin22_parallel":{
 	"title":"On the Applications and Parallelization of Multichannel Source Coding",
@@ -110,7 +140,7 @@
 	"url":"https://ieeexplore.ieee.org/document/9977906",
 	"doi":"10.1109/TENCON55691.2022.9977906",
 	"abstract":"Smart lamppost network is naturally formed by long segments of line networks where mesh is an overkill. We study the rapid deployment of cost-efficient non-mesh Wi-Fi backhaul with failover/failback mechanism.",
-	"field":"comm"
+	"field":"misc"
 },
 "yin22_multiphase":{
 	"title":"Multi-Phase Recoding for Batched Network Coding",

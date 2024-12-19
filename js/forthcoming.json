@@ -1,34 +1,3 @@
 {
-"yin24_mp":{
-	"title":"Multi-Phase Adaptive Recoding: An Analogue of Partial Retransmission in Batched Network Coding",
-	"author":"<b>H. H. F. Yin</b>, M. Tahernia, and H. W. L. Mak",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Mehrdad Tahernia, and Hugo Wai Leung Mak",
-	"target":"Network",
-	"field":"nc"
-},
-"yin24_udp":{
-	"title":"Packet Aggregation May Harm Batched Network Coding",
-	"author":"<b>H. H. F. Yin</b>",
-	"fullauthor":"<b>Hoover H. F. Yin</b>",
-	"target":"2024 IEEE Region 10 Conference (TENCON)",
-	"address":"Singapore",
-	"date":"1-4 Dec. 2024"
-},
-"yin24_rf":{
-	"title":"Time Efficiency of BATS Coding on Wireless Relay Network With Overhearing",
-	"author":"<b>H. H. F. Yin</b>",
-	"fullauthor":"<b>Hoover H. F. Yin</b>",
-	"target":"2024 IEEE Region 10 Conference (TENCON)",
-	"address":"Singapore",
-	"date":"1-4 Dec. 2024"
-},
-"yin24_sparse":{
-	"title":"Sparse Degree Optimization for BATS Codes",
-	"author":"<b>H. H. F. Yin</b> and J. Wang",
-	"fullauthor":"<b>Hoover H. F. Yin</b>, Jie Wang",
-	"target":"2024 IEEE Information Theory Workshop (ITW)",
-	"address":"Shenzhen, China",
-	"date":"24-28 Nov. 2024"
-}
 }
 
