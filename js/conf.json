@@ -6,6 +6,9 @@
 	"booktitle":"2024 IEEE Region 10 Conference (TENCON)",
 	"address":"Singapore",
 	"date":"1-4 Dec. 2024",
+	"url":"https://ieeexplore.ieee.org/document/10902686",
+	"doi":"10.1109/TENCON61640.2024.10902686",
+	"pages":"1018-1021",
 	"abstract":"Batched network coding (BNC) is a solution to multi-hop transmission on networks with packet loss. To be compatible with the existing infrastructure, BNC is usually implemented over UDP. A single error bit will probably result in discarding the packet. UDP-Lite is a variant of UDP that supports partial checksums. As long as the data covered by the checksum is correct, damaged payload will be delivered. With UDP-Lite, we can cope with other techniques such as payload aggregation of BNC packets to reduce the protocol overhead, and forward error correction to combat against bit errors. Unlike traditional transmissions, BNC has a loss resilience feature and there are dependencies between BNC packets. In this paper, we conduct a preliminary investigation on BNC over UDP-Lite. We show that aggregating as much as we can is not always the best strategy, and a hop-by-hop distributed efficiency optimization approach may lead to a worse throughput compared with the scheme without aggregation in a long network. These unnatural results caution that a casual integration of techniques with BNC can be harmful, and give us hints on future research directions.",
 	"field":"nc"
 },
@@ -16,6 +19,9 @@
 	"booktitle":"2024 IEEE Region 10 Conference (TENCON)",
 	"address":"Singapore",
 	"date":"1-4 Dec. 2024",
+	"url":"https://ieeexplore.ieee.org/document/10903000",
+	"doi":"10.1109/TENCON61640.2024.10903000",
+	"pages":"899-902",
 	"abstract":"Wireless relay network is a solution to extend the reach of a wireless connection by installing a relay node between the source node and the sink node. Due to the broadcast nature of wireless transmission, the sink node has a chance to receive part of the data sent by the source node. In this paper, we apply a network coding scheme called BATS codes on a wireless relay network where the relay node has a stable power supply, so that we can aim for the best decoding time instead of minimizing the number of transmissions for saving energy. We optimize the time efficiency that maximize the average decoding rate per unit time by some heuristics, and bring out a message that it is not optimal to set an average number of recoded packets per batch at the relay node equals the number of packets per batch sent by the source node.",
 	"field":"nc"
 },
