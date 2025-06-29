@@ -1,4 +1,17 @@
 {
+"yin25_regev":{
+	"title":"How (Not) to Build Dual-Regev Covert Channel",
+	"author":"<b>H. H. F. Yin</b> and H. W. H. Wong",
+	"fullauthor":"<b>Hoover H. F. Yin</b>, Harry W. H. Wong",
+	"booktitle":"13th ACM Workshop on Information Hiding and Multimedia Security (IH&MMSec)",
+	"address":"San Jose, CA, USA",
+	"date":"18-20 Jun. 2025",
+	"url":"https://dl.acm.org/doi/10.1145/3733102.3733128",
+	"doi":"10.1145/3733102.3733128",
+	"pages":"108-113",
+	"abstract":"Consider a scenario that end-users connect to a network device wirelessly. When classified data are transmitted through the network between authorized parties, access control and verifier are activated to block suspicious traffic. Forged sender and malformed ciphertext will be reported. Further, data timeliness and traffic pattern policies are enforced to detect abnormality. On the other side of the network, the classified data from an authorized party arrive at the network device via a wired link, and the device broadcasts the data to the other authorized party via the wireless link. Under such a harsh scenario, can the sender build a covert channel for an eavesdropper who sniffs the ciphertexts over the wireless link?<p>In this paper, we discuss the feasibility and infeasibility of building a covert channel on dual-Regev ciphertexts, where dual-Regev is a lattice-based post-quantum cryptosystem that can be used to build identity-based encryption (IBE). By illustrating a feasible and efficient approach to build the covert channel, we conclude that extra awareness is needed when designing a network for classified communications even with post-quantum IBE.",
+	"field":"misc"
+},
 "yin24_udp":{
 	"title":"Packet Aggregation May Harm Batched Network Coding",
 	"author":"<b>H. H. F. Yin</b>",
