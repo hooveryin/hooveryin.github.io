@@ -1,4 +1,14 @@
 {
+"yang25_sch":{
+	"title":"Minimizing Total Waiting Time in Batch Scheduling: Theoretical Bounds and a Suboptimal Algorithm",
+	"author":"Y. Yang, Q. Cao, J. Xu, G. Niu, <b>H. H. F. Yin</b>, and Z. Wu",
+	"fullauthor":"Yabin Yang, Qi Cao, Jun Xu, Guanchong Niu, <b>Hoover H. F. Yin</b>, Zihan Wu",
+	"booktitle":"2025 International Conference on Ubiquitous Communication (Ucom)",
+	"address":"Hangzhou, China",
+	"date":"19-21 Sept. 2025",
+	"abstract":"Batch scheduling is a fundamental optimization problem in communication and computing systems, widely used in high-speed data transmission, distributed computing, and cloud environments. This study addresses the minimization of total waiting time in batch scheduling systems by deriving theoretical lower bounds and proposing an efficient suboptimal algorithm. Theoretical analysis establishes a tight lower bound for total waiting time, serving as a benchmark for evaluating scheduling strategies. The proposed algorithm, designed to group tasks under batch capacity constraints, achieves near-optimal performance with low computational complexity. Extensive theoretical and experimental evaluations demonstrate the scalability and effectiveness of the algorithm, showing that its results closely approach the theoretical lower bound across different batch sizes and processing time distributions. These findings provide valuable insights for optimizing scheduling in large-scale, resource-constrained systems.",
+	"field":"misc"
+},
 "yin25_regev":{
 	"title":"How (Not) to Build Dual-Regev Covert Channel",
 	"author":"<b>H. H. F. Yin</b> and H. W. H. Wong",
