@@ -1,4 +1,14 @@
 {
+"yin25_uni":{
+	"title":"Uniformity Tests on Image Steganography Based on Syndrome-Trellis Codes Without Stego-Keys",
+	"author":"<b>H. H. F. Yin</b>",
+	"fullauthor":"<b>Hoover H. F. Yin</b>",
+	"booktitle":"2025 IEEE Region 10 Conference (TENCON)",
+	"address":"Kota Kinabalu, Malaysia",
+	"date":"27-30 Oct. 2025",
+	"abstract":"Images are a common type of digital media in computer networks, appearing in web pages, instant messaging, cloud storage, etc. Minor distortion of an image is probably not detectable, so it is possible to hide secret messages inside images sent through the network, thus becoming a potential vulnerability. In image steganography, most steganalysis tools focus on classifying whether each input image is a stego image or not. The algorithm for extracting/decoding secret messages is not used by these tools, although we can assume the knowledge of this information under Kerckhoffs’s principle. To adhere to Kerckhoffs’s principle, one-time stego-key can be used, but key exchange is challenging in scenarios that apply steganography. We consider steganography based on syndrome-trellis codes (STC) without stego-keys, where STC is a powerful embedding scheme that can minimize the embedding distortion and handle wet pixels without extra effort. As secret messages are usually considered as uniformly random strings, we investigate whether the decoded strings from normal images are also uniform, i.e., statistical detectability. By applying the NIST SP 800-22 Rev. 1a statistical test suite, we show that these decoded strings are instead highly non-uniform, unless the pixels are randomly shuffled. We also demonstrate that the non-uniformity may be applied for pooled steganalysis in theory, even when the extraction includes random shuffling. This suggests that minimizing distortion is not the only metric for measuring security.",
+	"field":"misc"
+},
 "yang25_sch":{
 	"title":"Minimizing Total Waiting Time in Batch Scheduling: Theoretical Bounds and a Suboptimal Algorithm",
 	"author":"Y. Yang, Q. Cao, J. Xu, G. Niu, <b>H. H. F. Yin</b>, and Z. Wu",
