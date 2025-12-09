@@ -12,6 +12,18 @@
 	"url":"https://patents.google.com/patent/CN115189802A",
 	"abstract":"本文描述了用于通信网络的兼容分组分离的系统、方法和其它技术。接收包括要在网络上传输的多个分组的块。该块包括一组批量数据，并且多个分组分布在一组批量数据之间。计算一组批量数据中的每个批量数据的伪交织器深度，以产生一组伪交织器深度。使用一组伪交织器深度来执行分块自适应重编码，以产生一组批量数据中的每个批量数据的多个重编码分组。使用一组批量数据中的每个批量数据的多个重编码分组来产生传输序列。"
 },
+"yin22_multi_us":{
+	"title":"Systems and Methods for Multi-Phase Recoding for Batched Network Coding",
+	"author":"<b>H. F. H. Yin</b> and M. Tahernia",
+	"fullauthor":"<b>Ho Fai Hoover Yin</b>, Mehrdad Tahernia",
+	"address":"US",
+	"pubDate":"February 11, 2025",
+	"number":"12,224,929",
+	"filedDate":"September 9, 2022",
+	"appNumber":"17/941,921",
+	"url":"https://patents.google.com/patent/US12224929B2/",
+	"abstract":"Systems, methods, apparatuses, and techniques for multi-phase recoding with respect to batched network coding (BNC) are described.  In operation of a multi-phase recoding technique a first node in a multi-hop wireless network data communication path between a source node and a destination node provides recoding and transmission of packets of a BNC batch to a second node in the communication path via multiple phases.  Multi-phase recoding makes use of the reception status of the recoded packets that have been received by the second node in earlier phases of multi-phase recoding operation with respect to transmission of a particular batch.  Multi-phase recoding feedback from the second node to the first node may be provided so that the first node can determine how many recoded packets are to be sent in the next phase of multi-phase recoding operation."
+},
 "yin23_multi_ep":{
 	"title":"Systems and Methods for Multi-Phase Recoding for Batched Network Coding",
 	"author":"<b>H. F. H. Yin</b> and M. Tahernia",
@@ -65,23 +77,16 @@
 	"url":"https://patents.google.com/patent/US11452003B1/",
 	"abstract":"Described herein are systems, methods, and other techniques for compatible packet separation for communication networks. A block comprising a plurality of packets to be transmitted over a network is received. The block includes a set of batches, and the plurality of packets are distributed between the set of batches. A pseudo interleaver depth is calculated for each of the set of batches to produce a set of pseudo interleaver depths. Blockwise adaptive recoding is performed using the set of pseudo interleaver depths to produce a number of recoded packets for each of the set of batches. A transmission sequence is generated using the number of recoded packets for each of the set of batches."
 },
-"yin22_multi_us":{
-	"title":"Systems and Methods for Multi-Phase Recoding for Batched Network Coding",
-	"author":"<b>H. F. H. Yin</b> and M. Tahernia",
-	"fullauthor":"<b>Ho Fai Hoover Yin</b>, Mehrdad Tahernia",
-	"address":"US",
-	"filedDate":"September 9, 2022",
-	"appNumber":"17/941,921",
-	"abstract":"Systems, methods, apparatuses, and techniques for multi-phase recoding with respect to batched network coding (BNC) are described.  In operation of a multi-phase recoding technique a first node in a multi-hop wireless network data communication path between a source node and a destination node provides recoding and transmission of packets of a BNC batch to a second node in the communication path via multiple phases.  Multi-phase recoding makes use of the reception status of the recoded packets that have been received by the second node in earlier phases of multi-phase recoding operation with respect to transmission of a particular batch.  Multi-phase recoding feedback from the second node to the first node may be provided so that the first node can determine how many recoded packets are to be sent in the next phase of multi-phase recoding operation."
-},
 "yin22_pktsize_us":{
 	"title":"Systems and Methods for Optimizing Network Transmissions",
 	"author":"<b>H. F. H. Yin</b>",
 	"fullauthor":"<b>Ho Fai Hoover Yin</b>",
 	"address":"US",
+	"pubDate":"February 17, 2024",
+	"number":"12,170,924",
 	"filedDate":"April 20, 2022",
 	"appNumber":"17/725,524",
-	"url":"https://patents.google.com/patent/US20230345301A1/",
+	"url":"https://patents.google.com/patent/US12170924B2/",
 	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in multi-hop networks with packet loss that divides data to be transmitted into multiple packets and pads the data when necessary. However, an inappropriate choice of packet size leads to a significant overhead. Embodiments of the present disclosure provide systems, methods, and apparatuses that overcome the shortcomings of traditional BNC solutions by dynamically deciding a packet size through optimization of the overhead. As a result, embodiments of the present disclosure boost throughput of systems leveraging BNC transmission techniques by providing file-specific and dynamically determined optimizations. The disclosed techniques for performing dynamic optimization of transmissions also reduce computational complexity, enabling use case deployments in which nodes having reduced computational resources and power requirements are utilized while maintaining improved performance of the network (e.g., in terms of throughput, etc.)."
 },
 "yin20_protocol_cn":{
