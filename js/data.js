@@ -206,7 +206,7 @@ $.getJSON("js/patent.json?nocache="+(new Date()).getTime(), function(json) {
 		if(item.address === "US")
 			code += 'U.S. Patent ';
 		else if(item.address === "MO")
-			code += 'MO Extension Patent';
+			code += 'MO Extension Patent ';
 		else
 			code += item.address+' Patent ';
 		if(item.number != undefined)
