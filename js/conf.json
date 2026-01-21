@@ -16,6 +16,9 @@
 	"booktitle":"2025 International Conference on Ubiquitous Communication (Ucom)",
 	"address":"Hangzhou, China",
 	"date":"19-21 Sept. 2025",
+	"url":"https://ieeexplore.ieee.org/document/11336822",
+	"doi":"10.1109/Ucom67224.2025.11336822",
+	"pages":"135-141",
 	"abstract":"Batch scheduling is a fundamental optimization problem in communication and computing systems, widely used in high-speed data transmission, distributed computing, and cloud environments. This study addresses the minimization of total waiting time in batch scheduling systems by deriving theoretical lower bounds and proposing an efficient suboptimal algorithm. Theoretical analysis establishes a tight lower bound for total waiting time, serving as a benchmark for evaluating scheduling strategies. The proposed algorithm, designed to group tasks under batch capacity constraints, achieves near-optimal performance with low computational complexity. Extensive theoretical and experimental evaluations demonstrate the scalability and effectiveness of the algorithm, showing that its results closely approach the theoretical lower bound across different batch sizes and processing time distributions. These findings provide valuable insights for optimizing scheduling in large-scale, resource-constrained systems.",
 	"field":"misc"
 },
