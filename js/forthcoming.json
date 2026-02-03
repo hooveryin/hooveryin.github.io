@@ -1,3 +1,11 @@
 {
+"LWY26_stego":{
+	"title":"Look Ahead! Practical CCA-secure Steganography: Cover-Source Switching meets Lattice Gaussian Sampling",
+	"author":"R. W. F. Lai, I. K. Y. Woo, and <b>H. H. F. Yin</b>",
+	"fullauthor":"Russell W. F. Lai, Ivy K. Y. Woo, <b>Hoover H. F. Yin</b>",
+	"target":"45th Annual International Conference on the Theory and Applications of Cryptographic Techniques (Eurocrypt 2026)",
+	"address":"Rome, Italy",
+	"date":"10-14 May 2026"
+}
 }
 
