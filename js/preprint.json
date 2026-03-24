@@ -1,4 +1,14 @@
 {
+"lai26_stego":{
+	"title":"Look Ahead! Practical CCA-secure Steganography: Cover-Source Switching meets Lattice Gaussian Sampling",
+	"author":"R. W. F. Lai, I. K. Y. Woo, and <b>H. H. F. Yin</b>",
+	"fullauthor":"Russell W. F. Lai, Ivy K. Y. Woo, <b>Hoover H. F. Yin</b>",
+	"journal":"IACR Cryptology ePrint Archive:2026/549",
+	"date":"Mar. 2026",
+	"url":"https://eprint.iacr.org/2026/549",
+	"abstract":"Steganography studies methods to not only protect the confidentiality of messages but also to conceal the very act of message transmission. Prior provably secure stegosystems are predominantly constructed based on a rejection sampling technique which achieves an encoding rate inversely proportional to the min-entropy of the cover channel. Furthermore, while replayable chosen-covertext attack (RCCA) secure stegosystems for general channels can be constructed based on standard cryptographic assumptions, it is known [Berndt and Liśkiewicz, EUROCRYPT'18] that achieving (standard) CCA-security for channels with memory in the so-called non-look-ahead model is in general impossible and the only known CCA-secure construction crucially relies on the channels being memoryless.<p>In this work, we show that the impossibility on CCA-secure stegosystems can be circumvented, in the random oracle model, by dropping the non-look-ahead restriction and by restricting to a natural class of channels which we call &quot;partially sampleable channels&quot;. These capture channels which partly consist of explicitly sampleable distributions, such as Gaussian sensor noise of digital photographs. To achieve a high encoding rate, we extend the formalisation of stegosystems to capture a technique known as &quot;cover-source switching&quot; in the practical steganography literature. This allows us to construct CCA-secure stegosystems for Gaussian channels using Gaussian preimage sampling techniques borrowed from lattice-based cryptography, which can theoretically achieve an embedding rate of \\(1/\\omega(\\log \\log \\lambda)\\) regardless of the min-entropy of the channel.<p>Our prototype implementation suggests that our scheme is practical, achieving an embedding rate of 24.7% in 24-megapixel RAW images in around 1 minute per image.",
+	"field":"misc"
+},
 "yin24_sparse_arxiv":{
 	"title":"Sparse Degree Optimization for BATS Codes",
 	"author":"<b>H. H. F. Yin</b> and J. Wang",
