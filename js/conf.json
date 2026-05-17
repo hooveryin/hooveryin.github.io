@@ -11,7 +11,7 @@
 	"doi":"10.1007/978-3-032-25330-9_20",
 	"pages":"579-608",
 	"abstract":"Steganography studies methods to not only protect the confidentiality of messages but also to conceal the very act of message transmission. Prior provably secure stegosystems are predominantly constructed based on a rejection sampling technique which achieves an encoding rate inversely proportional to the min-entropy of the cover channel. Furthermore, while replayable chosen-covertext attack (RCCA) secure stegosystems for general channels can be constructed based on standard cryptographic assumptions, it is known [Berndt and Liśkiewicz, EUROCRYPT’18] that achieving (standard) CCA-security for channels with memory in the so-called non-look-ahead model is in general impossible and the only known CCA-secure construction crucially relies on the channels being memoryless.<p>In this work, we show that the impossibility on CCA-secure stegosystems can be circumvented, in the random oracle model, by dropping the non-look-ahead restriction and by restricting to a natural class of channels which we call “partially sampleable channels”. These capture channels which partly consist of explicitly sampleable distributions, such as Gaussian sensor noise of digital photographs. To achieve a high encoding rate, we extend the formalisation of stegosystems to capture a technique known as “cover-source switching” in the practical steganography literature. This allows us to construct CCA-secure stegosystems for Gaussian channels using Gaussian preimage sampling techniques borrowed from lattice-based cryptography, which can theoretically achieve an embedding rate of \\(1/\\omega(\\log \\log \\lambda)\\) regardless of the min-entropy of the channel.<p>Our prototype implementation suggests that our scheme is practical, achieving an embedding rate of \\(24.7\\%\\) in 24-megapixel RAW images in around 1 min per image.",
-	"field":"misc"
+	"field":"sec"
 },
 "yin25_uni":{
 	"title":"Uniformity Tests on Image Steganography Based on Syndrome-Trellis Codes Without Stego-Keys",
@@ -24,7 +24,7 @@
 	"doi":"10.1109/TENCON66050.2025.11375388",
 	"pages":"1169-1173",
 	"abstract":"Images are a common type of digital media in computer networks, appearing in web pages, instant messaging, cloud storage, etc. Minor distortion of an image is probably not detectable, so it is possible to hide secret messages inside images sent through the network, thus becoming a potential vulnerability. In image steganography, most steganalysis tools focus on classifying whether each input image is a stego image or not. The algorithm for extracting/decoding secret messages is not used by these tools, although we can assume the knowledge of this information under Kerckhoffs’s principle. To adhere to Kerckhoffs’s principle, one-time stego-key can be used, but key exchange is challenging in scenarios that apply steganography. We consider steganography based on syndrome-trellis codes (STC) without stego-keys, where STC is a powerful embedding scheme that can minimize the embedding distortion and handle wet pixels without extra effort. As secret messages are usually considered as uniformly random strings, we investigate whether the decoded strings from normal images are also uniform, i.e., statistical detectability. By applying the NIST SP 800-22 Rev. 1a statistical test suite, we show that these decoded strings are instead highly non-uniform, unless the pixels are randomly shuffled. We also demonstrate that the non-uniformity may be applied for pooled steganalysis in theory, even when the extraction includes random shuffling. This suggests that minimizing distortion is not the only metric for measuring security.",
-	"field":"misc"
+	"field":"sec"
 },
 "yang25_sch":{
 	"title":"Minimizing Total Waiting Time in Batch Scheduling: Theoretical Bounds and a Suboptimal Algorithm",
@@ -50,7 +50,7 @@
 	"doi":"10.1145/3733102.3733128",
 	"pages":"108-113",
 	"abstract":"Consider a scenario that end-users connect to a network device wirelessly. When classified data are transmitted through the network between authorized parties, access control and verifier are activated to block suspicious traffic. Forged sender and malformed ciphertext will be reported. Further, data timeliness and traffic pattern policies are enforced to detect abnormality. On the other side of the network, the classified data from an authorized party arrive at the network device via a wired link, and the device broadcasts the data to the other authorized party via the wireless link. Under such a harsh scenario, can the sender build a covert channel for an eavesdropper who sniffs the ciphertexts over the wireless link?<p>In this paper, we discuss the feasibility and infeasibility of building a covert channel on dual-Regev ciphertexts, where dual-Regev is a lattice-based post-quantum cryptosystem that can be used to build identity-based encryption (IBE). By illustrating a feasible and efficient approach to build the covert channel, we conclude that extra awareness is needed when designing a network for classified communications even with post-quantum IBE.",
-	"field":"misc"
+	"field":"sec"
 },
 "yin24_udp":{
 	"title":"Packet Aggregation May Harm Batched Network Coding",
@@ -115,7 +115,7 @@
 	"doi":"10.1145/3658664.3659660",
 	"pages":"13-18",
 	"abstract":"Natural steganography concerns embedding a secret message in a cover-source following some distribution \\(\\mathcal{S}_1\\), such that after embedding the distribution of the stego-media mimics another cover-source with distribution \\(\\mathcal{S}_2\\) (without embedding). Prior works have studied natural steganography over image files, where \\(\\mathcal{S}_1\\) and \\(\\mathcal{S}_2\\) correspond to the light intensity distribution of a photo taken respectively at some \\(\\text{ISO}_1\\) and \\(\\text{ISO}_2\\), and much effort has been dedicated to various embedding methods. On the other hand, while the nature of mimicking the distribution \\(\\mathcal{S}_2\\) by embedding messages into \\(\\mathcal{S}_1\\) sources means that accurate estimations of such distributions are crucial, relatively little attention has been given to this aspect. Furthermore, deploying these stegosystems in practice requires users to estimate the noise distributions of their cameras, which poses a challenging technological barrier for average users and limits the utility of the stegosystems.<p>An objective of this work is to verify the existing claim that, for each fixed ISO value, the pixel values follow a family of Gaussian distributions where the variance is an affine function of the mean. Towards estimating and verifying the concerned distributions, we have created a comprehensive image dataset with the mainstream Sony A6400 camera in a professional photo-shooting environment. Analyses over our dataset reveal that parameters of the light intensity distributions appear to have more complicated behaviour than reported in prior works - they seem to depend on the overall exposure level induced by the camera settings. For the ease of analysis, we have also developed a set of tools for automating the parameter estimation process. We believe that these tools will eventually improve the accessibility of natural steganography.",
-	"field":"misc"
+	"field":"sec"
 },
 "yin23_mole":{
 	"title":"Multichannel One-Time Length Encoding: Exploiting Channel Redundancy",
@@ -141,7 +141,7 @@
 	"doi":"10.1145/3607199.3607230",
 	"pages":"123-134",
 	"abstract":"Edwards-curve digital signature algorithm (EdDSA) is a highly efficient scheme with a short key size. It is derived from the threshold-friendly Schnorr signatures and is covered by the NIST standardization efforts of threshold cryptographic primitives. Nevertheless, extending its deterministic nonce generation to the threshold setting requires heavyweight cryptographic techniques, even when the hash function is replaced with one optimized for secure multi-party computation. Indeed, an efficient extension to the threshold setting is considered a major challenge by NIST and academia.<p>In RAID 2022, a threshold EdDSA scheme is proposed with the nonce generation using only modular addition instead of a hash. This paper unveils the security flaw of this efficient design. We also propose a generic hybrid approach with a showcase of extending a state-of-the-art threshold Schnorr signature scheme. It enjoys a similar level of immunity to side-channel or fault injection attacks as the more heavyweight threshold extension of deterministic nonce generation, but is much more efficient due to its simplicity.",
-	"field":"misc"
+	"field":"sec"
 },
 "yin23_mcd":{
 	"title":"Multichannel Dual Codes: The Choice of Channels Carries Information",
@@ -166,7 +166,7 @@
 	"url":"https://www.ndss-symposium.org/ndss-paper/real-threshold-ecdsa/",
 	"doi":"10.14722/ndss.2023.24817",
 	"abstract":"Threshold ECDSA recently regained popularity due to decentralized applications such as DNSSEC and cryptocurrency asset custody. Latest (communication-optimizing) schemes often assume all \\(n\\) or at least \\(n' \\ge t\\) participating users remain honest throughout the pre-signing phase, essentially degenerating to \\(n'\\)-out-of-\\(n'\\) multiparty signing instead of \\(t\\)-out-of-\\(n\\) threshold signing. When anyone misbehaves, all signers must restart from scratch, rendering prior computation and communication in vain. This hampers the adoption of threshold ECDSA in time-critical situations and confines its use to a small signing committee.<p>To mitigate such denial-of-service vulnerabilities prevalent in state-of-the-art, we propose a robust threshold ECDSA scheme that achieves the \\(t\\)-out-of-\\(n\\) threshold flexibility &quot;for real&quot; throughout the whole pre-signing and signing phases without assuming an honest majority. Our scheme is desirable when computational resources are scarce and in a decentralized setting where faults are easier to be induced. Our design features \\(4\\)-round pre-signing, \\(\\mathcal{O}(n)\\) cheating identification, and self-healing machinery over distributive shares. Prior arts mandate abort after an \\(\\mathcal{O}(n^2)\\)-cost identification, albeit with \\(3\\)-round pre-signing (Canetti et al., CCS '20), or \\(\\mathcal{O}(n)\\) using \\(6\\) rounds (Castagnos et al., TCS '23). Empirically, our scheme saves up to \\(\\sim30\\%\\) of the communication cost, depending on at which stage the fault occurred.",
-	"field":"misc"
+	"field":"sec"
 },
 "yin22_parallel":{
 	"title":"On the Applications and Parallelization of Multichannel Source Coding",

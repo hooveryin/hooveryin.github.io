@@ -1,6 +1,7 @@
 var field_types = [
 	{"type":"nc", "color":"primary", "name":"network coding"},
 	{"type":"it", "color":"success", "name":"information theory"},
+	{"type":"sec", "color":"info", "name":"information hiding and security"},
 	//{"type":"comm", "color":"info", "name":"networking and communication"},
 	//{"type":"math", "color":"warning", "name":"mathematics"},
 	//{"type":"crypto", "color":"secondary", "name":"cryptography"},
