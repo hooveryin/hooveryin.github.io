@@ -97,6 +97,8 @@ $.getJSON("js/conf.json?nocache="+(new Date()).getTime(), function(json) {
 		if(item.title.slice(-1) != '!' && item.title.slice(-1) != '?')
 			code += ',';
 		code += '" <i>'+item.booktitle+'</i>, '+item.address+', '+item.date;
+		if(item.series != undefined)
+			code += '. '+item.series;
 		if(item.pages != undefined)
 			code += ', pp. '+item.pages;
 		code += '. [<a href="#" data-toggle="modal" data-target="#confModal" data-cite="'+cite+'">details</a>]';
