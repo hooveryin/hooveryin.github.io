@@ -1,4 +1,28 @@
 {
+"yin26_pktsize_fi":{
+	"title":"Systems and Methods for Optimizing Network Transmissions of Batched Network Coded Packets",
+	"author":"<b>H. F. H. Yin</b>",
+	"fullauthor":"<b>Ho Fai Hoover Yin</b>",
+	"address":"FI",
+	"pubDate":"March 18, 2026",
+	"number":"4,266,609",
+	"filedDate":"April 20, 2023",
+	"appNumber":"23169069",
+	"url":"https://patents.google.com/patent/FI4266609T3/",
+	"abstract":"-"
+},
+"yin26_pktsize_ep":{
+	"title":"Systems and Methods for Optimizing Network Transmissions of Batched Network Coded Packets",
+	"author":"<b>H. F. H. Yin</b>",
+	"fullauthor":"<b>Ho Fai Hoover Yin</b>",
+	"address":"EP",
+	"pubDate":"February 4, 2026",
+	"number":"4,266,609",
+	"filedDate":"April 20, 2023",
+	"appNumber":"23169069",
+	"url":"https://patents.google.com/patent/EP4266609B1/",
+	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in multi-hop networks with packet loss that divides data to be transmitted into multiple packets and pads the data when necessary. However, an inappropriate choice of packet size leads to a significant overhead. Embodiments of the present disclosure provide systems, methods, and apparatuses that overcome the shortcomings of traditional BNC solutions by dynamically deciding a packet size through optimization of the overhead. As a result, embodiments of the present disclosure boost throughput of systems leveraging BNC transmission techniques by providing filespecific and dynamically determined optimizations. The disclosed techniques for performing dynamic optimization of transmissions also reduce computational complexity, enabling use case deployments in which nodes having reduced computational resources and power requirements are utilized while maintaining improved performance of the network (e.g., in terms of throughput, etc.)."
+},
 "yin25_intrablock_cn":{
 	"title":"用于通信网络的兼容分组分离",
 	"title2":"Compatible Packet Separation for Communication Networks",
@@ -55,16 +79,6 @@
 	"appNumber":"23193083",
 	"url":"https://patents.google.com/patent/EP4336757A1/",
 	"abstract":"Systems, methods, apparatuses, and techniques for multi-phase recoding with respect to batched network coding (BNC) are described. In operation of a multi-phase recoding technique a first node in a multi-hop wireless network data communication path between a source node and a destination node provides recoding and transmission of packets of a BNC batch to a second node in the communication path via multiple phases. Multi-phase recoding makes use of the reception status of the recoded packets that have been received by the second node in earlier phases of multi-phase recoding operation with respect to transmission of a particular batch. Multi-phase recoding feedback from the second node to the first node may be provided so that the first node can determine how many recoded packets are to be sent in the next phase of multi-phase recoding operation."
-},
-"yin23_pktsize_ep":{
-	"title":"Systems and Methods for Optimizing Network Transmissions of Batched Network Coded Packets",
-	"author":"<b>H. F. H. Yin</b>",
-	"fullauthor":"<b>Ho Fai Hoover Yin</b>",
-	"address":"EP",
-	"filedDate":"April 20, 2023",
-	"appNumber":"23169069",
-	"url":"https://patents.google.com/patent/EP4266609A1/",
-	"abstract":"Batched network coding (BNC) is a low-complexity solution to network transmission in multi-hop networks with packet loss that divides data to be transmitted into multiple packets and pads the data when necessary. However, an inappropriate choice of packet size leads to a significant overhead. Embodiments of the present disclosure provide systems, methods, and apparatuses that overcome the shortcomings of traditional BNC solutions by dynamically deciding a packet size through optimization of the overhead. As a result, embodiments of the present disclosure boost throughput of systems leveraging BNC transmission techniques by providing filespecific and dynamically determined optimizations. The disclosed techniques for performing dynamic optimization of transmissions also reduce computational complexity, enabling use case deployments in which nodes having reduced computational resources and power requirements are utilized while maintaining improved performance of the network (e.g., in terms of throughput, etc.)."
 },
 "yin23_pktsize_cn":{
 	"title":"优化网络传输的系统和方法",
