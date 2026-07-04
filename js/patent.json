@@ -1,6 +1,8 @@
 {
 "yin26_pktsize_fi":{
 	"title":"Systems and Methods for Optimizing Network Transmissions of Batched Network Coded Packets",
+	"title2":"Järjestelmiä ja Menetelmiä Eräkäsiteltyjen Verkkokoodattujen Pakettien Lähetysten Optimoimiseksi",
+	"title2lang":"Finnish",
 	"author":"<b>H. F. H. Yin</b>",
 	"fullauthor":"<b>Ho Fai Hoover Yin</b>",
 	"address":"FI",
@@ -26,6 +28,7 @@
 "yin25_intrablock_cn":{
 	"title":"用于通信网络的兼容分组分离",
 	"title2":"Compatible Packet Separation for Communication Networks",
+	"title2lang":"English",
 	"author":"<b>殷浩辉</b>, 伍家曦, 锺卓炜, 杨伟豪, 杨升浩",
 	"fullauthor":"<b>殷浩辉</b>, 伍家曦, 锺卓炜, 杨伟豪, 杨升浩",
 	"address":"CN",
@@ -83,6 +86,7 @@
 "yin23_pktsize_cn":{
 	"title":"优化网络传输的系统和方法",
 	"title2":"Systems and Methods for Optimizing Network Transmissions",
+	"title2lang":"English",
 	"author":"<b>殷浩辉</b>",
 	"fullauthor":"<b>殷浩辉</b>",
 	"address":"CN",
@@ -106,6 +110,9 @@
 "yin20_protocol_mo":{
 	"title":"用於設備輔助通信的方法、裝置和計算機可讀介質",
 	"title2":"Method, Apparatus, and Computer-Readable Medium for Device-Assisted Communication",
+	"title2lang":"English",
+	"title3":"Método Destinado à Comunicação Assistida por Equipamento, Respectivo Dispositivo e Meio Legível por Computador",
+	"title3lang":"Portuguese",
 	"author":"<b>殷浩輝</b>, 楊偉豪, 楊升浩",
 	"fullauthor":"<b>殷浩輝</b>, 楊偉豪, 楊升浩",
 	"address":"MO",
@@ -119,6 +126,7 @@
 "yin20_protocol_cn":{
 	"title":"用于设备辅助通信的方法、装置和计算机可读介质",
 	"title2":"Method, Apparatus, and Computer-Readable Medium for Device-Assisted Communication",
+	"title2lang":"English",
 	"author":"<b>殷浩辉</b>, 杨伟豪, 杨升浩",
 	"fullauthor":"<b>殷浩辉</b>, 杨伟豪, 杨升浩",
 	"address":"CN",
